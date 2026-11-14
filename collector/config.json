@@ -1,0 +1,1506 @@
+{
+  "experience_years": 1,
+  "schedule": "every 6 hours",
+  "min_score": 35,
+  "max_required_years": 2,
+  "stretch_years": 3,
+  "max_posting_age_days": 30,
+  "keep_closed_days": 7,
+  "keep_found_days": 45,
+  "min_salary_lpa": 0,
+  "title_include": [
+    "software engineer",
+    "software developer",
+    "software development engineer",
+    "sde",
+    "frontend",
+    "front-end",
+    "front end",
+    "full stack",
+    "fullstack",
+    "full-stack",
+    "react",
+    "reactjs",
+    "react.js",
+    "node",
+    "nodejs",
+    "node.js",
+    "javascript",
+    "typescript",
+    "mern",
+    "web developer",
+    "web engineer",
+    "ui engineer",
+    "ui developer",
+    "product engineer",
+    "backend",
+    "back-end",
+    "back end",
+    "member of technical staff"
+  ],
+  "title_exclude": [
+    "senior",
+    "sr",
+    "staff",
+    "principal",
+    "lead",
+    "manager",
+    "director",
+    "head",
+    "architect",
+    "intern",
+    "internship",
+    "android",
+    "ios",
+    "mobile",
+    "react native",
+    "flutter",
+    "qa",
+    "sdet",
+    "test",
+    "testing",
+    "data",
+    "machine learning",
+    "ml",
+    "devops",
+    "sre",
+    "security",
+    "sales",
+    "solutions",
+    "support",
+    "salesforce",
+    "iii",
+    "iv",
+    "sde 3",
+    "sde-3",
+    "sde3",
+    "sde iii",
+    "firmware",
+    "embedded",
+    "java",
+    ".net",
+    "c#",
+    "golang",
+    "angular",
+    "site reliability",
+    "infrastructure"
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "match": [
+        "react"
+      ],
+      "points": 20
+    },
+    {
+      "name": "Node.js",
+      "match": [
+        "node.js",
+        "nodejs",
+        "node"
+      ],
+      "points": 15
+    },
+    {
+      "name": "TypeScript",
+      "match": [
+        "typescript"
+      ],
+      "points": 10
+    },
+    {
+      "name": "Next.js",
+      "match": [
+        "next.js",
+        "nextjs"
+      ],
+      "points": 8
+    },
+    {
+      "name": "JavaScript",
+      "match": [
+        "javascript"
+      ],
+      "points": 6
+    },
+    {
+      "name": "Express",
+      "match": [
+        "express.js",
+        "expressjs"
+      ],
+      "points": 4
+    },
+    {
+      "name": "Redux",
+      "match": [
+        "redux"
+      ],
+      "points": 5
+    },
+    {
+      "name": "React Query",
+      "match": [
+        "react query",
+        "tanstack"
+      ],
+      "points": 3
+    },
+    {
+      "name": "MongoDB",
+      "match": [
+        "mongodb",
+        "mongo",
+        "mongoose"
+      ],
+      "points": 5
+    },
+    {
+      "name": "PostgreSQL",
+      "match": [
+        "postgres"
+      ],
+      "points": 5
+    },
+    {
+      "name": "Redis",
+      "match": [
+        "redis"
+      ],
+      "points": 4
+    },
+    {
+      "name": "Microservices",
+      "match": [
+        "microservice"
+      ],
+      "points": 5
+    },
+    {
+      "name": "GraphQL",
+      "match": [
+        "graphql"
+      ],
+      "points": 4
+    },
+    {
+      "name": "WebSockets",
+      "match": [
+        "websocket",
+        "socket.io"
+      ],
+      "points": 4
+    },
+    {
+      "name": "Tailwind",
+      "match": [
+        "tailwind"
+      ],
+      "points": 3
+    },
+    {
+      "name": "REST APIs",
+      "match": [
+        "rest api",
+        "restful"
+      ],
+      "points": 3
+    },
+    {
+      "name": "AWS",
+      "match": [
+        "aws"
+      ],
+      "points": 3
+    },
+    {
+      "name": "Docker",
+      "match": [
+        "docker"
+      ],
+      "points": 3
+    },
+    {
+      "name": "Kafka",
+      "match": [
+        "kafka"
+      ],
+      "points": 3
+    },
+    {
+      "name": "SQL",
+      "match": [
+        "sql"
+      ],
+      "points": 2
+    },
+    {
+      "name": "Fintech",
+      "match": [
+        "fintech"
+      ],
+      "points": 6
+    },
+    {
+      "name": "Payments",
+      "match": [
+        "payment"
+      ],
+      "points": 4
+    },
+    {
+      "name": "UPI",
+      "match": [
+        "upi"
+      ],
+      "points": 3
+    }
+  ],
+  "target_employers": [
+    "razorpay",
+    "cred",
+    "groww",
+    "zeta",
+    "stripe",
+    "airwallex",
+    "adyen",
+    "wise",
+    "monzo",
+    "spotify",
+    "canva",
+    "mercari",
+    "vercel",
+    "datadog",
+    "mongodb"
+  ],
+  "countries": [
+    {
+      "key": "in",
+      "name": "India",
+      "flag": "🇮🇳",
+      "group": "Home",
+      "visa": false,
+      "locations": [
+        "india",
+        "bengaluru",
+        "bangalore",
+        "hyderabad",
+        "pune",
+        "chennai",
+        "mumbai",
+        "gurugram",
+        "gurgaon",
+        "noida",
+        "delhi",
+        "new delhi",
+        "kochi",
+        "ahmedabad",
+        "jaipur",
+        "kolkata"
+      ],
+      "exclude": [
+        "open to india"
+      ],
+      "boards": [
+        [
+          "LinkedIn - React developer, India",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=India"
+        ],
+        [
+          "Naukri - React developer",
+          "https://www.naukri.com/react-developer-jobs"
+        ],
+        [
+          "Cutshort - React, Bangalore",
+          "https://cutshort.io/jobs/reactjs-jobs-in-bangalore-bengaluru"
+        ],
+        [
+          "Wellfound - Full stack, India",
+          "https://wellfound.com/role/l/full-stack-engineer/india"
+        ]
+      ]
+    },
+    {
+      "key": "remote",
+      "name": "Remote (open to India)",
+      "flag": "🌍",
+      "group": "Remote",
+      "visa": false,
+      "locations": [
+        "open to india",
+        "worldwide",
+        "anywhere",
+        "apac",
+        "asia"
+      ],
+      "require": [
+        "remote"
+      ],
+      "boards": [
+        [
+          "Himalayas - React",
+          "https://himalayas.app/jobs?q=react"
+        ],
+        [
+          "Remotive - Software development",
+          "https://remotive.com/remote-jobs/software-dev"
+        ],
+        [
+          "Remote OK - React",
+          "https://remoteok.com/remote-react-jobs"
+        ]
+      ]
+    },
+    {
+      "key": "ae",
+      "name": "UAE",
+      "flag": "🇦🇪",
+      "group": "Middle East",
+      "locations": [
+        "uae",
+        "united arab emirates",
+        "dubai",
+        "abu dhabi",
+        "sharjah"
+      ],
+      "nationality": "Emirati",
+      "citizens_only": [
+        "UAE nationals only",
+        "UAE national only",
+        "Emiratis only"
+      ],
+      "language": {
+        "name": "Arabic"
+      },
+      "boards": [
+        [
+          "LinkedIn - React developer, United Arab Emirates",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20Arab%20Emirates"
+        ],
+        [
+          "Bayt - React developer, UAE",
+          "https://www.bayt.com/en/uae/jobs/react-developer-jobs/"
+        ],
+        [
+          "NaukriGulf - React developer",
+          "https://www.naukrigulf.com/react-developer-jobs"
+        ]
+      ]
+    },
+    {
+      "key": "sa",
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "group": "Middle East",
+      "locations": [
+        "saudi",
+        "saudi arabia",
+        "riyadh",
+        "jeddah",
+        "dammam",
+        "khobar",
+        "ksa"
+      ],
+      "nationality": "Saudi",
+      "citizens_only": [
+        "Saudi nationals only",
+        "Saudi national only"
+      ],
+      "language": {
+        "name": "Arabic"
+      },
+      "boards": [
+        [
+          "LinkedIn - React developer, Saudi Arabia",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Saudi%20Arabia"
+        ],
+        [
+          "Bayt - React developer, Saudi Arabia",
+          "https://www.bayt.com/en/saudi-arabia/jobs/react-developer-jobs/"
+        ]
+      ]
+    },
+    {
+      "key": "qa",
+      "name": "Qatar",
+      "flag": "🇶🇦",
+      "group": "Middle East",
+      "locations": [
+        "qatar",
+        "doha"
+      ],
+      "nationality": "Qatari",
+      "citizens_only": [
+        "Qatari nationals only"
+      ],
+      "language": {
+        "name": "Arabic"
+      },
+      "boards": [
+        [
+          "LinkedIn - React developer, Qatar",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Qatar"
+        ],
+        [
+          "Bayt - React developer, Qatar",
+          "https://www.bayt.com/en/qatar/jobs/react-developer-jobs/"
+        ]
+      ]
+    },
+    {
+      "key": "nl",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "group": "Europe",
+      "locations": [
+        "netherlands",
+        "amsterdam",
+        "rotterdam",
+        "utrecht",
+        "eindhoven",
+        "the hague",
+        "den haag",
+        "haarlem",
+        "leiden",
+        "delft"
+      ],
+      "language": {
+        "name": "Dutch",
+        "terms": [
+          "nederlands",
+          "dutch speaking"
+        ]
+      },
+      "local_words": [
+        "en",
+        "het",
+        "een",
+        "voor",
+        "met",
+        "wij",
+        "jouw",
+        "naar",
+        "ervaring",
+        "werken",
+        "bij"
+      ],
+      "boards": [
+        [
+          "LinkedIn - React developer, Netherlands",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Netherlands"
+        ],
+        [
+          "Indeed Netherlands - React developer",
+          "https://nl.indeed.com/jobs?q=react+developer"
+        ]
+      ]
+    },
+    {
+      "key": "de",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "group": "Europe",
+      "locations": [
+        "germany",
+        "deutschland",
+        "berlin",
+        "munich",
+        "münchen",
+        "hamburg",
+        "frankfurt",
+        "cologne",
+        "köln",
+        "stuttgart",
+        "düsseldorf",
+        "dusseldorf",
+        "leipzig",
+        "dresden",
+        "nuremberg",
+        "nürnberg",
+        "karlsruhe"
+      ],
+      "language": {
+        "name": "German",
+        "terms": [
+          "deutschkenntnisse",
+          "fließend deutsch",
+          "fliessend deutsch",
+          "german c1",
+          "german b2"
+        ]
+      },
+      "local_words": [
+        "und",
+        "mit",
+        "für",
+        "wir",
+        "die",
+        "der",
+        "das",
+        "sie",
+        "ihre",
+        "deine",
+        "erfahrung",
+        "bei",
+        "eine"
+      ],
+      "boards": [
+        [
+          "LinkedIn - React developer, Germany",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Germany"
+        ],
+        [
+          "StepStone - React developer",
+          "https://www.stepstone.de/jobs/react-developer"
+        ],
+        [
+          "Arbeitnow - jobs with visa sponsorship",
+          "https://www.arbeitnow.com/"
+        ]
+      ]
+    },
+    {
+      "key": "ie",
+      "name": "Ireland",
+      "flag": "🇮🇪",
+      "group": "Europe",
+      "locations": [
+        "ireland",
+        "dublin",
+        "cork",
+        "galway",
+        "limerick"
+      ],
+      "exclude": [
+        "northern ireland"
+      ],
+      "boards": [
+        [
+          "LinkedIn - React developer, Ireland",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Ireland"
+        ],
+        [
+          "Indeed Ireland - React developer",
+          "https://ie.indeed.com/jobs?q=react+developer"
+        ]
+      ]
+    },
+    {
+      "key": "uk",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "group": "Europe",
+      "locations": [
+        "united kingdom",
+        "uk",
+        "england",
+        "scotland",
+        "wales",
+        "northern ireland",
+        "london",
+        "manchester",
+        "edinburgh",
+        "cambridge",
+        "bristol",
+        "leeds",
+        "birmingham",
+        "glasgow",
+        "belfast",
+        "oxford",
+        "reading"
+      ],
+      "citizens_only": [
+        "security clearance",
+        "sc clearance",
+        "dv clearance",
+        "sc cleared",
+        "dv cleared"
+      ],
+      "boards": [
+        [
+          "LinkedIn - React developer, United Kingdom",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20Kingdom"
+        ],
+        [
+          "Indeed UK - React developer",
+          "https://uk.indeed.com/jobs?q=react+developer"
+        ]
+      ]
+    },
+    {
+      "key": "se",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "group": "Europe",
+      "locations": [
+        "sweden",
+        "stockholm",
+        "gothenburg",
+        "göteborg",
+        "malmö",
+        "malmo",
+        "uppsala",
+        "lund"
+      ],
+      "language": {
+        "name": "Swedish"
+      },
+      "local_words": [
+        "och",
+        "att",
+        "med",
+        "för",
+        "som",
+        "vi",
+        "du",
+        "på",
+        "är",
+        "erfarenhet",
+        "har"
+      ],
+      "boards": [
+        [
+          "LinkedIn - React developer, Sweden",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Sweden"
+        ],
+        [
+          "Indeed Sweden - React developer",
+          "https://se.indeed.com/jobs?q=react+developer"
+        ]
+      ]
+    },
+    {
+      "key": "dk",
+      "name": "Denmark",
+      "flag": "🇩🇰",
+      "group": "Europe",
+      "locations": [
+        "denmark",
+        "copenhagen",
+        "københavn",
+        "aarhus",
+        "odense"
+      ],
+      "language": {
+        "name": "Danish"
+      },
+      "local_words": [
+        "og",
+        "at",
+        "med",
+        "for",
+        "som",
+        "vi",
+        "du",
+        "på",
+        "er",
+        "erfaring",
+        "har"
+      ],
+      "boards": [
+        [
+          "LinkedIn - React developer, Denmark",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Denmark"
+        ],
+        [
+          "Jobindex - React",
+          "https://www.jobindex.dk/jobsoegning?q=react"
+        ]
+      ]
+    },
+    {
+      "key": "ch",
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "group": "Europe",
+      "locations": [
+        "switzerland",
+        "zurich",
+        "zürich",
+        "geneva",
+        "genève",
+        "basel",
+        "lausanne",
+        "bern",
+        "zug",
+        "lugano"
+      ],
+      "nationality": "Swiss",
+      "language": {
+        "name": "German",
+        "terms": [
+          "deutschkenntnisse",
+          "fließend deutsch",
+          "fluent in french"
+        ]
+      },
+      "boards": [
+        [
+          "LinkedIn - React developer, Switzerland",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Switzerland"
+        ],
+        [
+          "Indeed Switzerland - React developer",
+          "https://ch.indeed.com/jobs?q=react+developer"
+        ]
+      ]
+    },
+    {
+      "key": "lu",
+      "name": "Luxembourg",
+      "flag": "🇱🇺",
+      "group": "Europe",
+      "locations": [
+        "luxembourg"
+      ],
+      "language": {
+        "name": "French"
+      },
+      "boards": [
+        [
+          "LinkedIn - React developer, Luxembourg",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Luxembourg"
+        ],
+        [
+          "Indeed Luxembourg - React developer",
+          "https://lu.indeed.com/jobs?q=react+developer"
+        ]
+      ]
+    },
+    {
+      "key": "sg",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "group": "Asia-Pacific",
+      "locations": [
+        "singapore"
+      ],
+      "nationality": "Singaporean",
+      "citizens_only": [
+        "Singaporeans only",
+        "only Singaporeans",
+        "Singapore citizens only",
+        "Singapore citizens or PR only",
+        "Singapore citizens and PR only",
+        "Singaporeans or PRs only",
+        "Singaporean or PR only"
+      ],
+      "salary_floor": {
+        "currency": "SGD",
+        "period": "month",
+        "amount": 5600,
+        "label": "Employment Pass minimum"
+      },
+      "boards": [
+        [
+          "LinkedIn - React developer, Singapore",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Singapore"
+        ],
+        [
+          "MyCareersFuture - React",
+          "https://www.mycareersfuture.gov.sg/search?search=react"
+        ],
+        [
+          "NodeFlair - React",
+          "https://nodeflair.com/jobs?query=react"
+        ]
+      ]
+    },
+    {
+      "key": "jp",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "group": "Asia-Pacific",
+      "locations": [
+        "japan",
+        "tokyo",
+        "osaka",
+        "fukuoka",
+        "kyoto",
+        "yokohama"
+      ],
+      "language": {
+        "name": "Japanese",
+        "terms": [
+          "jlpt",
+          "business level japanese",
+          "business-level japanese"
+        ]
+      },
+      "boards": [
+        [
+          "Japan Dev - English-speaking jobs",
+          "https://japan-dev.com/jobs"
+        ],
+        [
+          "TokyoDev - jobs",
+          "https://www.tokyodev.com/jobs"
+        ],
+        [
+          "LinkedIn - React developer, Japan",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Japan"
+        ]
+      ]
+    },
+    {
+      "key": "au",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "group": "Asia-Pacific",
+      "locations": [
+        "australia",
+        "sydney",
+        "melbourne",
+        "brisbane",
+        "perth",
+        "adelaide",
+        "canberra"
+      ],
+      "nationality": "Australian",
+      "citizens_only": [
+        "Australian citizens only",
+        "must be an Australian citizen",
+        "Australian citizenship required",
+        "baseline clearance",
+        "NV1",
+        "security clearance"
+      ],
+      "boards": [
+        [
+          "LinkedIn - React developer, Australia",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Australia"
+        ],
+        [
+          "SEEK - React developer",
+          "https://www.seek.com.au/react-developer-jobs"
+        ],
+        [
+          "Indeed Australia - React developer",
+          "https://au.indeed.com/jobs?q=react+developer"
+        ]
+      ]
+    },
+    {
+      "key": "ca",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "group": "North America",
+      "locations": [
+        "canada",
+        "toronto",
+        "vancouver",
+        "montreal",
+        "montréal",
+        "ottawa",
+        "waterloo",
+        "calgary",
+        "edmonton"
+      ],
+      "nationality": "Canadian",
+      "language": {
+        "name": "French"
+      },
+      "boards": [
+        [
+          "LinkedIn - React developer, Canada",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Canada"
+        ],
+        [
+          "Indeed Canada - React developer",
+          "https://ca.indeed.com/jobs?q=react+developer"
+        ]
+      ]
+    },
+    {
+      "key": "us",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "group": "North America",
+      "locations": [
+        "united states",
+        "usa",
+        "us",
+        "new york",
+        "san francisco",
+        "seattle",
+        "austin",
+        "boston",
+        "chicago",
+        "los angeles",
+        "denver",
+        "atlanta",
+        "miami"
+      ],
+      "citizens_only": [
+        "US citizens only",
+        "U.S. citizens only",
+        "must be a US citizen",
+        "must be a U.S. citizen",
+        "security clearance",
+        "green card"
+      ],
+      "boards": [
+        [
+          "LinkedIn - React developer, United States",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20States"
+        ],
+        [
+          "Indeed USA - React developer",
+          "https://www.indeed.com/jobs?q=react+developer"
+        ]
+      ]
+    }
+  ],
+  "feeds": [
+    {
+      "ats": "greenhouse",
+      "slug": "stripe",
+      "name": "Stripe"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "razorpaysoftwareprivatelimited",
+      "name": "Razorpay"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "groww",
+      "name": "Groww"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "inmobi",
+      "name": "InMobi"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "devrev",
+      "name": "DevRev"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "observeai",
+      "name": "Observe.AI"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "truecaller",
+      "name": "Truecaller"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "mongodb",
+      "name": "MongoDB"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "okta",
+      "name": "Okta"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "datadog",
+      "name": "Datadog"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "elastic",
+      "name": "Elastic"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "celonis",
+      "name": "Celonis"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "coinbase",
+      "name": "Coinbase"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "vercel",
+      "name": "Vercel"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "careem",
+      "name": "Careem"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "tamara",
+      "name": "Tamara"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "bybit",
+      "name": "Bybit"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "okx",
+      "name": "OKX"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "thunes",
+      "name": "Thunes"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "straitsx",
+      "name": "StraitsX"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "xendit",
+      "name": "Xendit"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "adyen",
+      "name": "Adyen"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "catawiki",
+      "name": "Catawiki"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "traderepublicbank",
+      "name": "Trade Republic"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "n26",
+      "name": "N26"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "raisin",
+      "name": "Raisin"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "hellofresh",
+      "name": "HelloFresh"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "contentful",
+      "name": "Contentful"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "commercetools",
+      "name": "commercetools"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "sumup",
+      "name": "SumUp"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "intercom",
+      "name": "Intercom"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "tines",
+      "name": "Tines"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "flipdish",
+      "name": "Flipdish"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "deliveroo",
+      "name": "Deliveroo"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "monzo",
+      "name": "Monzo"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "gocardless",
+      "name": "GoCardless"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "truelayer",
+      "name": "TrueLayer"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "eucalyptus",
+      "name": "Eucalyptus"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "mentimeter",
+      "name": "Mentimeter"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "trustpilot",
+      "name": "Trustpilot"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "proton",
+      "name": "Proton"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "scandit",
+      "name": "Scandit"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "block",
+      "name": "Block"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "cultureamp",
+      "name": "Culture Amp"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "buildkite",
+      "name": "Buildkite"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "faire",
+      "name": "Faire"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "hootsuite",
+      "name": "Hootsuite"
+    },
+    {
+      "ats": "lever",
+      "slug": "cred",
+      "name": "CRED"
+    },
+    {
+      "ats": "lever",
+      "slug": "meesho",
+      "name": "Meesho"
+    },
+    {
+      "ats": "lever",
+      "slug": "zeta",
+      "name": "Zeta"
+    },
+    {
+      "ats": "lever",
+      "slug": "nium",
+      "name": "Nium"
+    },
+    {
+      "ats": "lever",
+      "slug": "ninjavan",
+      "name": "Ninja Van"
+    },
+    {
+      "ats": "lever",
+      "slug": "spotify",
+      "name": "Spotify"
+    },
+    {
+      "ats": "lever",
+      "slug": "cartrawler",
+      "name": "CarTrawler"
+    },
+    {
+      "ats": "lever",
+      "slug": "zopa",
+      "name": "Zopa"
+    },
+    {
+      "ats": "lever",
+      "slug": "mable",
+      "name": "Mable"
+    },
+    {
+      "ats": "lever",
+      "slug": "deputy",
+      "name": "Deputy"
+    },
+    {
+      "ats": "lever",
+      "slug": "immutable",
+      "name": "Immutable"
+    },
+    {
+      "ats": "lever",
+      "slug": "waveapps",
+      "name": "Wave"
+    },
+    {
+      "ats": "ashby",
+      "slug": "atlan",
+      "name": "Atlan"
+    },
+    {
+      "ats": "ashby",
+      "slug": "airwallex",
+      "name": "Airwallex"
+    },
+    {
+      "ats": "ashby",
+      "slug": "ziina",
+      "name": "Ziina"
+    },
+    {
+      "ats": "ashby",
+      "slug": "leantech",
+      "name": "Lean Technologies"
+    },
+    {
+      "ats": "ashby",
+      "slug": "mollie",
+      "name": "Mollie"
+    },
+    {
+      "ats": "ashby",
+      "slug": "doctolib",
+      "name": "Doctolib"
+    },
+    {
+      "ats": "ashby",
+      "slug": "getyourguide",
+      "name": "GetYourGuide"
+    },
+    {
+      "ats": "ashby",
+      "slug": "forto",
+      "name": "Forto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "qonto",
+      "name": "Qonto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "pleo",
+      "name": "Pleo"
+    },
+    {
+      "ats": "ashby",
+      "slug": "paddle",
+      "name": "Paddle"
+    },
+    {
+      "ats": "ashby",
+      "slug": "lendable",
+      "name": "Lendable"
+    },
+    {
+      "ats": "ashby",
+      "slug": "wayflyer",
+      "name": "Wayflyer"
+    },
+    {
+      "ats": "ashby",
+      "slug": "workhuman",
+      "name": "Workhuman"
+    },
+    {
+      "ats": "ashby",
+      "slug": "legora",
+      "name": "Legora"
+    },
+    {
+      "ats": "ashby",
+      "slug": "trustly",
+      "name": "Trustly"
+    },
+    {
+      "ats": "ashby",
+      "slug": "toogoodtogo",
+      "name": "Too Good To Go"
+    },
+    {
+      "ats": "ashby",
+      "slug": "frontify",
+      "name": "Frontify"
+    },
+    {
+      "ats": "ashby",
+      "slug": "airtasker",
+      "name": "Airtasker"
+    },
+    {
+      "ats": "ashby",
+      "slug": "cohere",
+      "name": "Cohere"
+    },
+    {
+      "ats": "ashby",
+      "slug": "wealthsimple",
+      "name": "Wealthsimple"
+    },
+    {
+      "ats": "ashby",
+      "slug": "1password",
+      "name": "1Password"
+    },
+    {
+      "ats": "ashby",
+      "slug": "jobber",
+      "name": "Jobber"
+    },
+    {
+      "ats": "ashby",
+      "slug": "trulioo",
+      "name": "Trulioo"
+    },
+    {
+      "ats": "ashby",
+      "slug": "benevity",
+      "name": "Benevity"
+    },
+    {
+      "ats": "ashby",
+      "slug": "thinkific",
+      "name": "Thinkific"
+    },
+    {
+      "ats": "smartrecruiters",
+      "slug": "Swiggy",
+      "name": "Swiggy"
+    },
+    {
+      "ats": "smartrecruiters",
+      "slug": "Freshworks",
+      "name": "Freshworks"
+    },
+    {
+      "ats": "smartrecruiters",
+      "slug": "Grab",
+      "name": "Grab"
+    },
+    {
+      "ats": "smartrecruiters",
+      "slug": "DeliveryHero",
+      "name": "Delivery Hero"
+    },
+    {
+      "ats": "smartrecruiters",
+      "slug": "Wise",
+      "name": "Wise"
+    },
+    {
+      "ats": "smartrecruiters",
+      "slug": "Canva",
+      "name": "Canva"
+    },
+    {
+      "ats": "workable",
+      "slug": "mercari",
+      "name": "Mercari"
+    },
+    {
+      "ats": "workable",
+      "slug": "lucidya",
+      "name": "Lucidya"
+    },
+    {
+      "ats": "workable",
+      "slug": "foodics",
+      "name": "Foodics"
+    },
+    {
+      "ats": "workable",
+      "slug": "fundingsocieties",
+      "name": "Funding Societies"
+    },
+    {
+      "ats": "cutshort",
+      "slug": "reactjs-jobs-in-bangalore-bengaluru",
+      "name": "Cutshort (React, Bangalore)"
+    },
+    {
+      "ats": "cutshort",
+      "slug": "nodejs-jobs-in-bangalore-bengaluru",
+      "name": "Cutshort (Node, Bangalore)"
+    },
+    {
+      "ats": "cutshort",
+      "slug": "frontend-developer-jobs-in-bangalore-bengaluru",
+      "name": "Cutshort (Frontend, Bangalore)"
+    },
+    {
+      "ats": "himalayas",
+      "slug": "react",
+      "name": "Himalayas (react, open to India)",
+      "country": "India"
+    },
+    {
+      "ats": "himalayas",
+      "slug": "frontend",
+      "name": "Himalayas (frontend, open to India)",
+      "country": "India"
+    },
+    {
+      "ats": "himalayas",
+      "slug": "full stack",
+      "name": "Himalayas (full stack, open to India)",
+      "country": "India"
+    },
+    {
+      "ats": "himalayas",
+      "slug": "javascript",
+      "name": "Himalayas (javascript, open to India)",
+      "country": "India"
+    },
+    {
+      "ats": "mycareersfuture",
+      "slug": "react",
+      "name": "MyCareersFuture (react)"
+    },
+    {
+      "ats": "mycareersfuture",
+      "slug": "frontend",
+      "name": "MyCareersFuture (frontend)"
+    },
+    {
+      "ats": "mycareersfuture",
+      "slug": "full stack",
+      "name": "MyCareersFuture (full stack)"
+    },
+    {
+      "ats": "mycareersfuture",
+      "slug": "node.js",
+      "name": "MyCareersFuture (node.js)"
+    },
+    {
+      "ats": "arbeitnow",
+      "name": "Arbeitnow (visa sponsorship)",
+      "visa_sponsorship": true,
+      "pages": 3
+    },
+    {
+      "ats": "remotive",
+      "slug": "software-dev",
+      "name": "Remotive (software development)"
+    },
+    {
+      "ats": "remoteok",
+      "name": "Remote OK"
+    }
+  ]
+}

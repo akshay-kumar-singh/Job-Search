@@ -1,0 +1,17 @@
+# Netlify builds only the web app. The job data is read from GitHub (the `data` branch) when the page loads,
+# so new jobs show up without a redeploy.
+[build]
+  base = "web"
+  command = "npm run build"
+  publish = "dist"
+  # Never build the data branch: the collector rewrites it every few hours.
+  ignore = "[ \"$BRANCH\" = \"data\" ]"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+    Referrer-Policy = "strict-origin-when-cross-origin"

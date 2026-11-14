@@ -1,0 +1,22 @@
+# Local collector output (the published data lives on the `data` branch)
+/data/
+
+# Personal documents - never committed
+resume/
+*.pdf
+*.docx
+
+# Web app
+web/node_modules/
+web/dist/
+web/public/data/
+
+# Python, OS, editors, secrets
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.vscode/
+.idea/
+.env
+.env.*
