@@ -20,6 +20,8 @@ export interface Job {
   found: string
   closed: boolean
   closed_on?: string
+  fintech?: boolean
+  sector?: string
 }
 
 /** A job as shown in a list: the countries it was found for (a "Stockholm / London" role is in two). */
@@ -36,7 +38,22 @@ export interface CountrySummary {
   count: number
   stretch: number
   new: number
+  fintech?: number
+  fintech_stretch?: number
+  fintech_new?: number
   boards: [string, string][]
+}
+
+/** A fintech company in the directory: followed by the bot (its careers page is checked every run)
+ *  or seen on a job board this week. */
+export interface FintechCompany {
+  name: string
+  sector: string
+  url: string
+  open: number // matching roles on the Jobs list
+  stretch: number // matching roles on the Stretch list
+  countries: string[]
+  followed: boolean
 }
 
 export interface SourceStatus {
@@ -58,6 +75,9 @@ export interface Meta {
   max_posting_age_days?: number
   keep_closed_days?: number
   skills?: [string, number][]
+  company_boards?: number
+  discovered_boards?: number
+  fintech_companies?: FintechCompany[]
   countries: CountrySummary[]
   sources: SourceStatus[]
 }

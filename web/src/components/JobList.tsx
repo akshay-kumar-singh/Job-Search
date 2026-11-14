@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import type { Application, CountrySummary, ListedJob, Status } from '../types'
-import { daysSince, isNew } from '../lib/format'
+import { companyKey, daysSince, isNew } from '../lib/format'
 import { usePref } from '../lib/storage'
 import JobCard from './JobCard'
 
@@ -9,6 +9,9 @@ interface Props {
   country: CountrySummary // a real country, or the "All countries" view
   countries: Record<string, CountrySummary>
   stretch: boolean
+  fintech: boolean // the Fintech section: wording only, the jobs are already filtered
+  company: string | null // only this company's roles (picked in the fintech company list)
+  onClearCompany: () => void
   apps: Record<string, Application>
   opened: Set<string>
   onOpen: (id: string) => void
@@ -24,7 +27,8 @@ type Visa = 'all' | 'good' | 'no-warn'
 const day = (j: ListedJob) => j.posted || j.found.slice(0, 10)
 
 export default function JobList(props: Props) {
-  const { jobs, country, countries, stretch, apps, opened, onOpen, onNotYet, onTrack, onStatus, onUntrack } = props
+  const { jobs, country, countries, stretch, fintech, company, onClearCompany, apps, opened, onOpen, onNotYet, onTrack, onStatus, onUntrack } =
+    props
   const [search, setSearch] = usePref('search', '')
   const [minFit, setMinFit] = usePref('min-fit', 0)
   const [within, setWithin] = usePref('posted-within', 0)
@@ -33,9 +37,13 @@ export default function JobList(props: Props) {
   const [sort, setSort] = usePref<Sort>('sort-order', 'newest')
   const [hideTracked, setHideTracked] = usePref('hide-applied', true)
   const isAll = country.key === 'all'
-  const filtered = Boolean(search || minFit || within || newOnly || visa !== 'all')
+  const filtered = Boolean(search || minFit || within || newOnly || visa !== 'all' || company)
+  const kind = `${stretch ? 'stretch ' : ''}${fintech ? 'fintech ' : ''}`
 
-  const pool = useMemo(() => jobs.filter((j) => !j.closed && j.stretch === stretch), [jobs, stretch])
+  const pool = useMemo(() => {
+    const only = company ? companyKey(company) : ''
+    return jobs.filter((j) => !j.closed && j.stretch === stretch && (!only || companyKey(j.company) === only))
+  }, [jobs, stretch, company])
   const shown = useMemo(() => {
     const q = search.trim().toLowerCase()
     const list = pool.filter((j) => {
@@ -60,6 +68,7 @@ export default function JobList(props: Props) {
     setWithin(0)
     setNewOnly(false)
     setVisa('all')
+    onClearCompany()
   }
 
   return (
@@ -104,10 +113,21 @@ export default function JobList(props: Props) {
         </label>
       </div>
 
+      {company && (
+        <div className="flex flex-wrap items-center gap-2 rounded-2xl bg-accent-soft px-4 py-2.5 text-sm text-ink">
+          <span className="mr-auto">
+            Only roles at <b className="font-semibold">{company}</b>
+          </span>
+          <button type="button" onClick={onClearCompany} className="font-semibold text-accent hover:underline">
+            Show all companies
+          </button>
+        </div>
+      )}
+
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
         <span>
-          Showing <span className="font-display font-extrabold text-ink">{shown.length}</span> of {pool.length}{' '}
-          {stretch ? 'stretch ' : ''}job{pool.length === 1 ? '' : 's'} in {country.flag} {country.name}
+          Showing <span className="font-display font-extrabold text-ink">{shown.length}</span> of {pool.length} {kind}job
+          {pool.length === 1 ? '' : 's'} in {country.flag} {country.name}
         </span>
         {filtered && (
           <button type="button" onClick={clearFilters} className="font-semibold text-accent hover:underline">
@@ -151,8 +171,8 @@ export default function JobList(props: Props) {
           ) : pool.length ? (
             'You have acted on every job here. New ones arrive with the next update.'
           ) : (
-            `No fresh ${stretch ? 'stretch ' : ''}jobs in ${country.name} this week. New ones are checked every 6 hours${
-              isAll ? '.' : ' — meanwhile, try the search links below.'
+            `No fresh ${kind}jobs${company ? ` at ${company}` : ''} in ${country.name} this week. New ones are checked every 6 hours${
+              isAll || company ? '.' : ' — meanwhile, try the search links below.'
             }`
           )}
         </div>

@@ -969,17 +969,23 @@
     {
       "ats": "greenhouse",
       "slug": "stripe",
-      "name": "Stripe"
+      "name": "Stripe",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "greenhouse",
       "slug": "razorpaysoftwareprivatelimited",
-      "name": "Razorpay"
+      "name": "Razorpay",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "greenhouse",
       "slug": "groww",
-      "name": "Groww"
+      "name": "Groww",
+      "fintech": true,
+      "sector": "Investing"
     },
     {
       "ats": "greenhouse",
@@ -1029,7 +1035,9 @@
     {
       "ats": "greenhouse",
       "slug": "coinbase",
-      "name": "Coinbase"
+      "name": "Coinbase",
+      "fintech": true,
+      "sector": "Crypto"
     },
     {
       "ats": "greenhouse",
@@ -1044,37 +1052,51 @@
     {
       "ats": "greenhouse",
       "slug": "tamara",
-      "name": "Tamara"
+      "name": "Tamara",
+      "fintech": true,
+      "sector": "BNPL"
     },
     {
       "ats": "greenhouse",
       "slug": "bybit",
-      "name": "Bybit"
+      "name": "Bybit",
+      "fintech": true,
+      "sector": "Crypto"
     },
     {
       "ats": "greenhouse",
       "slug": "okx",
-      "name": "OKX"
+      "name": "OKX",
+      "fintech": true,
+      "sector": "Crypto"
     },
     {
       "ats": "greenhouse",
       "slug": "thunes",
-      "name": "Thunes"
+      "name": "Thunes",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "greenhouse",
       "slug": "straitsx",
-      "name": "StraitsX"
+      "name": "StraitsX",
+      "fintech": true,
+      "sector": "Crypto"
     },
     {
       "ats": "greenhouse",
       "slug": "xendit",
-      "name": "Xendit"
+      "name": "Xendit",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "greenhouse",
       "slug": "adyen",
-      "name": "Adyen"
+      "name": "Adyen",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "greenhouse",
@@ -1084,17 +1106,23 @@
     {
       "ats": "greenhouse",
       "slug": "traderepublicbank",
-      "name": "Trade Republic"
+      "name": "Trade Republic",
+      "fintech": true,
+      "sector": "Investing"
     },
     {
       "ats": "greenhouse",
       "slug": "n26",
-      "name": "N26"
+      "name": "N26",
+      "fintech": true,
+      "sector": "Neobank"
     },
     {
       "ats": "greenhouse",
       "slug": "raisin",
-      "name": "Raisin"
+      "name": "Raisin",
+      "fintech": true,
+      "sector": "Investing"
     },
     {
       "ats": "greenhouse",
@@ -1114,7 +1142,9 @@
     {
       "ats": "greenhouse",
       "slug": "sumup",
-      "name": "SumUp"
+      "name": "SumUp",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "greenhouse",
@@ -1139,17 +1169,23 @@
     {
       "ats": "greenhouse",
       "slug": "monzo",
-      "name": "Monzo"
+      "name": "Monzo",
+      "fintech": true,
+      "sector": "Neobank"
     },
     {
       "ats": "greenhouse",
       "slug": "gocardless",
-      "name": "GoCardless"
+      "name": "GoCardless",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "greenhouse",
       "slug": "truelayer",
-      "name": "TrueLayer"
+      "name": "TrueLayer",
+      "fintech": true,
+      "sector": "Infrastructure"
     },
     {
       "ats": "greenhouse",
@@ -1179,7 +1215,9 @@
     {
       "ats": "greenhouse",
       "slug": "block",
-      "name": "Block"
+      "name": "Block",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "greenhouse",
@@ -1204,7 +1242,9 @@
     {
       "ats": "lever",
       "slug": "cred",
-      "name": "CRED"
+      "name": "CRED",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "lever",
@@ -1214,12 +1254,16 @@
     {
       "ats": "lever",
       "slug": "zeta",
-      "name": "Zeta"
+      "name": "Zeta",
+      "fintech": true,
+      "sector": "Infrastructure"
     },
     {
       "ats": "lever",
       "slug": "nium",
-      "name": "Nium"
+      "name": "Nium",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "lever",
@@ -1239,7 +1283,9 @@
     {
       "ats": "lever",
       "slug": "zopa",
-      "name": "Zopa"
+      "name": "Zopa",
+      "fintech": true,
+      "sector": "Lending"
     },
     {
       "ats": "lever",
@@ -1259,7 +1305,9 @@
     {
       "ats": "lever",
       "slug": "waveapps",
-      "name": "Wave"
+      "name": "Wave",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "ashby",
@@ -1269,22 +1317,30 @@
     {
       "ats": "ashby",
       "slug": "airwallex",
-      "name": "Airwallex"
+      "name": "Airwallex",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "ashby",
       "slug": "ziina",
-      "name": "Ziina"
+      "name": "Ziina",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "ashby",
       "slug": "leantech",
-      "name": "Lean Technologies"
+      "name": "Lean Technologies",
+      "fintech": true,
+      "sector": "Infrastructure"
     },
     {
       "ats": "ashby",
       "slug": "mollie",
-      "name": "Mollie"
+      "name": "Mollie",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "ashby",
@@ -1304,27 +1360,37 @@
     {
       "ats": "ashby",
       "slug": "qonto",
-      "name": "Qonto"
+      "name": "Qonto",
+      "fintech": true,
+      "sector": "Neobank"
     },
     {
       "ats": "ashby",
       "slug": "pleo",
-      "name": "Pleo"
+      "name": "Pleo",
+      "fintech": true,
+      "sector": "Cards"
     },
     {
       "ats": "ashby",
       "slug": "paddle",
-      "name": "Paddle"
+      "name": "Paddle",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "ashby",
       "slug": "lendable",
-      "name": "Lendable"
+      "name": "Lendable",
+      "fintech": true,
+      "sector": "Lending"
     },
     {
       "ats": "ashby",
       "slug": "wayflyer",
-      "name": "Wayflyer"
+      "name": "Wayflyer",
+      "fintech": true,
+      "sector": "Lending"
     },
     {
       "ats": "ashby",
@@ -1339,7 +1405,9 @@
     {
       "ats": "ashby",
       "slug": "trustly",
-      "name": "Trustly"
+      "name": "Trustly",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "ashby",
@@ -1364,7 +1432,9 @@
     {
       "ats": "ashby",
       "slug": "wealthsimple",
-      "name": "Wealthsimple"
+      "name": "Wealthsimple",
+      "fintech": true,
+      "sector": "Investing"
     },
     {
       "ats": "ashby",
@@ -1379,7 +1449,9 @@
     {
       "ats": "ashby",
       "slug": "trulioo",
-      "name": "Trulioo"
+      "name": "Trulioo",
+      "fintech": true,
+      "sector": "Infrastructure"
     },
     {
       "ats": "ashby",
@@ -1414,7 +1486,9 @@
     {
       "ats": "smartrecruiters",
       "slug": "Wise",
-      "name": "Wise"
+      "name": "Wise",
+      "fintech": true,
+      "sector": "Payments"
     },
     {
       "ats": "smartrecruiters",
@@ -1439,7 +1513,2479 @@
     {
       "ats": "workable",
       "slug": "fundingsocieties",
-      "name": "Funding Societies"
+      "name": "Funding Societies",
+      "fintech": true,
+      "sector": "Lending"
+    },
+    {
+      "ats": "lever",
+      "slug": "paytm",
+      "name": "Paytm",
+      "fintech": true,
+      "sector": "Payments"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "slice",
+      "name": "Slice",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "ashby",
+      "slug": "navi",
+      "name": "Navi",
+      "fintech": true,
+      "sector": "Lending"
+    },
+    {
+      "ats": "lever",
+      "slug": "fampay",
+      "name": "FamPay",
+      "fintech": true,
+      "sector": "Payments"
+    },
+    {
+      "ats": "ashby",
+      "slug": "aspora",
+      "name": "Aspora",
+      "fintech": true,
+      "sector": "Remittance"
+    },
+    {
+      "ats": "ashby",
+      "slug": "rain",
+      "name": "Rain",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "binance",
+      "name": "Binance",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "thndr",
+      "name": "Thndr",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "workable",
+      "slug": "2c2p",
+      "name": "2C2P",
+      "fintech": true,
+      "sector": "Payments"
+    },
+    {
+      "ats": "lever",
+      "slug": "crypto",
+      "name": "Crypto.com",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "solarisbank",
+      "name": "Solaris",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "ashby",
+      "slug": "primer",
+      "name": "Primer",
+      "fintech": true,
+      "sector": "Payments"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "cleo",
+      "name": "Cleo",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "ashby",
+      "slug": "plaid",
+      "name": "Plaid",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "ashby",
+      "slug": "lunar",
+      "name": "Lunar",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "ebury",
+      "name": "Ebury",
+      "fintech": true,
+      "sector": "Payments"
+    },
+    {
+      "ats": "ashby",
+      "slug": "satispay",
+      "name": "Satispay",
+      "fintech": true,
+      "sector": "Payments"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "bitpanda",
+      "name": "Bitpanda",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "upvest",
+      "name": "Upvest",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "ashby",
+      "slug": "pliant",
+      "name": "Pliant",
+      "fintech": true,
+      "sector": "Cards"
+    },
+    {
+      "ats": "ashby",
+      "slug": "swan",
+      "name": "Swan",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "ashby",
+      "slug": "alan",
+      "name": "Alan",
+      "fintech": true,
+      "sector": "Insurtech"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "tide",
+      "name": "Tide",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "ashby",
+      "slug": "griffin",
+      "name": "Griffin",
+      "fintech": true,
+      "sector": "Bank"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "veriff",
+      "name": "Veriff",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "fourthline",
+      "name": "Fourthline",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "ashby",
+      "slug": "clearbank",
+      "name": "ClearBank",
+      "fintech": true,
+      "sector": "Bank"
+    },
+    {
+      "ats": "ashby",
+      "slug": "freetrade",
+      "name": "Freetrade",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "ashby",
+      "slug": "moneybox",
+      "name": "Moneybox",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "lever",
+      "slug": "brighte",
+      "name": "Brighte",
+      "fintech": true,
+      "sector": "Lending"
+    },
+    {
+      "ats": "lever",
+      "slug": "pexa",
+      "name": "Pexa",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "ramp",
+      "name": "Ramp",
+      "fintech": true,
+      "sector": "Cards"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "brex",
+      "name": "Brex",
+      "fintech": true,
+      "sector": "Cards"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "mercury",
+      "name": "Mercury",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "chime",
+      "name": "Chime",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "affirm",
+      "name": "Affirm",
+      "fintech": true,
+      "sector": "BNPL"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "robinhood",
+      "name": "Robinhood",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "ashby",
+      "slug": "moderntreasury",
+      "name": "Modern Treasury",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "carta",
+      "name": "Carta",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "gusto",
+      "name": "Gusto",
+      "fintech": true,
+      "sector": "Payroll"
+    },
+    {
+      "ats": "ashby",
+      "slug": "dave",
+      "name": "Dave",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "sofi",
+      "name": "SoFi",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "ashby",
+      "slug": "nubank",
+      "name": "Nubank",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "betterment",
+      "name": "Betterment",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "lever",
+      "slug": "wealthfront",
+      "name": "Wealthfront",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "ashby",
+      "slug": "acorns",
+      "name": "Acorns",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "current",
+      "name": "Current",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "step",
+      "name": "Step",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "ashby",
+      "slug": "novo",
+      "name": "Novo",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "payoneer",
+      "name": "Payoneer",
+      "fintech": true,
+      "sector": "Payments"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "billcom",
+      "name": "Bill",
+      "fintech": true,
+      "sector": "Payments"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "lithic",
+      "name": "Lithic",
+      "fintech": true,
+      "sector": "Cards"
+    },
+    {
+      "ats": "ashby",
+      "slug": "column",
+      "name": "Column",
+      "fintech": true,
+      "sector": "Bank"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "alloy",
+      "name": "Alloy",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "ashby",
+      "slug": "socure",
+      "name": "Socure",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "ashby",
+      "slug": "sardine",
+      "name": "Sardine",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "fireblocks",
+      "name": "Fireblocks",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "circle",
+      "name": "Circle",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "lever",
+      "slug": "anchorage",
+      "name": "Anchorage",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "paxos",
+      "name": "Paxos",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "gemini",
+      "name": "Gemini",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "consensys",
+      "name": "ConsenSys",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "alchemy",
+      "name": "Alchemy",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "ripple",
+      "name": "Ripple",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "workable",
+      "slug": "nuvei",
+      "name": "Nuvei",
+      "fintech": true,
+      "sector": "Payments"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "porter",
+      "name": "Porter"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "druva",
+      "name": "Druva"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "hackerrank",
+      "name": "HackerRank"
+    },
+    {
+      "ats": "lever",
+      "slug": "mindtickle",
+      "name": "MindTickle"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "highradius",
+      "name": "HighRadius",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "rubrik",
+      "name": "Rubrik"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "netlify",
+      "name": "Netlify"
+    },
+    {
+      "ats": "ashby",
+      "slug": "supabase",
+      "name": "Supabase"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "gitlab",
+      "name": "GitLab"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "cloudflare",
+      "name": "Cloudflare"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "figma",
+      "name": "Figma"
+    },
+    {
+      "ats": "ashby",
+      "slug": "notion",
+      "name": "Notion"
+    },
+    {
+      "ats": "ashby",
+      "slug": "linear",
+      "name": "Linear"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "airtable",
+      "name": "Airtable"
+    },
+    {
+      "ats": "ashby",
+      "slug": "zapier",
+      "name": "Zapier"
+    },
+    {
+      "ats": "ashby",
+      "slug": "miro",
+      "name": "Miro"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "storyblok",
+      "name": "Storyblok"
+    },
+    {
+      "ats": "ashby",
+      "slug": "posthog",
+      "name": "PostHog"
+    },
+    {
+      "ats": "ashby",
+      "slug": "sentry",
+      "name": "Sentry"
+    },
+    {
+      "ats": "ashby",
+      "slug": "docker",
+      "name": "Docker"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "twilio",
+      "name": "Twilio"
+    },
+    {
+      "ats": "ashby",
+      "slug": "buffer",
+      "name": "Buffer"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "discord",
+      "name": "Discord"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "duolingo",
+      "name": "Duolingo"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "reddit",
+      "name": "Reddit"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "pinterest",
+      "name": "Pinterest"
+    },
+    {
+      "ats": "ashby",
+      "slug": "snyk",
+      "name": "Snyk"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "algolia",
+      "name": "Algolia"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "mixpanel",
+      "name": "Mixpanel"
+    },
+    {
+      "ats": "ashby",
+      "slug": "amplitude",
+      "name": "Amplitude"
+    },
+    {
+      "ats": "ashby",
+      "slug": "webflow",
+      "name": "Webflow"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "calendly",
+      "name": "Calendly"
+    },
+    {
+      "ats": "ashby",
+      "slug": "clickup",
+      "name": "ClickUp"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "asana",
+      "name": "Asana"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "smartsheet",
+      "name": "Smartsheet"
+    },
+    {
+      "ats": "lever",
+      "slug": "outreach",
+      "name": "Outreach"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "braze",
+      "name": "Braze"
+    },
+    {
+      "ats": "ashby",
+      "slug": "iterable",
+      "name": "Iterable"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "attentive",
+      "name": "Attentive"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "klaviyo",
+      "name": "Klaviyo"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "canonical",
+      "name": "Canonical"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "jetbrains",
+      "name": "JetBrains"
+    },
+    {
+      "ats": "ashby",
+      "slug": "gorgias",
+      "name": "Gorgias"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "mirakl",
+      "name": "Mirakl"
+    },
+    {
+      "ats": "ashby",
+      "slug": "backmarket",
+      "name": "Back Market"
+    },
+    {
+      "ats": "ashby",
+      "slug": "ledger",
+      "name": "Ledger",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "dataiku",
+      "name": "Dataiku"
+    },
+    {
+      "ats": "lever",
+      "slug": "contentsquare",
+      "name": "Contentsquare"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "wolt",
+      "name": "Wolt"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "typeform",
+      "name": "Typeform"
+    },
+    {
+      "ats": "ashby",
+      "slug": "synthesia",
+      "name": "Synthesia"
+    },
+    {
+      "ats": "ashby",
+      "slug": "elevenlabs",
+      "name": "ElevenLabs"
+    },
+    {
+      "ats": "workable",
+      "slug": "huggingface",
+      "name": "Hugging Face"
+    },
+    {
+      "ats": "ashby",
+      "slug": "perplexity",
+      "name": "Perplexity"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "anthropic",
+      "name": "Anthropic"
+    },
+    {
+      "ats": "ashby",
+      "slug": "openai",
+      "name": "OpenAI"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "scaleai",
+      "name": "Scale"
+    },
+    {
+      "ats": "ashby",
+      "slug": "replit",
+      "name": "Replit"
+    },
+    {
+      "ats": "ashby",
+      "slug": "temporal",
+      "name": "Temporal"
+    },
+    {
+      "ats": "ashby",
+      "slug": "clickhouse",
+      "name": "ClickHouse"
+    },
+    {
+      "ats": "lever",
+      "slug": "lalamove",
+      "name": "Lalamove"
+    },
+    {
+      "ats": "workable",
+      "slug": "ajaib",
+      "name": "Ajaib",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "workable",
+      "slug": "salla",
+      "name": "Salla"
+    },
+    {
+      "ats": "ashby",
+      "slug": "3ive",
+      "name": "3Ive"
+    },
+    {
+      "ats": "ashby",
+      "slug": "9-mothers",
+      "name": "9 Mothers"
+    },
+    {
+      "ats": "ashby",
+      "slug": "Authorium",
+      "name": "Authorium"
+    },
+    {
+      "ats": "ashby",
+      "slug": "Chestnut",
+      "name": "Chestnut",
+      "fintech": true,
+      "sector": "Insurtech"
+    },
+    {
+      "ats": "ashby",
+      "slug": "DeepL",
+      "name": "Deepl"
+    },
+    {
+      "ats": "ashby",
+      "slug": "Mapbox",
+      "name": "Mapbox"
+    },
+    {
+      "ats": "ashby",
+      "slug": "Mastra",
+      "name": "Mastra"
+    },
+    {
+      "ats": "ashby",
+      "slug": "Nango",
+      "name": "Nango"
+    },
+    {
+      "ats": "ashby",
+      "slug": "Pear-VC",
+      "name": "Pear VC"
+    },
+    {
+      "ats": "ashby",
+      "slug": "Railway",
+      "name": "Railway"
+    },
+    {
+      "ats": "ashby",
+      "slug": "Scholarly",
+      "name": "Scholarly"
+    },
+    {
+      "ats": "ashby",
+      "slug": "ScribdInc",
+      "name": "Scribd"
+    },
+    {
+      "ats": "ashby",
+      "slug": "Solace",
+      "name": "Solace"
+    },
+    {
+      "ats": "ashby",
+      "slug": "TonicAI",
+      "name": "Tonic.ai"
+    },
+    {
+      "ats": "ashby",
+      "slug": "aiuc",
+      "name": "AIUC"
+    },
+    {
+      "ats": "ashby",
+      "slug": "alembic",
+      "name": "Alembic"
+    },
+    {
+      "ats": "ashby",
+      "slug": "alternativepayments",
+      "name": "Alternative Payments",
+      "fintech": true,
+      "sector": "Payments"
+    },
+    {
+      "ats": "ashby",
+      "slug": "amo",
+      "name": "Amo"
+    },
+    {
+      "ats": "ashby",
+      "slug": "anterior",
+      "name": "Anterior"
+    },
+    {
+      "ats": "ashby",
+      "slug": "antithesis",
+      "name": "Antithesis"
+    },
+    {
+      "ats": "ashby",
+      "slug": "aptura",
+      "name": "Aptura"
+    },
+    {
+      "ats": "ashby",
+      "slug": "artificialanalysis",
+      "name": "Artificial Analysis"
+    },
+    {
+      "ats": "ashby",
+      "slug": "aureliussystems",
+      "name": "Aurelius Systems"
+    },
+    {
+      "ats": "ashby",
+      "slug": "bonfireanalytics",
+      "name": "Bonfire Analytics"
+    },
+    {
+      "ats": "ashby",
+      "slug": "category-labs",
+      "name": "Category Labs",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "chariotclaims",
+      "name": "Chariot"
+    },
+    {
+      "ats": "ashby",
+      "slug": "checkly",
+      "name": "Checkly"
+    },
+    {
+      "ats": "ashby",
+      "slug": "close",
+      "name": "Close"
+    },
+    {
+      "ats": "ashby",
+      "slug": "comity",
+      "name": "Comity"
+    },
+    {
+      "ats": "ashby",
+      "slug": "compa",
+      "name": "Compa"
+    },
+    {
+      "ats": "ashby",
+      "slug": "complement",
+      "name": "Complement"
+    },
+    {
+      "ats": "ashby",
+      "slug": "creditgenie",
+      "name": "Credit Genie",
+      "fintech": true,
+      "sector": "Lending"
+    },
+    {
+      "ats": "ashby",
+      "slug": "deepsetai",
+      "name": "deepset"
+    },
+    {
+      "ats": "ashby",
+      "slug": "deeter-analytics",
+      "name": "Deeter Analytics"
+    },
+    {
+      "ats": "ashby",
+      "slug": "ditto",
+      "name": "Ditto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "duck-duck-go",
+      "name": "DuckDuckGo"
+    },
+    {
+      "ats": "ashby",
+      "slug": "eagle",
+      "name": "Eagle"
+    },
+    {
+      "ats": "ashby",
+      "slug": "equall",
+      "name": "Equall"
+    },
+    {
+      "ats": "ashby",
+      "slug": "footprint",
+      "name": "Footprint",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "ashby",
+      "slug": "forus",
+      "name": "Forus"
+    },
+    {
+      "ats": "ashby",
+      "slug": "growfig",
+      "name": "Fig"
+    },
+    {
+      "ats": "ashby",
+      "slug": "hive.co",
+      "name": "Hive"
+    },
+    {
+      "ats": "ashby",
+      "slug": "hiya",
+      "name": "Hiya"
+    },
+    {
+      "ats": "ashby",
+      "slug": "iceye",
+      "name": "ICEYE"
+    },
+    {
+      "ats": "ashby",
+      "slug": "jupus",
+      "name": "Jupus"
+    },
+    {
+      "ats": "ashby",
+      "slug": "kepler-ai",
+      "name": "Kepler"
+    },
+    {
+      "ats": "ashby",
+      "slug": "kiloforge",
+      "name": "Kiloforge"
+    },
+    {
+      "ats": "ashby",
+      "slug": "kong",
+      "name": "Kong"
+    },
+    {
+      "ats": "ashby",
+      "slug": "krakentech",
+      "name": "Kraken Technologies"
+    },
+    {
+      "ats": "ashby",
+      "slug": "livekit",
+      "name": "LiveKit"
+    },
+    {
+      "ats": "ashby",
+      "slug": "luxor",
+      "name": "Luxor",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "maincode",
+      "name": "Maincode"
+    },
+    {
+      "ats": "ashby",
+      "slug": "menlo",
+      "name": "Menlo"
+    },
+    {
+      "ats": "ashby",
+      "slug": "middesk",
+      "name": "Middesk",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "ashby",
+      "slug": "modal",
+      "name": "Modal"
+    },
+    {
+      "ats": "ashby",
+      "slug": "neo-tax",
+      "name": "Neo.Tax"
+    },
+    {
+      "ats": "ashby",
+      "slug": "norm-ai",
+      "name": "Norm Ai"
+    },
+    {
+      "ats": "ashby",
+      "slug": "odyssey",
+      "name": "Odyssey"
+    },
+    {
+      "ats": "ashby",
+      "slug": "onecrew",
+      "name": "OneCrew"
+    },
+    {
+      "ats": "ashby",
+      "slug": "oneleet",
+      "name": "Oneleet"
+    },
+    {
+      "ats": "ashby",
+      "slug": "opsmill",
+      "name": "OpsMill"
+    },
+    {
+      "ats": "ashby",
+      "slug": "oscilar",
+      "name": "Oscilar",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "ashby",
+      "slug": "permitflow",
+      "name": "PermitFlow"
+    },
+    {
+      "ats": "ashby",
+      "slug": "prior-labs",
+      "name": "Prior Labs"
+    },
+    {
+      "ats": "ashby",
+      "slug": "productgenius",
+      "name": "Product Genius"
+    },
+    {
+      "ats": "ashby",
+      "slug": "prompt",
+      "name": "Prompt"
+    },
+    {
+      "ats": "ashby",
+      "slug": "proxima-fusion",
+      "name": "Proxima Fusion"
+    },
+    {
+      "ats": "ashby",
+      "slug": "radical-numerics",
+      "name": "Radical Numerics"
+    },
+    {
+      "ats": "ashby",
+      "slug": "rebar",
+      "name": "Rebar"
+    },
+    {
+      "ats": "ashby",
+      "slug": "reducto",
+      "name": "Reducto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "reframesystems",
+      "name": "Reframe Systems"
+    },
+    {
+      "ats": "ashby",
+      "slug": "rho",
+      "name": "Rho",
+      "fintech": true,
+      "sector": "Neobank"
+    },
+    {
+      "ats": "ashby",
+      "slug": "river",
+      "name": "River",
+      "fintech": true,
+      "sector": "Crypto"
+    },
+    {
+      "ats": "ashby",
+      "slug": "runway-ml",
+      "name": "Runway"
+    },
+    {
+      "ats": "ashby",
+      "slug": "salesjack",
+      "name": "Salesjack"
+    },
+    {
+      "ats": "ashby",
+      "slug": "sentilink",
+      "name": "SentiLink",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "ashby",
+      "slug": "sheerhealth",
+      "name": "Sheer Health"
+    },
+    {
+      "ats": "ashby",
+      "slug": "shepherd",
+      "name": "Shepherd",
+      "fintech": true,
+      "sector": "Insurtech"
+    },
+    {
+      "ats": "ashby",
+      "slug": "smarkets",
+      "name": "Smarkets"
+    },
+    {
+      "ats": "ashby",
+      "slug": "somana.tech",
+      "name": "Somana"
+    },
+    {
+      "ats": "ashby",
+      "slug": "spruceid",
+      "name": "SpruceID"
+    },
+    {
+      "ats": "ashby",
+      "slug": "stream",
+      "name": "Stream"
+    },
+    {
+      "ats": "ashby",
+      "slug": "tetsuwan",
+      "name": "Tetsuwan"
+    },
+    {
+      "ats": "ashby",
+      "slug": "thundercompute",
+      "name": "Thunder Compute"
+    },
+    {
+      "ats": "ashby",
+      "slug": "tolmo",
+      "name": "Tolmo"
+    },
+    {
+      "ats": "ashby",
+      "slug": "tracelabs",
+      "name": "Trace Labs"
+    },
+    {
+      "ats": "ashby",
+      "slug": "turquoise-health",
+      "name": "Turquoise Health"
+    },
+    {
+      "ats": "ashby",
+      "slug": "voltai.careers",
+      "name": "Voltai"
+    },
+    {
+      "ats": "ashby",
+      "slug": "wirescreen",
+      "name": "WireScreen"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "brightcoreenergy",
+      "name": "Brightcore Energy"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "canopyworks",
+      "name": "Canopy"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "coast",
+      "name": "Coast",
+      "fintech": true,
+      "sector": "Cards"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "controlplane",
+      "name": "Control Plane"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "finnapp",
+      "name": "FINN",
+      "fintech": true,
+      "sector": "Lending"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "givedirectly",
+      "name": "GiveDirectly"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "grafanalabs",
+      "name": "Grafana Labs"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "ionq",
+      "name": "IonQ"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "justworks",
+      "name": "Justworks",
+      "fintech": true,
+      "sector": "Payroll"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "k2spacecorporation",
+      "name": "K2 Space"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "kinelo",
+      "name": "Kinelo"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "manifest",
+      "name": "Manifest"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "mattermost",
+      "name": "Mattermost"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "mozilla",
+      "name": "Mozilla"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "novacredit",
+      "name": "Nova Credit",
+      "fintech": true,
+      "sector": "Infrastructure"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "obsidiansecurity",
+      "name": "Obsidian Security"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "odinlabs",
+      "name": "Odin"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "oklo",
+      "name": "Oklo"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "piramidalinc",
+      "name": "Piramidal"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "planetscale",
+      "name": "PlanetScale"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "prolific",
+      "name": "Prolific"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "relativity",
+      "name": "Relativity"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "spacex",
+      "name": "SpaceX"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "thealleninstitute",
+      "name": "Allen Institute"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "vestwell",
+      "name": "Vestwell",
+      "fintech": true,
+      "sector": "Investing"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "weave",
+      "name": "Weave"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "wikimedia",
+      "name": "Wikimedia"
+    },
+    {
+      "ats": "lever",
+      "slug": "UpMetrics",
+      "name": "UpMetrics"
+    },
+    {
+      "ats": "lever",
+      "slug": "apolloresearch",
+      "name": "Apollo Research"
+    },
+    {
+      "ats": "lever",
+      "slug": "aquabyte",
+      "name": "Aquabyte"
+    },
+    {
+      "ats": "lever",
+      "slug": "articulate",
+      "name": "Articulate"
+    },
+    {
+      "ats": "lever",
+      "slug": "atomcomputing",
+      "name": "Atom Computing"
+    },
+    {
+      "ats": "lever",
+      "slug": "auw",
+      "name": "United Risk",
+      "fintech": true,
+      "sector": "Insurtech"
+    },
+    {
+      "ats": "lever",
+      "slug": "curai",
+      "name": "Curai"
+    },
+    {
+      "ats": "lever",
+      "slug": "distru",
+      "name": "Distru"
+    },
+    {
+      "ats": "lever",
+      "slug": "findigs",
+      "name": "Findigs"
+    },
+    {
+      "ats": "lever",
+      "slug": "getduranta",
+      "name": "Duranta"
+    },
+    {
+      "ats": "lever",
+      "slug": "loftorbital",
+      "name": "Loft Orbital"
+    },
+    {
+      "ats": "lever",
+      "slug": "rai",
+      "name": "RAI Institute"
+    },
+    {
+      "ats": "lever",
+      "slug": "ridezum",
+      "name": "Zum"
+    },
+    {
+      "ats": "lever",
+      "slug": "ro",
+      "name": "Ro"
+    },
+    {
+      "ats": "workable",
+      "slug": "akeno",
+      "name": "Akeno"
+    },
+    {
+      "ats": "workable",
+      "slug": "atria-health",
+      "name": "Atria Health"
+    },
+    {
+      "ats": "workable",
+      "slug": "justpark",
+      "name": "JustPark"
+    },
+    {
+      "ats": "workable",
+      "slug": "longshot-systems-ltd",
+      "name": "Longshot Systems"
+    },
+    {
+      "ats": "workable",
+      "slug": "modash",
+      "name": "Modash"
+    },
+    {
+      "ats": "workable",
+      "slug": "portswigger",
+      "name": "Portswigger"
+    },
+    {
+      "ats": "workable",
+      "slug": "seeq",
+      "name": "Seeq"
+    },
+    {
+      "ats": "workable",
+      "slug": "valis-insights-1",
+      "name": "VALIS"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "IND",
+      "name": "Amazon Jobs (front end engineer, IND)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "IND",
+      "name": "Amazon Jobs (software development engineer, IND)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "SGP",
+      "name": "Amazon Jobs (front end engineer, SGP)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "SGP",
+      "name": "Amazon Jobs (software development engineer, SGP)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "ARE",
+      "name": "Amazon Jobs (front end engineer, ARE)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "ARE",
+      "name": "Amazon Jobs (software development engineer, ARE)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "SAU",
+      "name": "Amazon Jobs (front end engineer, SAU)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "SAU",
+      "name": "Amazon Jobs (software development engineer, SAU)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "IRL",
+      "name": "Amazon Jobs (front end engineer, IRL)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "IRL",
+      "name": "Amazon Jobs (software development engineer, IRL)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "GBR",
+      "name": "Amazon Jobs (front end engineer, GBR)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "GBR",
+      "name": "Amazon Jobs (software development engineer, GBR)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "DEU",
+      "name": "Amazon Jobs (front end engineer, DEU)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "DEU",
+      "name": "Amazon Jobs (software development engineer, DEU)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "NLD",
+      "name": "Amazon Jobs (front end engineer, NLD)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "NLD",
+      "name": "Amazon Jobs (software development engineer, NLD)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "CAN",
+      "name": "Amazon Jobs (front end engineer, CAN)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "CAN",
+      "name": "Amazon Jobs (software development engineer, CAN)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "JPN",
+      "name": "Amazon Jobs (front end engineer, JPN)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "JPN",
+      "name": "Amazon Jobs (software development engineer, JPN)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "AUS",
+      "name": "Amazon Jobs (front end engineer, AUS)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "AUS",
+      "name": "Amazon Jobs (software development engineer, AUS)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "front end engineer",
+      "country": "LUX",
+      "name": "Amazon Jobs (front end engineer, LUX)"
+    },
+    {
+      "ats": "amazon",
+      "slug": "software development engineer",
+      "country": "LUX",
+      "name": "Amazon Jobs (software development engineer, LUX)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "India",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, India)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "India",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, India)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "India",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, India)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "India",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, India)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "United Arab Emirates",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, United Arab Emirates)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "United Arab Emirates",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, United Arab Emirates)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "United Arab Emirates",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, United Arab Emirates)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "United Arab Emirates",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, United Arab Emirates)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Saudi Arabia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Saudi Arabia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Saudi Arabia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Saudi Arabia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Saudi Arabia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Saudi Arabia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Saudi Arabia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Saudi Arabia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Qatar",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Qatar)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Qatar",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Qatar)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Qatar",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Qatar)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Qatar",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Qatar)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Netherlands",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Netherlands)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Netherlands",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Netherlands)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Netherlands",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Netherlands)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Netherlands",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Netherlands)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Germany",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Germany)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Germany",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Germany)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Germany",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Germany)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Germany",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Germany)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Ireland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Ireland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Ireland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Ireland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Ireland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Ireland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Ireland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Ireland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "United Kingdom",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, United Kingdom)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "United Kingdom",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, United Kingdom)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "United Kingdom",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, United Kingdom)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "United Kingdom",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, United Kingdom)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Sweden",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Sweden)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Sweden",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Sweden)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Sweden",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Sweden)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Sweden",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Sweden)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Denmark",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Denmark)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Denmark",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Denmark)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Denmark",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Denmark)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Denmark",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Denmark)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Switzerland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Switzerland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Switzerland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Switzerland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Switzerland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Switzerland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Switzerland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Switzerland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Luxembourg",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Luxembourg)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Luxembourg",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Luxembourg)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Luxembourg",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Luxembourg)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Luxembourg",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Luxembourg)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Singapore",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Singapore)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Singapore",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Singapore)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Singapore",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Singapore)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Singapore",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Singapore)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Japan",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Japan)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Japan",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Japan)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Japan",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Japan)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Japan",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Japan)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Australia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Australia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Australia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Australia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Australia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Australia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Australia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Australia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "Canada",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, Canada)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "Canada",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, Canada)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "Canada",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, Canada)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "Canada",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, Canada)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "react",
+      "location": "United States",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (react, United States)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "node.js",
+      "location": "United States",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (node.js, United States)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "full stack",
+      "location": "United States",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (full stack, United States)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "frontend",
+      "location": "United States",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (frontend, United States)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "India",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, India)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "India",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, India)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "United Arab Emirates",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, United Arab Emirates)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "United Arab Emirates",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, United Arab Emirates)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Saudi Arabia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Saudi Arabia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Saudi Arabia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Saudi Arabia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Qatar",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Qatar)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Qatar",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Qatar)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Netherlands",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Netherlands)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Netherlands",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Netherlands)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Germany",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Germany)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Germany",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Germany)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Ireland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Ireland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Ireland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Ireland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "United Kingdom",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, United Kingdom)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "United Kingdom",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, United Kingdom)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Sweden",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Sweden)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Sweden",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Sweden)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Denmark",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Denmark)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Denmark",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Denmark)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Switzerland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Switzerland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Switzerland",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Switzerland)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Luxembourg",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Luxembourg)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Luxembourg",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Luxembourg)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Singapore",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Singapore)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Singapore",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Singapore)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Japan",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Japan)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Japan",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Japan)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Australia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Australia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Australia",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Australia)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "Canada",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, Canada)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "Canada",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, Canada)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "software engineer",
+      "location": "United States",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (software engineer, United States)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "javascript",
+      "location": "United States",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (javascript, United States)"
+    },
+    {
+      "ats": "workable_search",
+      "slug": "fintech",
+      "location": "India",
+      "pages": 2,
+      "day_range": 7,
+      "name": "Workable search (fintech, India)"
     },
     {
       "ats": "cutshort",
@@ -1513,6 +4059,11 @@
       "name": "MyCareersFuture (node.js)"
     },
     {
+      "ats": "mycareersfuture",
+      "slug": "fintech",
+      "name": "MyCareersFuture (fintech)"
+    },
+    {
       "ats": "arbeitnow",
       "name": "Arbeitnow (visa sponsorship)",
       "visa_sponsorship": true,
@@ -1527,5 +4078,8 @@
       "ats": "remoteok",
       "name": "Remote OK"
     }
-  ]
+  ],
+  "discover_boards": true,
+  "discover_per_run": 30,
+  "workers": 12
 }

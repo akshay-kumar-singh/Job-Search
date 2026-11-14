@@ -10,6 +10,7 @@ resume/
 web/node_modules/
 web/dist/
 web/public/data/
+*.tsbuildinfo
 
 # Python, OS, editors, secrets
 __pycache__/

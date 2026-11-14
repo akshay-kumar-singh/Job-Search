@@ -7,6 +7,10 @@ open the posting, and tick what I applied to.
 
 - **No backend, no database, no API keys.** GitHub Actions does the collecting, a git branch holds the data, Netlify serves a static page.
 - **It never applies to anything.** It only reads public listings; you apply on the employer's site.
+- **About 500 sources:** 360+ company career pages, Workable's job search, Amazon's job search and six job boards —
+  and it finds new companies by itself every run.
+- **A Fintech section:** only jobs at payments, banking, lending, investing, crypto and insurance companies, plus a
+  directory of 120+ fintech companies with links to their careers pages.
 - **18 countries:** India, remote roles open to India, UAE, Saudi Arabia, Qatar, the Netherlands, Germany, Ireland,
   the UK, Sweden, Denmark, Switzerland, Luxembourg, Singapore, Japan, Australia, Canada and the United States.
 
@@ -14,15 +18,16 @@ open the posting, and tick what I applied to.
 
 ```
 main branch                                   data branch (rewritten on every run)
-├── collector/jobbot.py   ── every 6 hours ──▶ ├── meta.json          last run, sources, counts per country
-├── collector/config.json   (GitHub Actions)   └── jobs/<country>.json one file per country
+├── collector/jobbot.py   ── every 6 hours ──▶ ├── meta.json          last run, sources, counts, fintech companies
+├── collector/config.json   (GitHub Actions)   ├── jobs/<country>.json one file per country
+│                                              └── discovered.json    company boards found on Hacker News
 ├── web/  (React app) ─── Netlify ───▶ page that fetches the data branch from GitHub when it loads
 └── .github/workflows/collect.yml
 ```
 
-1. **Collect** — `collector/jobbot.py` (Python, standard library only) reads about 110 sources, filters by job title,
-   location and years of experience asked, and gives each job a 0–100 **fit** score from the skills in
-   `collector/config.json`.
+1. **Collect** — `collector/jobbot.py` (Python, standard library only) reads about 500 sources, filters by job title,
+   location, posting date and years of experience asked, gives each job a 0–100 **fit** score from the skills in
+   `collector/config.json`, and marks fintech jobs.
 2. **Store** — the workflow saves the result to the `data` branch as a single commit, overwritten each run, so the
    repository doesn't grow. It reads the previous run first, so it knows which jobs are new and which have closed.
 3. **Show** — the React app fetches `meta.json` and the selected country's file straight from
@@ -32,12 +37,15 @@ main branch                                   data branch (rewritten on every ru
 
 ## What you see
 
+- **All tech jobs / Fintech** — the switch at the top. *Fintech* shows only fintech jobs (with the same countries,
+  filters and tracking) and adds a **Companies** tab: every fintech company by sector, how many roles each has for you
+  (click to see them), and a link to its careers page.
 - **All countries** at once (the default), or one country at a time. Chips show how many jobs each has and how many
   are new in the last 24 hours.
 - **Jobs** — roles asking for up to 2 years of experience. **Stretch** — roles asking for 3 years (worth a try).
   Roles asking for more are left out.
 - **Fresh only** — jobs posted in the last 7 days. A job disappears from the lists once it's older than that.
-- Each job: fit score (Great / Good / Fair), experience asked, salary when stated, matched skills, posted and
+- Each job: fit score (Great / Good / Fair), experience asked, a *Fintech · Payments* style tag, salary when stated, matched skills, posted and
   first-seen dates, and for countries abroad a **visa note** ("Mentions visa sponsorship or relocation", "Says no visa
   sponsorship", "Asks for an existing right to work", "Asks for German", and for Singapore whether the pay meets the
   Employment Pass minimum).
@@ -56,7 +64,10 @@ one Newsreader italic word, black pill buttons and white rounded cards.
 
 | Source | Covers |
 |---|---|
-| Company career pages on Greenhouse, Lever, Ashby, SmartRecruiters and Workable | ~95 companies, e.g. Stripe, Razorpay, Airwallex, Adyen, Spotify, Mercari, Cohere, Careem, Grab, Canva |
+| Company career pages on Greenhouse, Lever, Ashby, SmartRecruiters and Workable | 360+ companies, e.g. Stripe, Razorpay, CRED, Groww, Airwallex, Adyen, Monzo, Coinbase, Spotify, Canva, Grab, Careem — 120+ of them fintechs |
+| [Workable job search](https://jobs.workable.com) | Every company that hires through Workable: React, Node.js, full stack, frontend, JavaScript and software engineer searches in each country, last 7 days |
+| [Amazon Jobs](https://www.amazon.jobs) | Frontend and SDE roles in each country |
+| [Hacker News “Who is hiring?”](https://news.ycombinator.com/submitted?id=whoishiring) | Not a job source itself: every run, company boards linked from the latest thread are checked and the ones hiring in these countries are followed from then on |
 | [MyCareersFuture](https://www.mycareersfuture.gov.sg) | Singapore's national job board (with salaries) |
 | [Arbeitnow](https://www.arbeitnow.com) | Germany / EU jobs that offer visa sponsorship |
 | [Cutshort](https://cutshort.io) | React, Node and frontend jobs in Bangalore |
@@ -64,6 +75,14 @@ one Newsreader italic word, black pill buttons and white rounded cards.
 
 Only jobs posted in the last 7 days are kept (a job with no posting date counts from the day it was first found).
 Company career pages list every open role, so a job that disappears from one is dropped as closed.
+
+It can't read literally every job: LinkedIn, Indeed, Naukri, Bayt and SEEK block bots, and companies with their own
+custom careers sites (or Workday) can't be read reliably. For those, each country has *Search by hand* links, already
+filtered to the past week.
+
+**What counts as fintech:** a job at a company marked `"fintech": true` in the config, at a company that describes itself
+as fintech (Workable search gives the company's description), or a posting that clearly is one (the word fintech, or two
+signals such as payments platform, UPI, KYC, neobank, lending platform, crypto).
 
 ## Deploy
 
@@ -91,8 +110,10 @@ Everything is in `collector/config.json`; push a change and the next run uses it
 | `max_required_years` / `stretch_years` | Up to the first goes on *Jobs*, up to the second on *Stretch*, more is dropped |
 | `max_posting_age_days` | Jobs posted longer ago than this are dropped, whatever the source (7 = fresh jobs only) |
 | `target_employers` | Companies marked with ★ |
+| `discover_boards` / `discover_per_run` | Find new company boards in the latest Hacker News “Who is hiring?” thread, and how many to check per run |
+| `workers` | How many sources are read at the same time (each site also has its own small limit) |
 | `countries` | Per country: `locations` words, optional `exclude` / `require` words, `nationality` and `citizens_only` phrases (those postings are dropped), `language`, `salary_floor`, and `boards` (the *Search by hand* links) |
-| `feeds` | Sources. Company boards: `{"ats": "greenhouse" \| "lever" \| "ashby" \| "smartrecruiters" \| "workable", "slug": …, "name": …}` — the slug is the company's name in its careers URL, e.g. `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, `jobs.ashbyhq.com/<slug>` |
+| `feeds` | Sources. Company boards: `{"ats": "greenhouse" \| "lever" \| "ashby" \| "smartrecruiters" \| "workable", "slug": …, "name": …}` — the slug is the company's name in its careers URL, e.g. `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, `jobs.ashbyhq.com/<slug>`. Add `"fintech": true, "sector": "Payments"` to put a company in the Fintech section. Searches: `{"ats": "workable_search", "slug": "<search>", "location": "India"}` and `{"ats": "amazon", "slug": "<search>", "country": "IND"}` |
 
 ## Run locally
 

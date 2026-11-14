@@ -74,3 +74,7 @@ export function hostOf(url: string): string {
 export function matchLabel(fit: number): string {
   return fit >= 70 ? 'Great' : fit >= 50 ? 'Good' : 'Fair'
 }
+
+const LEGAL_SUFFIX = /\s*\([^)]*\)|,?\s+(?:pte\.?|private\s+limited|ltd\.?|limited|inc\.?|llc|gmbh|b\.?v\.?|plc|corp\.?)(?=\s|$|,)/gi
+/** One key for the same company however a source writes it ("Airwallex (Singapore) Pte. Ltd." = "Airwallex"); same rule as the collector. */
+export const companyKey = (name: string) => name.replace(LEGAL_SUFFIX, '').toLowerCase().replace(/[^a-z0-9]+/g, '')

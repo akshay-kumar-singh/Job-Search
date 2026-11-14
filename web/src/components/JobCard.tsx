@@ -70,6 +70,9 @@ export default function JobCard({ job, places, showVisa, tracked, opened, onOpen
 
           <div className="mt-3 flex flex-wrap gap-1.5">
             <span className="tag">{job.years === null ? 'Experience not stated' : `${job.years}+ yrs asked`}</span>
+            {job.fintech && (
+              <span className="tag tag-accent">{job.sector && job.sector !== 'Fintech' ? `Fintech · ${job.sector}` : 'Fintech'}</span>
+            )}
             {job.salary && <span className="tag">{job.salary}</span>}
             {showVisa && job.visa.length > 0 && <span className={VISA_TAG[job.visa_level]}>{job.visa[0]}</span>}
           </div>
