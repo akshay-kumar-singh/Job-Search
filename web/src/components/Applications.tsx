@@ -43,14 +43,8 @@ export default function Applications({ apps, countries, onStatus, onNotes, onRem
   }
 
   const tab = (value: Status | 'all', label: string, count: number) => (
-    <button
-      key={value}
-      type="button"
-      onClick={() => setFilter(value)}
-      aria-pressed={filter === value}
-      className={`rounded-full px-3 py-1 text-sm ${filter === value ? 'bg-slate-800 text-white' : 'bg-white text-slate-600 ring-1 ring-slate-200 hover:ring-slate-400'}`}
-    >
-      {label} <span className="opacity-70">{count}</span>
+    <button key={value} type="button" onClick={() => setFilter(value)} aria-pressed={filter === value} className="chip">
+      {label} <span className={filter === value ? 'text-white/70' : 'text-faint'}>{count}</span>
     </button>
   )
 
@@ -60,10 +54,10 @@ export default function Applications({ apps, countries, onStatus, onNotes, onRem
         {tab('all', 'All', all.filter((a) => a.status !== 'Not interested').length)}
         {STATUSES.map((s) => tab(s, s, all.filter((a) => a.status === s).length))}
         <div className="ml-auto flex gap-2">
-          <button type="button" onClick={exportFile} className="rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm hover:border-slate-500">
+          <button type="button" onClick={exportFile} className="btn btn-secondary">
             Export
           </button>
-          <button type="button" onClick={() => fileInput.current?.click()} className="rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm hover:border-slate-500">
+          <button type="button" onClick={() => fileInput.current?.click()} className="btn btn-secondary">
             Import
           </button>
           <input
@@ -79,33 +73,37 @@ export default function Applications({ apps, countries, onStatus, onNotes, onRem
           />
         </div>
       </div>
-      <p className="text-xs text-slate-500">
-        Saved in this browser only. Use Export to back up or to move your list to another device, then Import it there.
+      <p className="text-xs text-faint">
+        Jobs you marked applied stay here for good, even after they leave the job lists. Saved in this browser only — use
+        Export to back up or to move your list to another device, then Import it there.
       </p>
-      {message && <p className="text-sm text-indigo-700">{message}</p>}
+      {message && <p className="text-sm font-semibold text-accent">{message}</p>}
 
       {shown.length ? (
-        <ul className="space-y-3">
+        <ul className="space-y-4">
           {shown.map((a) => {
             const c = country(a.job.country)
             const days = daysSince(a.appliedOn) ?? 0
             return (
-              <li key={a.id} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+              <li key={a.id} className="card p-5">
                 <div className="flex flex-wrap items-start gap-x-3 gap-y-2">
                   <div className="min-w-0 flex-1">
-                    <p className="text-sm text-slate-600">
-                      <span className="font-semibold text-slate-800">{a.job.company}</span>
-                      {c && <> · {c.flag} {c.name}</>}
+                    <p className="text-sm text-muted">
+                      <span className="font-display font-bold text-ink">{a.job.company}</span>
+                      {c && (
+                        <span className="text-faint">
+                          {' '}
+                          · {c.flag} {c.name}
+                        </span>
+                      )}
                     </p>
-                    <a href={a.job.url} target="_blank" rel="noopener" className="font-semibold text-slate-900 hover:text-indigo-700 hover:underline">
+                    <a href={a.job.url} target="_blank" rel="noopener" className="font-display text-lg font-bold text-ink hover:text-accent">
                       {a.job.title}
                     </a>
-                    <p className="text-sm text-slate-500">
+                    <p className="mt-0.5 text-sm text-muted">
                       {a.job.location} · {a.status === 'Not interested' ? 'Hidden' : 'Applied'} {shortDate(a.appliedOn)}
                       {a.status === 'Applied' && days >= FOLLOW_UP_DAYS && (
-                        <span className="ml-2 rounded bg-amber-100 px-1.5 text-xs font-semibold text-amber-800">
-                          Follow up — {days} days, no reply yet
-                        </span>
+                        <span className="tag tag-warn ml-2">Follow up — {days} days, no reply yet</span>
                       )}
                     </p>
                   </div>
@@ -113,13 +111,13 @@ export default function Applications({ apps, countries, onStatus, onNotes, onRem
                     value={a.status}
                     onChange={(e) => onStatus(a.id, e.target.value as Status)}
                     aria-label="Status"
-                    className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm"
+                    className="field py-1.5"
                   >
                     {STATUSES.map((s) => (
                       <option key={s}>{s}</option>
                     ))}
                   </select>
-                  <button type="button" onClick={() => onRemove(a.id)} className="rounded-md px-2 py-1.5 text-sm text-slate-400 hover:text-red-600">
+                  <button type="button" onClick={() => onRemove(a.id)} className="btn btn-ghost hover:!text-warn">
                     Remove
                   </button>
                 </div>
@@ -128,15 +126,16 @@ export default function Applications({ apps, countries, onStatus, onNotes, onRem
                   onBlur={(e) => e.target.value !== a.notes && onNotes(a.id, e.target.value)}
                   placeholder="Notes: recruiter name, interview date, salary discussed…"
                   rows={2}
-                  className="mt-3 w-full rounded-md border border-slate-200 px-2.5 py-1.5 text-sm focus:border-indigo-500 focus:outline-none"
+                  className="field mt-3 w-full"
                 />
               </li>
             )
           })}
         </ul>
       ) : (
-        <div className="rounded-xl border border-dashed border-slate-300 bg-white p-8 text-center text-sm text-slate-500">
-          Nothing here yet. Press “✓ Mark applied” on a job after you apply, and it shows up here.
+        <div className="card border-dashed border-line-strong p-10 text-center text-sm text-muted">
+          Nothing here yet. After you apply, press “✓ Mark applied” (or “Yes, mark applied” when you come back from a job's
+          page) and it shows up here.
         </div>
       )}
     </section>

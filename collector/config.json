@@ -4,9 +4,8 @@
   "min_score": 35,
   "max_required_years": 2,
   "stretch_years": 3,
-  "max_posting_age_days": 30,
+  "max_posting_age_days": 7,
   "keep_closed_days": 7,
-  "keep_found_days": 45,
   "min_salary_lpa": 0,
   "title_include": [
     "software engineer",
@@ -22,7 +21,6 @@
     "react",
     "reactjs",
     "react.js",
-    "node",
     "nodejs",
     "node.js",
     "javascript",
@@ -36,7 +34,10 @@
     "backend",
     "back-end",
     "back end",
-    "member of technical staff"
+    "member of technical staff",
+    "node developer",
+    "node engineer",
+    "node js"
   ],
   "title_exclude": [
     "senior",
@@ -83,7 +84,19 @@
     "golang",
     "angular",
     "site reliability",
-    "infrastructure"
+    "infrastructure",
+    "mechanical",
+    "electrical",
+    "civil",
+    "hardware",
+    "network engineer",
+    "engineer 3",
+    "infra",
+    "gpu",
+    "ai community",
+    "ai trainer",
+    "ai training",
+    "annotation"
   ],
   "skills": [
     {
@@ -304,12 +317,12 @@
       ],
       "boards": [
         [
-          "LinkedIn - React developer, India",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=India"
+          "LinkedIn - React developer, India (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=India&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "Naukri - React developer",
-          "https://www.naukri.com/react-developer-jobs"
+          "Naukri - React developer (past week)",
+          "https://www.naukri.com/react-developer-jobs?experience=1&jobAge=7"
         ],
         [
           "Cutshort - React, Bangalore",
@@ -375,8 +388,8 @@
       },
       "boards": [
         [
-          "LinkedIn - React developer, United Arab Emirates",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20Arab%20Emirates"
+          "LinkedIn - React developer, United Arab Emirates (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20Arab%20Emirates&f_TPR=r604800&f_E=2%2C3"
         ],
         [
           "Bayt - React developer, UAE",
@@ -412,8 +425,8 @@
       },
       "boards": [
         [
-          "LinkedIn - React developer, Saudi Arabia",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Saudi%20Arabia"
+          "LinkedIn - React developer, Saudi Arabia (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Saudi%20Arabia&f_TPR=r604800&f_E=2%2C3"
         ],
         [
           "Bayt - React developer, Saudi Arabia",
@@ -439,8 +452,8 @@
       },
       "boards": [
         [
-          "LinkedIn - React developer, Qatar",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Qatar"
+          "LinkedIn - React developer, Qatar (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Qatar&f_TPR=r604800&f_E=2%2C3"
         ],
         [
           "Bayt - React developer, Qatar",
@@ -487,12 +500,12 @@
       ],
       "boards": [
         [
-          "LinkedIn - React developer, Netherlands",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Netherlands"
+          "LinkedIn - React developer, Netherlands (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Netherlands&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "Indeed Netherlands - React developer",
-          "https://nl.indeed.com/jobs?q=react+developer"
+          "Indeed Netherlands - React developer (past week)",
+          "https://nl.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
         ]
       ]
     },
@@ -547,8 +560,8 @@
       ],
       "boards": [
         [
-          "LinkedIn - React developer, Germany",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Germany"
+          "LinkedIn - React developer, Germany (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Germany&f_TPR=r604800&f_E=2%2C3"
         ],
         [
           "StepStone - React developer",
@@ -577,12 +590,12 @@
       ],
       "boards": [
         [
-          "LinkedIn - React developer, Ireland",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Ireland"
+          "LinkedIn - React developer, Ireland (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Ireland&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "Indeed Ireland - React developer",
-          "https://ie.indeed.com/jobs?q=react+developer"
+          "Indeed Ireland - React developer (past week)",
+          "https://ie.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
         ]
       ]
     },
@@ -619,12 +632,12 @@
       ],
       "boards": [
         [
-          "LinkedIn - React developer, United Kingdom",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20Kingdom"
+          "LinkedIn - React developer, United Kingdom (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20Kingdom&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "Indeed UK - React developer",
-          "https://uk.indeed.com/jobs?q=react+developer"
+          "Indeed UK - React developer (past week)",
+          "https://uk.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
         ]
       ]
     },
@@ -661,12 +674,12 @@
       ],
       "boards": [
         [
-          "LinkedIn - React developer, Sweden",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Sweden"
+          "LinkedIn - React developer, Sweden (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Sweden&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "Indeed Sweden - React developer",
-          "https://se.indeed.com/jobs?q=react+developer"
+          "Indeed Sweden - React developer (past week)",
+          "https://se.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
         ]
       ]
     },
@@ -700,8 +713,8 @@
       ],
       "boards": [
         [
-          "LinkedIn - React developer, Denmark",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Denmark"
+          "LinkedIn - React developer, Denmark (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Denmark&f_TPR=r604800&f_E=2%2C3"
         ],
         [
           "Jobindex - React",
@@ -737,12 +750,12 @@
       },
       "boards": [
         [
-          "LinkedIn - React developer, Switzerland",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Switzerland"
+          "LinkedIn - React developer, Switzerland (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Switzerland&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "Indeed Switzerland - React developer",
-          "https://ch.indeed.com/jobs?q=react+developer"
+          "Indeed Switzerland - React developer (past week)",
+          "https://ch.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
         ]
       ]
     },
@@ -759,12 +772,12 @@
       },
       "boards": [
         [
-          "LinkedIn - React developer, Luxembourg",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Luxembourg"
+          "LinkedIn - React developer, Luxembourg (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Luxembourg&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "Indeed Luxembourg - React developer",
-          "https://lu.indeed.com/jobs?q=react+developer"
+          "Indeed Luxembourg - React developer (past week)",
+          "https://lu.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
         ]
       ]
     },
@@ -794,12 +807,12 @@
       },
       "boards": [
         [
-          "LinkedIn - React developer, Singapore",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Singapore"
+          "LinkedIn - React developer, Singapore (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Singapore&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "MyCareersFuture - React",
-          "https://www.mycareersfuture.gov.sg/search?search=react"
+          "MyCareersFuture - React (newest first)",
+          "https://www.mycareersfuture.gov.sg/search?search=react&sortBy=new_posting_date"
         ],
         [
           "NodeFlair - React",
@@ -838,8 +851,8 @@
           "https://www.tokyodev.com/jobs"
         ],
         [
-          "LinkedIn - React developer, Japan",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Japan"
+          "LinkedIn - React developer, Japan (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Japan&f_TPR=r604800&f_E=2%2C3"
         ]
       ]
     },
@@ -868,16 +881,16 @@
       ],
       "boards": [
         [
-          "LinkedIn - React developer, Australia",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Australia"
+          "LinkedIn - React developer, Australia (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Australia&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "SEEK - React developer",
-          "https://www.seek.com.au/react-developer-jobs"
+          "SEEK - React developer (past week)",
+          "https://www.seek.com.au/react-developer-jobs?daterange=7"
         ],
         [
-          "Indeed Australia - React developer",
-          "https://au.indeed.com/jobs?q=react+developer"
+          "Indeed Australia - React developer (past week)",
+          "https://au.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
         ]
       ]
     },
@@ -903,12 +916,12 @@
       },
       "boards": [
         [
-          "LinkedIn - React developer, Canada",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Canada"
+          "LinkedIn - React developer, Canada (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Canada&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "Indeed Canada - React developer",
-          "https://ca.indeed.com/jobs?q=react+developer"
+          "Indeed Canada - React developer (past week)",
+          "https://ca.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
         ]
       ]
     },
@@ -942,12 +955,12 @@
       ],
       "boards": [
         [
-          "LinkedIn - React developer, United States",
-          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20States"
+          "LinkedIn - React developer, United States (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20States&f_TPR=r604800&f_E=2%2C3"
         ],
         [
-          "Indeed USA - React developer",
-          "https://www.indeed.com/jobs?q=react+developer"
+          "Indeed USA - React developer (past week)",
+          "https://www.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
         ]
       ]
     }
@@ -1465,6 +1478,18 @@
       "ats": "himalayas",
       "slug": "javascript",
       "name": "Himalayas (javascript, open to India)",
+      "country": "India"
+    },
+    {
+      "ats": "himalayas",
+      "slug": "node",
+      "name": "Himalayas (node, open to India)",
+      "country": "India"
+    },
+    {
+      "ats": "himalayas",
+      "slug": "typescript",
+      "name": "Himalayas (typescript, open to India)",
       "country": "India"
     },
     {

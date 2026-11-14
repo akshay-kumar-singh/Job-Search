@@ -43,3 +43,34 @@ export function shortDate(day: string): string {
   const t = parse(day)
   return Number.isNaN(t) ? day : new Date(t).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })
 }
+
+// The collector runs at 00:17, 06:17, 12:17 and 18:17 UTC (.github/workflows/collect.yml).
+// GitHub can start scheduled runs a little late, so the app says "around".
+const RUN_HOURS_UTC = [0, 6, 12, 18]
+const RUN_MINUTE_UTC = 17
+
+export function nextRun(now = new Date()): Date {
+  for (let day = 0; day < 2; day++) {
+    for (const hour of RUN_HOURS_UTC) {
+      const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + day, hour, RUN_MINUTE_UTC))
+      if (t.getTime() > now.getTime()) return t
+    }
+  }
+  return new Date(now.getTime() + 6 * 3_600_000)
+}
+
+export function clock(d: Date): string {
+  return d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' })
+}
+
+export function hostOf(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '')
+  } catch {
+    return ''
+  }
+}
+
+export function matchLabel(fit: number): string {
+  return fit >= 70 ? 'Great' : fit >= 50 ? 'Good' : 'Fair'
+}

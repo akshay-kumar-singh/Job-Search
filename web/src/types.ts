@@ -22,6 +22,11 @@ export interface Job {
   closed_on?: string
 }
 
+/** A job as shown in a list: the countries it was found for (a "Stockholm / London" role is in two). */
+export interface ListedJob extends Job {
+  countryKeys: string[]
+}
+
 export interface CountrySummary {
   key: string
   name: string
@@ -49,6 +54,10 @@ export interface Meta {
   experience_years: number | null
   max_required_years: number
   stretch_years: number
+  min_score?: number
+  max_posting_age_days?: number
+  keep_closed_days?: number
+  skills?: [string, number][]
   countries: CountrySummary[]
   sources: SourceStatus[]
 }

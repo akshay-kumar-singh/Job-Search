@@ -144,7 +144,7 @@ def jobs_from(feed, wanted):
     def add(job_id, title, location, url, text, company=None, **extra):
         out.append({"id": f"{ats}:{slug}:{job_id}", "company": tidy_company(company or feed["name"]),
                     "title": (title or "").strip(), "location": location, "url": url, "text": text,
-                    "source": source, "company_board": ats in FULL_BOARDS, **extra})
+                    "source": source, **extra})
 
     if ats == "greenhouse":
         for j in fetch(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs").get("jobs", []):
@@ -392,9 +392,9 @@ def evaluate(job, cfg, country):
     lpa = job.get("salary_max_lpa")  # only known when a listing states an INR salary
     if lpa is not None and lpa < cfg.get("min_salary_lpa", 0):
         return None
-    # A role still listed on the company's own careers page is open however long ago it was posted;
-    # on job boards an old listing is usually stale.
-    if not job.get("company_board") and age_days(job.get("posted")) > cfg["max_posting_age_days"]:
+    # Fresh jobs only: anything posted more than max_posting_age_days ago is left out, whatever the source.
+    # (Jobs with no posting date expire that long after they were first found; see run().)
+    if age_days(job.get("posted")) > cfg["max_posting_age_days"]:
         return None
     blob = (job["title"] + " " + text).lower()
     fit, hits = 20, []
@@ -476,6 +476,11 @@ def run(config_path, data_dir):
     checked = {f"{f['ats']}:{f.get('slug', '')}" for f, _, err in results if not err and f["ats"] in FULL_BOARDS}
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     today = date.today().isoformat()
+    max_age = cfg["max_posting_age_days"]
+
+    def too_old(job):  # posted too long ago, or (no posting date) first found too long ago
+        return age_days(job.get("posted") or job.get("found")) > max_age
+
     summary = []
     for c in countries:
         jobs, new = state[c["key"]], 0
@@ -500,16 +505,9 @@ def run(config_path, data_dir):
             jobs[job["id"]] = {**public_fields(job, result, cfg), "found": now, "closed": False}
             have.add(title_key(job["title"], job["company"]))
             new += 1
-        for job_id, job in list(jobs.items()):  # forget closed jobs, and job-board listings gone stale
-            if job_id in listed:
-                continue  # open right now; already re-checked above
-            if job.get("closed"):
-                if age_days(job.get("closed_on")) > cfg.get("keep_closed_days", 7):
-                    del jobs[job_id]
-            elif job_id.split(":")[0] in FULL_BOARDS:
-                continue  # its company board didn't load this time; keep it until the board answers
-            elif (age_days(job.get("posted")) > cfg["max_posting_age_days"]
-                    or age_days(job.get("found")) > cfg.get("keep_found_days", 45)):
+        for job_id, job in list(jobs.items()):  # forget old, closed, and (after a settings change) unfitting jobs
+            if (too_old(job) or not title_fits(job["title"], cfg) or not in_country(job["location"], c)
+                    or (job.get("closed") and age_days(job.get("closed_on")) > cfg.get("keep_closed_days", 7))):
                 del jobs[job_id]
         ordered = sorted(jobs.values(), key=lambda j: (j.get("closed", False), -j["fit"], j.get("posted") or ""))
         write_json(os.path.join(data_dir, "jobs", f"{c['key']}.json"),
@@ -524,7 +522,9 @@ def run(config_path, data_dir):
     write_json(os.path.join(data_dir, "meta.json"), {
         "updated": now, "schedule": cfg.get("schedule", ""), "scanned": len(openings),
         "experience_years": cfg.get("experience_years"), "max_required_years": cfg["max_required_years"],
-        "stretch_years": cfg["stretch_years"], "countries": summary,
+        "stretch_years": cfg["stretch_years"], "min_score": cfg["min_score"],
+        "max_posting_age_days": cfg["max_posting_age_days"], "keep_closed_days": cfg.get("keep_closed_days", 7),
+        "skills": [[s["name"], s["points"]] for s in cfg["skills"]], "countries": summary,
         "sources": [{"name": f["name"], "type": SOURCE_LABELS.get(f["ats"], f["ats"]), "ok": not err,
                      "matches": len(jobs), "error": err} for f, jobs, err in results]})
     log(f"done in {time.time() - started:.0f}s: {len(openings)} candidate openings from "

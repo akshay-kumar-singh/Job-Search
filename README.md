@@ -32,14 +32,25 @@ main branch                                   data branch (rewritten on every ru
 
 ## What you see
 
-- Country chips with the number of jobs and how many are new in the last 24 hours.
+- **All countries** at once (the default), or one country at a time. Chips show how many jobs each has and how many
+  are new in the last 24 hours.
 - **Jobs** — roles asking for up to 2 years of experience. **Stretch** — roles asking for 3 years (worth a try).
   Roles asking for more are left out.
-- Each job: fit score, experience asked, salary when stated, matched skills, and for countries abroad a **visa note**
-  ("Mentions visa sponsorship or relocation", "Says no visa sponsorship", "Asks for an existing right to work",
-  "Asks for German", and for Singapore whether the pay meets the Employment Pass minimum).
-- Filters: search, fit, posted within, visa notes, sort, hide applied. Postings only open to citizens are dropped.
-- *Search by hand* links per country (LinkedIn, Indeed, Bayt, SEEK, Naukri, …) for sites that can't be read automatically.
+- **Fresh only** — jobs posted in the last 7 days. A job disappears from the lists once it's older than that.
+- Each job: fit score (Great / Good / Fair), experience asked, salary when stated, matched skills, posted and
+  first-seen dates, and for countries abroad a **visa note** ("Mentions visa sponsorship or relocation", "Says no visa
+  sponsorship", "Asks for an existing right to work", "Asks for German", and for Singapore whether the pay meets the
+  Employment Pass minimum).
+- **Apply on company site / Apply on Cutshort …** opens the original posting in a new tab. When you come back, the card
+  asks *Did you apply?* — *Yes* moves it to **My applications**, which keeps it for good.
+- Filters: search, newest first / best match, posted today / 3 days / this week, match level, visa notes, new today,
+  hide applied. Postings only open to citizens are dropped.
+- *Search by hand* links per country (LinkedIn, Indeed, Naukri, Bayt, SEEK, …), already filtered to the past week, for
+  sites that can't be read automatically.
+- **How it works** — the same explanation inside the app, with the live numbers.
+
+The design matches the portfolio and DeskCharm: cream paper, near-black ink, gold accents, Inter Tight headlines with
+one Newsreader italic word, black pill buttons and white rounded cards.
 
 ## Where jobs come from
 
@@ -51,8 +62,8 @@ main branch                                   data branch (rewritten on every ru
 | [Cutshort](https://cutshort.io) | React, Node and frontend jobs in Bangalore |
 | [Himalayas](https://himalayas.app), [Remotive](https://remotive.com), [Remote OK](https://remoteok.com) | Remote jobs open to India |
 
-Company career pages list every open role, so a job that disappears from one is marked closed. Job-board listings
-older than 30 days are dropped.
+Only jobs posted in the last 7 days are kept (a job with no posting date counts from the day it was first found).
+Company career pages list every open role, so a job that disappears from one is dropped as closed.
 
 ## Deploy
 
@@ -78,7 +89,7 @@ Everything is in `collector/config.json`; push a change and the next run uses it
 | `skills` | `{name, match, points}` — each skill found in the title or description adds its points to the fit score |
 | `min_score` | Jobs below this fit score are left out (every job starts at 20; +15 if it asks ≤1 year, +8 otherwise) |
 | `max_required_years` / `stretch_years` | Up to the first goes on *Jobs*, up to the second on *Stretch*, more is dropped |
-| `max_posting_age_days` | Job-board listings older than this are dropped |
+| `max_posting_age_days` | Jobs posted longer ago than this are dropped, whatever the source (7 = fresh jobs only) |
 | `target_employers` | Companies marked with ★ |
 | `countries` | Per country: `locations` words, optional `exclude` / `require` words, `nationality` and `citizens_only` phrases (those postings are dropped), `language`, `salary_floor`, and `boards` (the *Search by hand* links) |
 | `feeds` | Sources. Company boards: `{"ats": "greenhouse" \| "lever" \| "ashby" \| "smartrecruiters" \| "workable", "slug": …, "name": …}` — the slug is the company's name in its careers URL, e.g. `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, `jobs.ashbyhq.com/<slug>` |
