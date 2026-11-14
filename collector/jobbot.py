@@ -601,8 +601,9 @@ def load_json(path, default):
 def write_json(path, data):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     tmp = path + ".tmp"
-    with open(tmp, "w") as f:
-        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    with open(tmp, "w") as f:  # indented, so the files are easy to read on GitHub (gzip makes the spaces nearly free)
+        json.dump(data, f, ensure_ascii=False, indent=2)
+        f.write("\n")
     os.replace(tmp, path)
 
 
