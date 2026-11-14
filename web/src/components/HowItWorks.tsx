@@ -183,8 +183,9 @@ export default function HowItWorks({ meta, onBrowse }: { meta: Meta; onBrowse: (
             applying.
           </p>
           <p>
-            It's saved in this browser only. Use <b>Export</b> to back it up or to move it to your phone, then <b>Import</b>{' '}
-            there.
+            It's saved online and in this browser, so a refresh or a cleared browser doesn't lose it. To see the same list on
+            your phone, press <b>Use on another device</b> in My applications and open that link once on the phone. Keep the
+            link private: it is the key to your list.
           </p>
         </Section>
 

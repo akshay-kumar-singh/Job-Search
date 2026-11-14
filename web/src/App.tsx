@@ -21,7 +21,7 @@ export default function App() {
   const [savedTab, setTab] = usePref<Tab>('view-tab', 'jobs')
   const [mode, setModePref] = usePref<Mode>('mode', 'all')
   const [company, setCompany] = useState<string | null>(null) // set from the fintech company list
-  const { apps, track, update, remove, importApps } = useApplications()
+  const { apps, track, update, remove, importApps, sync, deviceLink } = useApplications()
   const [opened, setOpened] = useState<Set<string>>(() => new Set())
   const tabsRef = useRef<HTMLDivElement>(null)
 
@@ -246,6 +246,8 @@ export default function App() {
             ) : tab === 'applied' ? (
               <Applications
                 apps={apps}
+                sync={sync}
+                deviceLink={deviceLink}
                 countries={summaries}
                 onStatus={(id, status) => update(id, { status })}
                 onNotes={(id, notes) => update(id, { notes })}

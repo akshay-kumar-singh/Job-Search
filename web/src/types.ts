@@ -85,12 +85,13 @@ export interface Meta {
 export const STATUSES = ['Applied', 'Interview', 'Offer', 'Rejected', 'Not interested'] as const
 export type Status = (typeof STATUSES)[number]
 
-/** A job you acted on. Kept in this browser (localStorage) with a copy of the job's details,
- *  so it stays listed after the job leaves the data. */
+/** A job you acted on, with a copy of the job's details so it stays listed after the job leaves the data.
+ *  Saved in the browser and online (see lib/storage.ts). */
 export interface Application {
   id: string
   status: Status
   appliedOn: string
   notes: string
+  updatedAt?: string // when it last changed (ISO); when two devices disagree, the newest change wins
   job: { company: string; title: string; location: string; url: string; country: string }
 }

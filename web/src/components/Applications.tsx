@@ -2,9 +2,13 @@ import { useMemo, useRef, useState } from 'react'
 import type { Application, CountrySummary, Status } from '../types'
 import { STATUSES } from '../types'
 import { daysSince, isoDay, shortDate } from '../lib/format'
+import type { SyncStatus } from '../lib/storage'
+import { cleanState } from '../lib/sync'
 
 interface Props {
   apps: Record<string, Application>
+  sync: SyncStatus
+  deviceLink: string // opens this same list on another device
   countries: CountrySummary[]
   onStatus: (id: string, status: Status) => void
   onNotes: (id: string, notes: string) => void
@@ -14,9 +18,17 @@ interface Props {
 
 const FOLLOW_UP_DAYS = 7
 
-export default function Applications({ apps, countries, onStatus, onNotes, onRemove, onImport }: Props) {
+const SYNC_TEXT: Record<SyncStatus, string> = {
+  saving: 'Saving online…',
+  saved: '✓ Saved online — safe if you refresh or clear this browser, and the same on every device you link',
+  offline: "Couldn't reach the server — your list is kept in this browser and will be saved online when it can",
+}
+
+export default function Applications({ apps, sync, deviceLink, countries, onStatus, onNotes, onRemove, onImport }: Props) {
   const [filter, setFilter] = useState<Status | 'all'>('all')
   const [message, setMessage] = useState('')
+  const [showLink, setShowLink] = useState(false)
+  const [copied, setCopied] = useState(false)
   const fileInput = useRef<HTMLInputElement>(null)
   const all = useMemo(() => Object.values(apps).sort((a, b) => b.appliedOn.localeCompare(a.appliedOn)), [apps])
   const shown = filter === 'all' ? all.filter((a) => a.status !== 'Not interested') : all.filter((a) => a.status === filter)
@@ -33,8 +45,7 @@ export default function Applications({ apps, countries, onStatus, onNotes, onRem
 
   async function importFile(file: File) {
     try {
-      const data = JSON.parse(await file.text()) as Record<string, Application>
-      const valid = Object.fromEntries(Object.entries(data).filter(([, a]) => a && a.id && a.status && a.job?.title))
+      const valid = cleanState({ apps: JSON.parse(await file.text()) })?.apps ?? {}
       onImport(valid)
       setMessage(`Imported ${Object.keys(valid).length} applications.`)
     } catch {
@@ -73,9 +84,55 @@ export default function Applications({ apps, countries, onStatus, onNotes, onRem
           />
         </div>
       </div>
+      <div className="card flex flex-wrap items-center gap-x-4 gap-y-2 px-5 py-3 text-sm">
+        <span className={`mr-auto ${sync === 'offline' ? 'text-warn' : sync === 'saved' ? 'text-good' : 'text-muted'}`}>
+          {SYNC_TEXT[sync]}
+        </span>
+        <button type="button" onClick={() => setShowLink((v) => !v)} aria-expanded={showLink} className="font-semibold text-accent hover:underline">
+          Use on another device {showLink ? '▴' : '▾'}
+        </button>
+      </div>
+      {showLink && (
+        <div className="card p-5 text-sm">
+          <p className="font-display text-base font-bold text-ink">Open this link once on your phone or another browser</p>
+          <p className="mt-1 leading-relaxed text-muted">
+            It connects that device to this same list. Keep it private: anyone with the link can see and change your list.
+            Save it in your notes too: if you ever clear this browser, opening it brings everything back.
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <input
+              readOnly
+              value={deviceLink}
+              onFocus={(e) => e.target.select()}
+              aria-label="Your private link"
+              className="field min-w-0 flex-1 font-mono text-xs"
+            />
+            <button
+              type="button"
+              className="btn btn-primary"
+              onClick={() =>
+                navigator.clipboard?.writeText(deviceLink).then(
+                  () => setCopied(true),
+                  () => setCopied(false),
+                )
+              }
+            >
+              {copied ? 'Copied ✓' : 'Copy link'}
+            </button>
+            {typeof navigator.share === 'function' && (
+              <button
+                type="button"
+                className="btn btn-secondary"
+                onClick={() => navigator.share({ title: 'My job applications', url: deviceLink }).catch(() => {})}
+              >
+                Share…
+              </button>
+            )}
+          </div>
+        </div>
+      )}
       <p className="text-xs text-faint">
-        Jobs you marked applied stay here for good, even after they leave the job lists. Saved in this browser only — use
-        Export to back up or to move your list to another device, then Import it there.
+        Jobs you marked applied stay here for good, even after they leave the job lists. Export downloads a copy as a file.
       </p>
       {message && <p className="text-sm font-semibold text-accent">{message}</p>}
 
@@ -122,6 +179,7 @@ export default function Applications({ apps, countries, onStatus, onNotes, onRem
                   </button>
                 </div>
                 <textarea
+                  key={a.updatedAt ?? a.appliedOn} // shows notes changed on another device
                   defaultValue={a.notes}
                   onBlur={(e) => e.target.value !== a.notes && onNotes(a.id, e.target.value)}
                   placeholder="Notes: recruiter name, interview date, salary discussed…"

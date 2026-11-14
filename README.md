@@ -5,7 +5,8 @@ openings from company career pages and public job boards, keeps the ones that fi
 them as JSON files in this repository. A small React app on Netlify reads those files, so I can browse jobs by country,
 open the posting, and tick what I applied to.
 
-- **No backend, no database, no API keys.** GitHub Actions does the collecting, a git branch holds the data, Netlify serves a static page.
+- **No server or database to run, no API keys.** GitHub Actions does the collecting, a git branch holds the jobs, Netlify
+  serves the page, and one small Netlify Function keeps your applications in Netlify's built-in storage.
 - **It never applies to anything.** It only reads public listings; you apply on the employer's site.
 - **About 500 sources:** 360+ company career pages, Workable's job search, Amazon's job search and six job boards —
   and it finds new companies by itself every run.
@@ -32,8 +33,11 @@ main branch                                   data branch (rewritten on every ru
    repository doesn't grow. It reads the previous run first, so it knows which jobs are new and which have closed.
 3. **Show** — the React app fetches `meta.json` and the selected country's file straight from
    `raw.githubusercontent.com`. New jobs appear without redeploying the site.
-4. **Track** — "Mark applied", status (Applied → Interview → Offer / Rejected) and notes are saved in your browser
-   (localStorage). Use **Export / Import** on the *My applications* tab to back them up or move them to another device.
+4. **Track** — "Mark applied", status (Applied → Interview → Offer / Rejected) and notes are saved in your browser and
+   online: `web/netlify/functions/applications.mts` stores the list in [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/)
+   (no setup or keys needed). Each browser gets a random secret key; **Use on another device** on the *My applications*
+   tab gives a private link that opens the same list on your phone. When two devices change the same job, the newest
+   change wins. **Export** still downloads a copy.
 
 ## What you see
 
@@ -124,6 +128,9 @@ cd web
 npm install
 cp -R ../data public/data && VITE_DATA_URL=/data npm run dev            # the app, reading your local data
 ```
+
+Online saving of applications runs as a Netlify Function, so it works on Netlify (or with `npx netlify dev`).
+With plain `npm run dev` the app says it couldn't reach the server and keeps your list in the browser.
 
 ## Notes
 
