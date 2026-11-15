@@ -1,14 +1,15 @@
 import { useCallback, useMemo, useRef, useState } from 'react'
-import { useQueries, useQuery } from '@tanstack/react-query'
+import { useQueries, useQuery, useQueryClient } from '@tanstack/react-query'
 import type { CountrySummary, ListedJob, Status } from './types'
 import { fetchJobs, fetchMeta } from './lib/api'
 import { useApplications, usePref } from './lib/storage'
-import { clock, nextRun, timeAgo } from './lib/format'
+import { nextRun, timeAgo, whenNext } from './lib/format'
 import CountryBar from './components/CountryBar'
 import JobList from './components/JobList'
 import Applications from './components/Applications'
 import HowItWorks from './components/HowItWorks'
 import FintechCompanies from './components/FintechCompanies'
+import FetchNow from './components/FetchNow'
 
 type Tab = 'jobs' | 'stretch' | 'companies' | 'applied' | 'help'
 type Mode = 'all' | 'fintech' // every matching job, or only jobs at fintech companies
@@ -17,6 +18,8 @@ const sum = (cs: CountrySummary[], pick: (c: CountrySummary) => number | undefin
 
 export default function App() {
   const meta = useQuery({ queryKey: ['meta'], queryFn: fetchMeta, refetchInterval: 15 * 60_000 })
+  const queryClient = useQueryClient()
+  const refreshMeta = useCallback(() => void queryClient.refetchQueries({ queryKey: ['meta'] }), [queryClient])
   const [selected, setSelected] = usePref('view-country', 'all')
   const [savedTab, setTab] = usePref<Tab>('view-tab', 'jobs')
   const [mode, setModePref] = usePref<Mode>('mode', 'all')
@@ -167,8 +170,8 @@ export default function App() {
             </h1>
             <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-muted">
               {fintech
-                ? 'Software engineer roles at payments, banking, lending, investing, crypto and insurance companies — only from the last week, checked every 6 hours.'
-                : 'Software engineer roles from company career pages and job boards — only from the last week, checked every 6 hours.'}
+                ? 'Software engineer roles at payments, banking, lending, investing, crypto and insurance companies — only from the last week, checked every morning.'
+                : 'Software engineer roles from company career pages and job boards — only from the last week, checked every morning.'}
             </p>
           </div>
           <button type="button" onClick={() => setTab('help')} className="btn btn-secondary shrink-0">
@@ -183,33 +186,36 @@ export default function App() {
               {modeButton('fintech', 'Fintech', sum(summaries, (c) => c.fintech))}
             </div>
 
-            <div className="card mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 px-5 py-3 text-sm text-muted">
-              <span>
-                <span className="font-display text-base font-extrabold text-ink">{all.count}</span> {fintech ? 'fintech ' : ''}
-                jobs this week
-                {all.new > 0 && <span className="font-bold text-accent"> · {all.new} new today</span>}
-              </span>
-              {fintech && followed > 0 && (
-                <button type="button" onClick={() => setTab('companies')} className="font-medium hover:text-ink hover:underline">
-                  {followed} fintech companies followed
-                </button>
-              )}
-              <span>Updated {timeAgo(meta.data.updated)}</span>
-              <span>Next check around {clock(nextRun())}</span>
-              <details className="relative">
-                <summary className={`cursor-pointer list-none font-medium ${failed.length ? 'text-warn' : 'hover:text-ink'}`}>
-                  {sources.length - failed.length}/{sources.length} sources OK ▾
-                </summary>
-                <div className="card absolute right-0 z-10 mt-2 max-h-72 w-[min(22rem,calc(100vw-2.5rem))] overflow-auto p-3 text-xs sm:left-0 sm:right-auto">
-                  <ul className="space-y-0.5">
-                    {[...failed, ...sources.filter((s) => s.ok)].map((s, i) => (
-                      <li key={`${s.name}-${i}`} className={s.ok ? 'text-muted' : 'text-warn'}>
-                        {s.ok ? '✓' : '✗'} {s.name} {s.ok ? `· ${s.matches} matching titles` : `· ${s.error}`}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </details>
+            <div className="card mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 px-5 py-3 text-sm text-muted">
+              <div className="flex min-w-0 flex-1 basis-72 flex-wrap items-center gap-x-5 gap-y-1">
+                <span>
+                  <span className="font-display text-base font-extrabold text-ink">{all.count}</span> {fintech ? 'fintech ' : ''}
+                  jobs this week
+                  {all.new > 0 && <span className="font-bold text-accent"> · {all.new} new today</span>}
+                </span>
+                {fintech && followed > 0 && (
+                  <button type="button" onClick={() => setTab('companies')} className="font-medium hover:text-ink hover:underline">
+                    {followed} fintech companies followed
+                  </button>
+                )}
+                <span>Updated {timeAgo(meta.data.updated)}</span>
+                <span>Next automatic fetch {whenNext(nextRun())}</span>
+                <details className="relative">
+                  <summary className={`cursor-pointer list-none font-medium ${failed.length ? 'text-warn' : 'hover:text-ink'}`}>
+                    {sources.length - failed.length}/{sources.length} sources OK ▾
+                  </summary>
+                  <div className="card absolute right-0 z-10 mt-2 max-h-72 w-[min(22rem,calc(100vw-2.5rem))] overflow-auto p-3 text-xs sm:left-0 sm:right-auto">
+                    <ul className="space-y-0.5">
+                      {[...failed, ...sources.filter((s) => s.ok)].map((s, i) => (
+                        <li key={`${s.name}-${i}`} className={s.ok ? 'text-muted' : 'text-warn'}>
+                          {s.ok ? '✓' : '✗'} {s.name} {s.ok ? `· ${s.matches} matching titles` : `· ${s.error}`}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </details>
+              </div>
+              <FetchNow updated={meta.data.updated} onRefresh={refreshMeta} />
             </div>
           </>
         )}
@@ -220,7 +226,7 @@ export default function App() {
         <div className="card p-6 text-sm text-muted">
           <p className="font-display text-base font-bold text-ink">No job data yet.</p>
           <p className="mt-1">
-            The collector publishes it to the repository's <code>data</code> branch every 6 hours. To run it now, open the
+            The collector publishes it to the repository's <code>data</code> branch every morning. To run it now, open the
             repository on GitHub → Actions → “Collect jobs” → Run workflow.
           </p>
         </div>

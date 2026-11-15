@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 import type { Meta } from '../types'
-import { clock, nextRun, timeAgo } from '../lib/format'
+import { nextRun, timeAgo, whenNext } from '../lib/format'
 
 function Section({ n, title, wide, children }: { n: number; title: string; wide?: boolean; children: ReactNode }) {
   return (
@@ -34,7 +34,7 @@ export default function HowItWorks({ meta, onBrowse }: { meta: Meta; onBrowse: (
           One minute to <span className="serif-accent text-gold-light">understand</span> it all.
         </h2>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-paper/80">
-          A bot checks {meta.sources.length} job sources every 6 hours, keeps the software-engineering jobs that fit you and
+          A bot checks {meta.sources.length} job sources every morning, keeps the software-engineering jobs that fit you and
           were posted in the last {maxAge} days, and scores each one. You open a job, apply on the employer's page, and tick
           it here so you can track it.
         </p>
@@ -79,8 +79,9 @@ export default function HowItWorks({ meta, onBrowse }: { meta: Meta; onBrowse: (
 
         <Section n={2} title="When it updates">
           <p>
-            Every 6 hours, by a scheduled GitHub Action. Last update: <b>{timeAgo(meta.updated)}</b>. Next: around{' '}
-            <b>{clock(next)}</b> (GitHub sometimes starts a few minutes late).
+            <b>Every morning</b> at about 6 AM (India time), and whenever you press <b>Fetch new jobs</b> at the top. A fetch
+            takes 2–6 minutes, and the new jobs show up a few minutes after it ends. Last update:{' '}
+            <b>{timeAgo(meta.updated)}</b>. Next automatic fetch: <b>{whenNext(next)}</b>.
           </p>
           <p>
             <b>New</b> means the bot first saw the job in the last 24 hours. The page refreshes the data by itself, so just keep

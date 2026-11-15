@@ -46,17 +46,19 @@ export function shortDate(day: string): string {
 
 // The collector runs at 00:17, 06:17, 12:17 and 18:17 UTC (.github/workflows/collect.yml).
 // GitHub can start scheduled runs a little late, so the app says "around".
-const RUN_HOURS_UTC = [0, 6, 12, 18]
-const RUN_MINUTE_UTC = 17
+// The daily automatic fetch: 00:37 UTC = 6:07 AM India time (netlify/functions/morning-fetch.mts and collect.yml).
+const RUN_HOUR_UTC = 0
+const RUN_MINUTE_UTC = 37
 
 export function nextRun(now = new Date()): Date {
-  for (let day = 0; day < 2; day++) {
-    for (const hour of RUN_HOURS_UTC) {
-      const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + day, hour, RUN_MINUTE_UTC))
-      if (t.getTime() > now.getTime()) return t
-    }
-  }
-  return new Date(now.getTime() + 6 * 3_600_000)
+  const today = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), RUN_HOUR_UTC, RUN_MINUTE_UTC))
+  return today.getTime() > now.getTime() ? today : new Date(today.getTime() + DAY)
+}
+
+/** "today 6:07 AM" / "tomorrow 6:07 AM" in the viewer's time zone. */
+export function whenNext(d: Date, now = new Date()): string {
+  const day = isoDay(d) === isoDay(now) ? 'today' : 'tomorrow'
+  return `${day} ${clock(d)}`
 }
 
 export function clock(d: Date): string {

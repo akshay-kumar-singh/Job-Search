@@ -46,7 +46,7 @@ export default function FintechCompanies({ companies, countries, onShowJobs }: P
           {followed} fintechs followed · <span className="serif-accent">{hiring}</span> hiring for you this week
         </h2>
         <p className="mt-1.5 text-sm leading-relaxed text-muted">
-          The bot reads these companies' careers pages every 6 hours: payments, neobanks, lending, investing, crypto, cards,
+          The bot reads these companies' careers pages every morning: payments, neobanks, lending, investing, crypto, cards,
           insurance and the infrastructure behind them, in India, the Gulf, Singapore, Europe, Australia and North America. Ones
           marked <i>found this week</i> aren't on the list, but posted a fintech role for you this week. No matching role at a
           company you like? Its careers page shows everything else it has open.

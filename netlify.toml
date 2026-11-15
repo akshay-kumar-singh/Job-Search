@@ -5,7 +5,7 @@
   command = "npm run build"
   publish = "dist"
   # Skip the build (it uses up Netlify's free build minutes) for the data branch, which the collector rewrites
-  # every few hours, and for commits that change nothing in the web app (collector or README only).
+  # every morning, and for commits that change nothing in the web app (collector or README only).
   ignore = "[ \"$BRANCH\" = \"data\" ] || git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ../netlify.toml"
 
 [build.environment]

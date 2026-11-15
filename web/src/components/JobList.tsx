@@ -171,7 +171,7 @@ export default function JobList(props: Props) {
           ) : pool.length ? (
             'You have acted on every job here. New ones arrive with the next update.'
           ) : (
-            `No fresh ${kind}jobs${company ? ` at ${company}` : ''} in ${country.name} this week. New ones are checked every 6 hours${
+            `No fresh ${kind}jobs${company ? ` at ${company}` : ''} in ${country.name} this week. New ones are checked every morning${
               isAll || company ? '.' : ' — meanwhile, try the search links below.'
             }`
           )}
