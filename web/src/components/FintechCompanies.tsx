@@ -1,6 +1,8 @@
-import { useMemo } from 'react'
+import { useMemo, useRef } from 'react'
 import type { CountrySummary, FintechCompany } from '../types'
 import { usePref } from '../lib/storage'
+import { scrollToTop, usePaged } from '../lib/paging'
+import Pagination from './Pagination'
 
 interface Props {
   companies: FintechCompany[]
@@ -31,6 +33,8 @@ export default function FintechCompanies({ companies, countries, onShowJobs }: P
       (!hiringOnly || c.open + c.stretch > 0) &&
       (!q || `${c.name} ${c.sector}`.toLowerCase().includes(q)),
   )
+  const paged = usePaged(shown, `${sector}|${hiringOnly}|${q}`)
+  const listTop = useRef<HTMLDivElement>(null)
 
   const sectorChip = (value: string, label: string, count: number) => (
     <button key={value} type="button" onClick={() => setSector(value)} aria-pressed={sector === value} className="chip">
@@ -60,7 +64,7 @@ export default function FintechCompanies({ companies, countries, onShowJobs }: P
         </div>
       </nav>
 
-      <div className="flex flex-wrap items-center gap-2">
+      <div ref={listTop} className="flex scroll-mt-4 flex-wrap items-center gap-2">
         <input
           type="search"
           value={search}
@@ -74,13 +78,14 @@ export default function FintechCompanies({ companies, countries, onShowJobs }: P
           Hiring for me now
         </label>
         <span className="text-sm text-faint">
+          {shown.length > paged.items.length ? `${paged.from === paged.to ? paged.from : `${paged.from}–${paged.to}`} of ` : ''}
           {shown.length} compan{shown.length === 1 ? 'y' : 'ies'}
         </span>
       </div>
 
       {shown.length ? (
         <ul className="grid gap-3 md:grid-cols-2">
-          {shown.map((c) => (
+          {paged.items.map((c) => (
             <li key={c.name} className="card flex items-start justify-between gap-3 p-4">
               <div className="min-w-0">
                 <p className="font-display text-base font-bold text-ink">{c.name}</p>
@@ -120,7 +125,18 @@ export default function FintechCompanies({ companies, countries, onShowJobs }: P
             </li>
           ))}
         </ul>
-      ) : (
+      ) : null}
+      {shown.length > 0 && (
+        <Pagination
+          page={paged.page}
+          pages={paged.pages}
+          onPage={(page) => {
+            paged.setPage(page)
+            scrollToTop(listTop.current)
+          }}
+        />
+      )}
+      {shown.length ? null : (
         <div className="card border-dashed border-line-strong p-8 text-center text-sm text-muted">
           No companies match.{' '}
           <button

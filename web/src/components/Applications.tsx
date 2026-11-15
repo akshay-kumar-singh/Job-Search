@@ -4,6 +4,8 @@ import { STATUSES } from '../types'
 import { daysSince, isoDay, shortDate } from '../lib/format'
 import type { SyncStatus } from '../lib/storage'
 import { cleanState } from '../lib/sync'
+import { scrollToTop, usePaged } from '../lib/paging'
+import Pagination from './Pagination'
 
 interface Props {
   apps: Record<string, Application>
@@ -32,6 +34,8 @@ export default function Applications({ apps, sync, deviceLink, countries, onStat
   const fileInput = useRef<HTMLInputElement>(null)
   const all = useMemo(() => Object.values(apps).sort((a, b) => b.appliedOn.localeCompare(a.appliedOn)), [apps])
   const shown = filter === 'all' ? all.filter((a) => a.status !== 'Not interested') : all.filter((a) => a.status === filter)
+  const paged = usePaged(shown, filter)
+  const listTop = useRef<HTMLDivElement>(null)
   const country = (key: string) => countries.find((c) => c.key === key)
 
   function exportFile() {
@@ -61,7 +65,7 @@ export default function Applications({ apps, sync, deviceLink, countries, onStat
 
   return (
     <section className="space-y-4">
-      <div className="flex flex-wrap items-center gap-2">
+      <div ref={listTop} className="flex scroll-mt-4 flex-wrap items-center gap-2">
         {tab('all', 'All', all.filter((a) => a.status !== 'Not interested').length)}
         {STATUSES.map((s) => tab(s, s, all.filter((a) => a.status === s).length))}
         <div className="ml-auto flex gap-2">
@@ -138,7 +142,7 @@ export default function Applications({ apps, sync, deviceLink, countries, onStat
 
       {shown.length ? (
         <ul className="space-y-4">
-          {shown.map((a) => {
+          {paged.items.map((a) => {
             const c = country(a.job.country)
             const days = daysSince(a.appliedOn) ?? 0
             return (
@@ -190,7 +194,18 @@ export default function Applications({ apps, sync, deviceLink, countries, onStat
             )
           })}
         </ul>
-      ) : (
+      ) : null}
+      {shown.length > 0 && (
+        <Pagination
+          page={paged.page}
+          pages={paged.pages}
+          onPage={(page) => {
+            paged.setPage(page)
+            scrollToTop(listTop.current)
+          }}
+        />
+      )}
+      {shown.length ? null : (
         <div className="card border-dashed border-line-strong p-10 text-center text-sm text-muted">
           Nothing here yet. After you apply, press “✓ Mark applied” (or “Yes, mark applied” when you come back from a job's
           page) and it shows up here.

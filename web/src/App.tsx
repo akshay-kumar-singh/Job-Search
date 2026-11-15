@@ -9,6 +9,7 @@ import JobList from './components/JobList'
 import Applications from './components/Applications'
 import HowItWorks from './components/HowItWorks'
 import FintechCompanies from './components/FintechCompanies'
+import ListSkeleton from './components/ListSkeleton'
 
 type Tab = 'jobs' | 'stretch' | 'companies' | 'applied' | 'help'
 
@@ -198,8 +199,9 @@ export default function App() {
                     {followed} fintech companies followed
                   </button>
                 )}
-                <span>Updated {timeAgo(meta.data.updated)}</span>
-                <span>Next check around {clock(nextRun())}</span>
+                <span>
+                  Updated {timeAgo(meta.data.updated)} · next check around {clock(nextRun())}
+                </span>
                 <details className="relative">
                   <summary className={`cursor-pointer list-none font-medium ${failed.length ? 'text-warn' : 'hover:text-ink'}`}>
                     {sources.length - failed.length}/{sources.length} sources OK ▾
@@ -229,7 +231,7 @@ export default function App() {
         )}
       </header>
 
-      {meta.isPending && <p className="text-sm text-muted">Loading jobs…</p>}
+      {meta.isPending && <ListSkeleton />}
       {meta.isError && (
         <div className="card p-6 text-sm text-muted">
           <p className="font-display text-base font-bold text-ink">No job data yet.</p>
@@ -271,7 +273,7 @@ export default function App() {
             ) : tab === 'companies' ? (
               <FintechCompanies companies={directory} countries={byKey} onShowJobs={showCompany} />
             ) : results.loading ? (
-              <p className="text-sm text-muted">Loading {current.name}…</p>
+              <ListSkeleton />
             ) : results.error ? (
               <p className="text-sm text-warn">Could not load the jobs: {results.error.message}</p>
             ) : (

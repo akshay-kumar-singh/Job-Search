@@ -1,8 +1,10 @@
-import { useMemo } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import type { Application, CountrySummary, ListedJob, Status } from '../types'
 import { companyKey, daysSince, isNew } from '../lib/format'
+import { scrollToTop, usePaged } from '../lib/paging'
 import { usePref } from '../lib/storage'
 import JobCard from './JobCard'
+import Pagination from './Pagination'
 
 interface Props {
   jobs: ListedJob[]
@@ -36,7 +38,10 @@ export default function JobList(props: Props) {
   const [visa, setVisa] = usePref<Visa>('visa-filter', 'all')
   const [sort, setSort] = usePref<Sort>('sort-order', 'newest')
   const [hideTracked, setHideTracked] = usePref('hide-applied', true)
+  const [showFilters, setShowFilters] = useState(false) // on a phone the extra filters fold away
+  const listTop = useRef<HTMLDivElement>(null)
   const isAll = country.key === 'all'
+  const activeFilters = [within > 0, minFit > 0, newOnly, country.visa && visa !== 'all'].filter(Boolean).length
   const filtered = Boolean(search || minFit || within || newOnly || visa !== 'all' || company)
   const kind = `${stretch ? 'stretch ' : ''}${fintech ? 'fintech ' : ''}`
 
@@ -62,6 +67,12 @@ export default function JobList(props: Props) {
     )
   }, [pool, hideTracked, apps, minFit, within, newOnly, country.visa, visa, search, sort])
 
+  const paged = usePaged(shown, [country.key, stretch, fintech, company, search, minFit, within, newOnly, visa, sort, hideTracked].join('|'))
+  const goToPage = (page: number) => {
+    paged.setPage(page)
+    scrollToTop(listTop.current)
+  }
+
   function clearFilters() {
     setSearch('')
     setMinFit(0)
@@ -82,35 +93,45 @@ export default function JobList(props: Props) {
           aria-label="Search"
           className="field w-full sm:w-64"
         />
-        <select value={sort} onChange={(e) => setSort(e.target.value as Sort)} aria-label="Sort" className="field">
+        <select value={sort} onChange={(e) => setSort(e.target.value as Sort)} aria-label="Sort" className="field flex-1 sm:flex-none">
           <option value="newest">Newest first</option>
           <option value="fit">Best match first</option>
         </select>
-        <select value={within} onChange={(e) => setWithin(Number(e.target.value))} aria-label="Posted" className="field">
-          <option value={0}>Posted this week</option>
-          <option value={3}>Last 3 days</option>
-          <option value={1}>Today</option>
-        </select>
-        <select value={minFit} onChange={(e) => setMinFit(Number(e.target.value))} aria-label="Minimum fit" className="field">
-          <option value={0}>Any match</option>
-          <option value={50}>Good match (50+)</option>
-          <option value={70}>Great match (70+)</option>
-        </select>
-        {country.visa && (
-          <select value={visa} onChange={(e) => setVisa(e.target.value as Visa)} aria-label="Visa" className="field">
-            <option value="all">Any visa note</option>
-            <option value="good">Mentions sponsorship</option>
-            <option value="no-warn">Hide visa warnings</option>
+        <button
+          type="button"
+          onClick={() => setShowFilters((v) => !v)}
+          aria-expanded={showFilters}
+          className={`field flex-1 font-medium sm:hidden ${activeFilters ? 'border-accent text-accent' : ''}`}
+        >
+          Filters{activeFilters ? ` · ${activeFilters}` : ''} {showFilters ? '▴' : '▾'}
+        </button>
+        <div className={`${showFilters ? 'flex' : 'hidden'} w-full flex-wrap items-center gap-2 sm:flex sm:w-auto`}>
+          <select value={within} onChange={(e) => setWithin(Number(e.target.value))} aria-label="Posted" className="field">
+            <option value={0}>Posted this week</option>
+            <option value={3}>Last 3 days</option>
+            <option value={1}>Today</option>
           </select>
-        )}
-        <label className="flex items-center gap-1.5 px-1 text-sm text-muted">
-          <input type="checkbox" className="accent-ink" checked={newOnly} onChange={(e) => setNewOnly(e.target.checked)} />
-          New today
-        </label>
-        <label className="flex items-center gap-1.5 px-1 text-sm text-muted">
-          <input type="checkbox" className="accent-ink" checked={hideTracked} onChange={(e) => setHideTracked(e.target.checked)} />
-          Hide applied
-        </label>
+          <select value={minFit} onChange={(e) => setMinFit(Number(e.target.value))} aria-label="Minimum fit" className="field">
+            <option value={0}>Any match</option>
+            <option value={50}>Good match (50+)</option>
+            <option value={70}>Great match (70+)</option>
+          </select>
+          {country.visa && (
+            <select value={visa} onChange={(e) => setVisa(e.target.value as Visa)} aria-label="Visa" className="field">
+              <option value="all">Any visa note</option>
+              <option value="good">Mentions sponsorship</option>
+              <option value="no-warn">Hide visa warnings</option>
+            </select>
+          )}
+          <label className="flex items-center gap-1.5 px-1 text-sm text-muted">
+            <input type="checkbox" className="accent-ink" checked={newOnly} onChange={(e) => setNewOnly(e.target.checked)} />
+            New today
+          </label>
+          <label className="flex items-center gap-1.5 px-1 text-sm text-muted">
+            <input type="checkbox" className="accent-ink" checked={hideTracked} onChange={(e) => setHideTracked(e.target.checked)} />
+            Hide applied
+          </label>
+        </div>
       </div>
 
       {company && (
@@ -124,10 +145,19 @@ export default function JobList(props: Props) {
         </div>
       )}
 
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
+      <div ref={listTop} className="flex scroll-mt-4 flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
         <span>
-          Showing <span className="font-display font-extrabold text-ink">{shown.length}</span> of {pool.length} {kind}job
-          {pool.length === 1 ? '' : 's'} in {country.flag} {country.name}
+          {shown.length > 0 && (
+            <>
+              Showing{' '}
+              <span className="font-display font-extrabold text-ink">
+                {paged.from === paged.to ? paged.from : `${paged.from}–${paged.to}`}
+              </span>{' '}
+              of{' '}
+            </>
+          )}
+          {shown.length} {kind}job{shown.length === 1 ? '' : 's'} in {country.flag} {country.name}
+          {shown.length !== pool.length && <span className="text-faint"> ({pool.length} before filters)</span>}
         </span>
         {filtered && (
           <button type="button" onClick={clearFilters} className="font-semibold text-accent hover:underline">
@@ -143,7 +173,7 @@ export default function JobList(props: Props) {
 
       {shown.length ? (
         <div className="space-y-4">
-          {shown.map((job) => (
+          {paged.items.map((job) => (
             <JobCard
               key={job.id}
               job={job}
@@ -158,6 +188,7 @@ export default function JobList(props: Props) {
               onUntrack={() => onUntrack(job.id)}
             />
           ))}
+          <Pagination page={paged.page} pages={paged.pages} onPage={goToPage} />
         </div>
       ) : (
         <div className="card border-dashed border-line-strong p-10 text-center text-sm text-muted">

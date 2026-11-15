@@ -35,7 +35,7 @@ export default function JobCard({ job, places, showVisa, tracked, opened, onOpen
     <article className="card card-interactive p-5">
       <div className="flex items-start gap-4">
         <div
-          className={`flex h-14 w-14 shrink-0 flex-col items-center justify-center rounded-2xl ${fitStyle(job.fit)}`}
+          className={`hidden h-14 w-14 shrink-0 flex-col items-center justify-center rounded-2xl sm:flex ${fitStyle(job.fit)}`}
           title="Fit: how well the posting matches your skills (0-100). See How it works."
         >
           <span className="font-display text-xl font-extrabold leading-none">{job.fit}</span>
@@ -44,6 +44,12 @@ export default function JobCard({ job, places, showVisa, tracked, opened, onOpen
 
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
+            <span
+              className={`rounded-full px-2 py-0.5 font-display text-xs font-extrabold sm:hidden ${fitStyle(job.fit)}`}
+              title="Fit: how well the posting matches your skills (0-100). See How it works."
+            >
+              {job.fit} · {matchLabel(job.fit)}
+            </span>
             <span className="font-display font-bold text-ink">
               {job.target && (
                 <span className="text-gold" title="On your list of favourite employers">
@@ -161,7 +167,13 @@ export default function JobCard({ job, places, showVisa, tracked, opened, onOpen
             </button>
           </>
         )}
-        <a href={job.url} target="_blank" rel="noopener" onClick={onOpen} className="btn btn-primary">
+        <a
+          href={job.url}
+          target="_blank"
+          rel="noopener"
+          onClick={onOpen}
+          className="btn btn-primary order-first w-full sm:order-none sm:w-auto"
+        >
           Apply on {where} ↗
         </a>
       </div>
