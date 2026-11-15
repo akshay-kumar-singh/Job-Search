@@ -1,25 +1,25 @@
 import { useCallback, useMemo, useRef, useState } from 'react'
-import { useQueries, useQuery, useQueryClient } from '@tanstack/react-query'
+import { useQueries, useQuery } from '@tanstack/react-query'
 import type { CountrySummary, ListedJob, Status } from './types'
 import { fetchJobs, fetchMeta } from './lib/api'
 import { useApplications, usePref } from './lib/storage'
-import { nextRun, timeAgo, whenNext } from './lib/format'
+import { nextFetch, timeAgo } from './lib/format'
 import CountryBar from './components/CountryBar'
 import JobList from './components/JobList'
 import Applications from './components/Applications'
 import HowItWorks from './components/HowItWorks'
 import FintechCompanies from './components/FintechCompanies'
-import FetchNow from './components/FetchNow'
 
 type Tab = 'jobs' | 'stretch' | 'companies' | 'applied' | 'help'
+
+// GitHub's page for the job collection: "Run workflow" there fetches new jobs right away.
+const RUN_WORKFLOW_URL = 'https://github.com/akshay-kumar-singh/Job-Search/actions/workflows/collect.yml'
 type Mode = 'all' | 'fintech' // every matching job, or only jobs at fintech companies
 
 const sum = (cs: CountrySummary[], pick: (c: CountrySummary) => number | undefined) => cs.reduce((n, c) => n + (pick(c) ?? 0), 0)
 
 export default function App() {
   const meta = useQuery({ queryKey: ['meta'], queryFn: fetchMeta, refetchInterval: 15 * 60_000 })
-  const queryClient = useQueryClient()
-  const refreshMeta = useCallback(() => void queryClient.refetchQueries({ queryKey: ['meta'] }), [queryClient])
   const [selected, setSelected] = usePref('view-country', 'all')
   const [savedTab, setTab] = usePref<Tab>('view-tab', 'jobs')
   const [mode, setModePref] = usePref<Mode>('mode', 'all')
@@ -199,7 +199,7 @@ export default function App() {
                   </button>
                 )}
                 <span>Updated {timeAgo(meta.data.updated)}</span>
-                <span>Next automatic fetch {whenNext(nextRun())}</span>
+                <span>Next automatic fetch {nextFetch()}</span>
                 <details className="relative">
                   <summary className={`cursor-pointer list-none font-medium ${failed.length ? 'text-warn' : 'hover:text-ink'}`}>
                     {sources.length - failed.length}/{sources.length} sources OK ▾
@@ -215,7 +215,15 @@ export default function App() {
                   </div>
                 </details>
               </div>
-              <FetchNow updated={meta.data.updated} onRefresh={refreshMeta} />
+              <a
+                href={RUN_WORKFLOW_URL}
+                target="_blank"
+                rel="noopener"
+                title="Opens GitHub: press “Run workflow” there. Reload this page about 5–10 minutes later to see the new jobs."
+                className="btn btn-secondary shrink-0 py-2"
+              >
+                ↻ Run now on GitHub ↗
+              </a>
             </div>
           </>
         )}

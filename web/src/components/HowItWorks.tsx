@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 import type { Meta } from '../types'
-import { nextRun, timeAgo, whenNext } from '../lib/format'
+import { nextFetch, timeAgo } from '../lib/format'
 
 function Section({ n, title, wide, children }: { n: number; title: string; wide?: boolean; children: ReactNode }) {
   return (
@@ -17,7 +17,6 @@ function Section({ n, title, wide, children }: { n: number; title: string; wide?
 }
 
 export default function HowItWorks({ meta, onBrowse }: { meta: Meta; onBrowse: () => void }) {
-  const next = nextRun()
   const ok = meta.sources.filter((s) => s.ok).length
   const maxAge = meta.max_posting_age_days ?? 7
   const named = (prefix: string) => meta.sources.filter((s) => s.name.startsWith(prefix)).length
@@ -79,9 +78,13 @@ export default function HowItWorks({ meta, onBrowse }: { meta: Meta; onBrowse: (
 
         <Section n={2} title="When it updates">
           <p>
-            <b>Every morning</b> at about 6 AM (India time), and whenever you press <b>Fetch new jobs</b> at the top. A fetch
-            takes 2–6 minutes, and the new jobs show up a few minutes after it ends. Last update:{' '}
-            <b>{timeAgo(meta.updated)}</b>. Next automatic fetch: <b>{whenNext(next)}</b>.
+            <b>Every morning</b> at about 6 AM (India time), by a scheduled GitHub Action. GitHub's timer sometimes starts it
+            late, even by a few hours. Last update: <b>{timeAgo(meta.updated)}</b>. Next automatic fetch:{' '}
+            <b>{nextFetch()}</b>.
+          </p>
+          <p>
+            <b>Want new jobs right now?</b> Press <b>Run now on GitHub</b> at the top (or open the repository on GitHub →
+            Actions → Collect jobs), then <b>Run workflow</b>. It takes about 2 minutes; reload this page 5–10 minutes later.
           </p>
           <p>
             <b>New</b> means the bot first saw the job in the last 24 hours. The page refreshes the data by itself, so just keep
