@@ -2,7 +2,7 @@ name: Collect jobs
 
 on:
   schedule:
-    - cron: "37 0 * * *"     # once a day, 00:37 UTC = 6:07 AM India time (GitHub sometimes starts it late)
+    - cron: "17 */6 * * *"   # every 6 hours (00:17, 06:17, 12:17, 18:17 UTC); GitHub sometimes starts it late
   workflow_dispatch:         # run it now: Actions -> Collect jobs -> Run workflow (or "Run now on GitHub" on the website)
 
 permissions:

@@ -3,7 +3,7 @@ import { useQueries, useQuery } from '@tanstack/react-query'
 import type { CountrySummary, ListedJob, Status } from './types'
 import { fetchJobs, fetchMeta } from './lib/api'
 import { useApplications, usePref } from './lib/storage'
-import { nextFetch, timeAgo } from './lib/format'
+import { clock, nextRun, timeAgo } from './lib/format'
 import CountryBar from './components/CountryBar'
 import JobList from './components/JobList'
 import Applications from './components/Applications'
@@ -170,8 +170,8 @@ export default function App() {
             </h1>
             <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-muted">
               {fintech
-                ? 'Software engineer roles at payments, banking, lending, investing, crypto and insurance companies — only from the last week, checked every morning.'
-                : 'Software engineer roles from company career pages and job boards — only from the last week, checked every morning.'}
+                ? 'Software engineer roles at payments, banking, lending, investing, crypto and insurance companies — only from the last week, checked every 6 hours.'
+                : 'Software engineer roles from company career pages and job boards — only from the last week, checked every 6 hours.'}
             </p>
           </div>
           <button type="button" onClick={() => setTab('help')} className="btn btn-secondary shrink-0">
@@ -199,7 +199,7 @@ export default function App() {
                   </button>
                 )}
                 <span>Updated {timeAgo(meta.data.updated)}</span>
-                <span>Next automatic fetch {nextFetch()}</span>
+                <span>Next check around {clock(nextRun())}</span>
                 <details className="relative">
                   <summary className={`cursor-pointer list-none font-medium ${failed.length ? 'text-warn' : 'hover:text-ink'}`}>
                     {sources.length - failed.length}/{sources.length} sources OK ▾
@@ -234,7 +234,7 @@ export default function App() {
         <div className="card p-6 text-sm text-muted">
           <p className="font-display text-base font-bold text-ink">No job data yet.</p>
           <p className="mt-1">
-            The collector publishes it to the repository's <code>data</code> branch every morning. To run it now, open the
+            The collector publishes it to the repository's <code>data</code> branch every 6 hours. To run it now, open the
             repository on GitHub → Actions → “Collect jobs” → Run workflow.
           </p>
         </div>

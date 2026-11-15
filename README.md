@@ -1,6 +1,6 @@
 # Job Search
 
-A personal job finder with no backend and no database. Every morning (or whenever I run it from GitHub) a GitHub Action collects software-engineering
+A personal job finder with no backend and no database. Every 6 hours (or whenever I run it from GitHub) a GitHub Action collects software-engineering
 openings from company career pages and public job boards, keeps the ones that fit my profile, scores them, and saves
 them as JSON files in this repository. A small React app on Netlify reads those files, so I can browse jobs by country,
 open the posting, and tick what I applied to.
@@ -19,7 +19,7 @@ open the posting, and tick what I applied to.
 
 ```
 main branch                                   data branch (rewritten on every run)
-├── collector/jobbot.py   ── every morning ──▶ ├── meta.json          last run, sources, counts, fintech companies
+├── collector/jobbot.py   ── every 6 hours ──▶ ├── meta.json          last run, sources, counts, fintech companies
 ├── collector/config.json   (GitHub Actions)   ├── jobs/<country>.json one file per country
 │                                              └── discovered.json    company boards found on Hacker News
 ├── web/  (React app) ─── Netlify ───▶ page that fetches the data branch from GitHub when it loads
@@ -91,15 +91,15 @@ signals such as payments platform, UPI, KYC, neobank, lending platform, crypto).
 ## Deploy
 
 1. **Push this repository to GitHub** (public, so the page can read the data branch without a key).
-2. **Collect once:** GitHub → *Actions* → *Collect jobs* → *Run workflow*. After that it runs every morning on its own.
+2. **Collect once:** GitHub → *Actions* → *Collect jobs* → *Run workflow*. After that it runs every 6 hours on its own.
    It publishes with the built-in `GITHUB_TOKEN`; nothing to configure.
 3. **Netlify:** *Add new site* → *Import an existing project* → GitHub → this repository. `netlify.toml` sets
    everything (base `web`, build `npm run build`, publish `dist`, Node 22), so just press *Deploy*.
 
 ### When it runs
 
-- **Every morning at about 6 AM India time** (cron `37 0 * * *`, 00:37 UTC). GitHub starts scheduled runs when it has
-  capacity, so a run can be late, sometimes by a few hours.
+- **Every 6 hours** (cron `17 */6 * * *`: about 5:47 AM, 11:47 AM, 5:47 PM and 11:47 PM India time). GitHub starts
+  scheduled runs when it has capacity, so a run can be late, sometimes by a few hours.
 - **Any time you want:** GitHub → *Actions* → *Collect jobs* → *Run workflow* (the website's **Run now on GitHub** link
   opens that page). A run takes about 2 minutes; the new jobs show up on the site 5–10 minutes later.
 
@@ -141,7 +141,7 @@ With plain `npm run dev` the app says it couldn't reach the server and keeps you
 
 ## Notes
 
-- Be gentle with the sources: one run a day plus the ones you start, one request at a time to the smaller sites.
+- Be gentle with the sources: one run every 6 hours plus the ones you start, one request at a time to the smaller sites.
 - Remote OK asks that each job links back to its page there, which the app does.
 - Scoring is keyword matching — tune `skills` and the title lists to your own profile.
 

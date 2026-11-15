@@ -46,14 +46,18 @@ export function shortDate(day: string): string {
 
 // The collector runs at 00:17, 06:17, 12:17 and 18:17 UTC (.github/workflows/collect.yml).
 // GitHub can start scheduled runs a little late, so the app says "around".
-// The daily automatic fetch: GitHub's timer in .github/workflows/collect.yml, 00:37 UTC = 6:07 AM India time.
-// GitHub often starts scheduled runs late (sometimes hours), so this only says which morning.
-const RUN_HOUR_UTC = 0
-const RUN_MINUTE_UTC = 37
+// The automatic runs: GitHub's timer in .github/workflows/collect.yml, every 6 hours at minute 17 (UTC).
+const RUN_HOURS_UTC = [0, 6, 12, 18]
+const RUN_MINUTE_UTC = 17
 
-export function nextFetch(now = new Date()): string {
-  const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), RUN_HOUR_UTC, RUN_MINUTE_UTC)
-  return today > now.getTime() ? 'this morning' : 'tomorrow morning'
+export function nextRun(now = new Date()): Date {
+  for (let day = 0; day < 2; day++) {
+    for (const hour of RUN_HOURS_UTC) {
+      const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + day, hour, RUN_MINUTE_UTC))
+      if (t.getTime() > now.getTime()) return t
+    }
+  }
+  return new Date(now.getTime() + 6 * 3_600_000)
 }
 
 export function clock(d: Date): string {

@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 import type { Meta } from '../types'
-import { nextFetch, timeAgo } from '../lib/format'
+import { clock, nextRun, timeAgo } from '../lib/format'
 
 function Section({ n, title, wide, children }: { n: number; title: string; wide?: boolean; children: ReactNode }) {
   return (
@@ -33,7 +33,7 @@ export default function HowItWorks({ meta, onBrowse }: { meta: Meta; onBrowse: (
           One minute to <span className="serif-accent text-gold-light">understand</span> it all.
         </h2>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-paper/80">
-          A bot checks {meta.sources.length} job sources every morning, keeps the software-engineering jobs that fit you and
+          A bot checks {meta.sources.length} job sources every 6 hours, keeps the software-engineering jobs that fit you and
           were posted in the last {maxAge} days, and scores each one. You open a job, apply on the employer's page, and tick
           it here so you can track it.
         </p>
@@ -78,9 +78,8 @@ export default function HowItWorks({ meta, onBrowse }: { meta: Meta; onBrowse: (
 
         <Section n={2} title="When it updates">
           <p>
-            <b>Every morning</b> at about 6 AM (India time), by a scheduled GitHub Action. GitHub's timer sometimes starts it
-            late, even by a few hours. Last update: <b>{timeAgo(meta.updated)}</b>. Next automatic fetch:{' '}
-            <b>{nextFetch()}</b>.
+            <b>Every 6 hours</b>, by a scheduled GitHub Action. Last update: <b>{timeAgo(meta.updated)}</b>. Next: around{' '}
+            <b>{clock(nextRun())}</b> (GitHub sometimes starts it late, even by a few hours).
           </p>
           <p>
             <b>Want new jobs right now?</b> Press <b>Run now on GitHub</b> at the top (or open the repository on GitHub →
