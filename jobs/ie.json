@@ -1,0 +1,53 @@
+{
+  "key": "ie",
+  "name": "Ireland",
+  "updated": "2026-11-21T07:01:16Z",
+  "jobs": [
+    {
+      "id": "amazon:10606215",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Transact",
+      "location": "Dublin, IRL",
+      "url": "https://www.amazon.jobs/en/jobs/10606215/software-development-engineer-ii-transact",
+      "source": "Company careers",
+      "posted": "2026-11-16",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 38,
+      "years": null,
+      "stretch": false,
+      "why": "Node.js, AWS",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-16T21:59:26Z",
+      "closed": false
+    },
+    {
+      "id": "amazon:10609178",
+      "company": "Amazon",
+      "title": "Software Development Engineer (Open-Source)",
+      "location": "Dublin, IRL",
+      "url": "https://www.amazon.jobs/en/jobs/10609178/software-development-engineer-open-source",
+      "source": "Company careers",
+      "posted": "2026-11-19",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 38,
+      "years": null,
+      "stretch": false,
+      "why": "Node.js, AWS",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-19T20:31:46Z",
+      "closed": false
+    }
+  ]
+}

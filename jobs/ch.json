@@ -1,0 +1,99 @@
+{
+  "key": "ch",
+  "name": "Switzerland",
+  "updated": "2026-11-21T07:01:16Z",
+  "jobs": [
+    {
+      "id": "arbeitnow:frontend-engineer-web-zurich-357472",
+      "company": "Actcareers",
+      "title": "Frontend Engineer, Web",
+      "location": "Zurich, Switzerland",
+      "url": "https://www.arbeitnow.ch/jobs/companies/actcareers/frontend-engineer-web-zurich-357472",
+      "source": "Arbeitnow",
+      "posted": "2026-11-17",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 80,
+      "years": 3,
+      "stretch": true,
+      "why": "React, TypeScript, Next.js, JavaScript, GraphQL, WebSockets",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-17T20:52:43Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:full-stack-engineer-ai-systems-zurich-269196",
+      "company": "Actcareers",
+      "title": "Full Stack Engineer, AI systems",
+      "location": "Zurich, Switzerland",
+      "url": "https://www.arbeitnow.ch/jobs/companies/actcareers/full-stack-engineer-ai-systems-zurich-269196",
+      "source": "Arbeitnow",
+      "posted": "2026-11-17",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 48,
+      "years": null,
+      "stretch": false,
+      "why": "Node.js, Next.js, Docker, SQL",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-17T20:52:43Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:backend-engineer-ai-systems-zurich-66532",
+      "company": "Actcareers",
+      "title": "Backend Engineer, AI Systems",
+      "location": "Zurich, Switzerland",
+      "url": "https://www.arbeitnow.ch/jobs/companies/actcareers/backend-engineer-ai-systems-zurich-66532",
+      "source": "Arbeitnow",
+      "posted": "2026-11-17",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 48,
+      "years": 3,
+      "stretch": true,
+      "why": "Node.js, Docker, SQL",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-17T20:52:43Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:software-engineer-zurich-412786",
+      "company": "Benetics AI",
+      "title": "Software Engineer",
+      "location": "Zürich",
+      "url": "https://www.arbeitnow.ch/jobs/companies/benetics-ai/software-engineer-zurich-412786",
+      "source": "Arbeitnow",
+      "posted": "2026-11-19",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 38,
+      "years": 2,
+      "stretch": false,
+      "why": "TypeScript",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-19T20:31:46Z",
+      "closed": false
+    }
+  ]
+}

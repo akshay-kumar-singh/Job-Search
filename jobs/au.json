@@ -1,0 +1,30 @@
+{
+  "key": "au",
+  "name": "Australia",
+  "updated": "2026-11-21T07:01:16Z",
+  "jobs": [
+    {
+      "id": "ashby:airwallex:f86f6a75-8c06-4931-b379-34eb4649c62b",
+      "company": "Airwallex",
+      "title": "Software Engineer, Spend (Agentic Procurement)",
+      "location": "AU - Melbourne",
+      "url": "https://jobs.ashbyhq.com/airwallex/f86f6a75-8c06-4931-b379-34eb4649c62b",
+      "source": "Company careers",
+      "posted": "2026-11-16",
+      "salary": "",
+      "target": true,
+      "fintech": true,
+      "sector": "Payments",
+      "fit": 38,
+      "years": 2,
+      "stretch": false,
+      "why": "REST APIs, AWS, Payments",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-16T21:59:26Z",
+      "closed": false
+    }
+  ]
+}

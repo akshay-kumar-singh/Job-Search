@@ -1,0 +1,123 @@
+{
+  "key": "de",
+  "name": "Germany",
+  "updated": "2026-11-21T07:01:16Z",
+  "jobs": [
+    {
+      "id": "workable:ba271572-29c3-4547-b0a4-2df1f019323b",
+      "company": "Intetics",
+      "title": "1226 | Front-end Developer",
+      "location": "Germany / Remote",
+      "url": "https://jobs.workable.com/view/oZf1ZCkfcNNYFShKRH9Qb8/remote-1226-%7C-front-end-developer-in-germany-at-intetics",
+      "source": "Workable",
+      "posted": "2026-11-20",
+      "salary": "",
+      "target": false,
+      "fintech": true,
+      "sector": "Crypto",
+      "fit": 67,
+      "years": 3,
+      "stretch": true,
+      "why": "React, TypeScript, JavaScript, AWS",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-20T20:10:27Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:product-engineer-frontend-focus-munich-69998",
+      "company": "Manex AI GmbH",
+      "title": "Product Engineer - Frontend focus (f/m/d)",
+      "location": "Munich",
+      "url": "https://www.arbeitnow.com/jobs/companies/manex-ai-gmbh/product-engineer-frontend-focus-munich-69998",
+      "source": "Arbeitnow",
+      "posted": "2026-11-19",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 64,
+      "years": null,
+      "stretch": false,
+      "why": "React, TypeScript, Next.js, React Query, Tailwind",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-19T20:31:46Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:backend-engineer-team-optimize-berlin-429660",
+      "company": "Taktile",
+      "title": "Backend Engineer - Team Optimize",
+      "location": "Berlin Office",
+      "url": "https://www.arbeitnow.com/jobs/companies/taktile/backend-engineer-team-optimize-berlin-429660",
+      "source": "Arbeitnow",
+      "posted": "2026-11-18",
+      "salary": "",
+      "target": false,
+      "fintech": true,
+      "sector": "Fintech",
+      "fit": 61,
+      "years": 3,
+      "stretch": true,
+      "why": "React, TypeScript, AWS",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-18T07:28:44Z",
+      "closed": false
+    },
+    {
+      "id": "workable:2dd3f404-9fc2-4e23-b7d9-508e4803e1d5",
+      "company": "Titanom Solutions GmbH",
+      "title": "Software Engineer, Web Development",
+      "location": "Germering, Germany",
+      "url": "https://jobs.workable.com/view/6EdYAEXwsKf9JGVfmkb69i/software-engineer%2C-web-development-in-germering-at-titanom-solutions-gmbh",
+      "source": "Workable",
+      "posted": "2026-11-19",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 58,
+      "years": null,
+      "stretch": false,
+      "why": "React, TypeScript, Next.js",
+      "visa": [
+        "Asks for German",
+        "Posting is written in German"
+      ],
+      "visa_level": "warn",
+      "found": "2026-11-19T20:31:46Z",
+      "closed": false
+    },
+    {
+      "id": "workable:78b13036-a1f5-4173-bf3a-712618be3009",
+      "company": "Intetics",
+      "title": "1227 | Back-end Developer",
+      "location": "Germany / Remote",
+      "url": "https://jobs.workable.com/view/fUpDkZ8Z9uZn8NN3qxLHQn/remote-1227-%7C-back-end-developer-in-germany-at-intetics",
+      "source": "Workable",
+      "posted": "2026-11-20",
+      "salary": "",
+      "target": false,
+      "fintech": true,
+      "sector": "Crypto",
+      "fit": 46,
+      "years": 3,
+      "stretch": true,
+      "why": "Node.js, AWS",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-20T20:10:27Z",
+      "closed": false
+    }
+  ]
+}

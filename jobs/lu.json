@@ -1,0 +1,30 @@
+{
+  "key": "lu",
+  "name": "Luxembourg",
+  "updated": "2026-11-21T07:01:16Z",
+  "jobs": [
+    {
+      "id": "workable:c91ae427-eb0e-4a70-831b-beef19b30d9a",
+      "company": "Helical",
+      "title": "Full-Stack Developer",
+      "location": "Luxembourg, Luxembourg",
+      "url": "https://jobs.workable.com/view/qQkfqCQoC4cQ5Z2cDhpLDh/full-stack-developer-in-luxembourg-at-helical",
+      "source": "Workable",
+      "posted": "2026-11-19",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 79,
+      "years": 1,
+      "stretch": false,
+      "why": "React, TypeScript, Next.js, AWS, Docker",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-19T20:31:46Z",
+      "closed": false
+    }
+  ]
+}

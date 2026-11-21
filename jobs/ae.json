@@ -1,0 +1,30 @@
+{
+  "key": "ae",
+  "name": "UAE",
+  "updated": "2026-11-21T07:01:16Z",
+  "jobs": [
+    {
+      "id": "smartrecruiters:DeliveryHero:744000162445255",
+      "company": "Delivery Hero",
+      "title": "Software Engineer ll - Backend (DMarts Network Management)",
+      "location": "Dubai, Dubai, United Arab Emirates",
+      "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000162445255-software-engineer-ll-backend-dmarts-network-management-",
+      "source": "Company careers",
+      "posted": "2026-11-19",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 39,
+      "years": 3,
+      "stretch": true,
+      "why": "Microservices, REST APIs, AWS",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-19T07:24:38Z",
+      "closed": false
+    }
+  ]
+}

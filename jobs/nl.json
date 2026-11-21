@@ -1,0 +1,76 @@
+{
+  "key": "nl",
+  "name": "Netherlands",
+  "updated": "2026-11-21T07:01:16Z",
+  "jobs": [
+    {
+      "id": "greenhouse:catawiki:8404971",
+      "company": "Catawiki",
+      "title": "Frontend Engineer",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://job-boards.greenhouse.io/catawiki/jobs/8404971",
+      "source": "Company careers",
+      "posted": "2026-11-20",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 92,
+      "years": null,
+      "stretch": false,
+      "why": "React, Node.js, TypeScript, Next.js, JavaScript, Redux, Microservices, Tailwind",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-20T07:14:01Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:full-stack-developer-on-site-amsterdam-231394",
+      "company": "Crisp",
+      "title": "Full stack developer (on site)",
+      "location": "Amsterdam",
+      "url": "https://www.arbeitnow.nl/jobs/companies/crisp/full-stack-developer-on-site-amsterdam-231394",
+      "source": "Arbeitnow",
+      "posted": "2026-11-18",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 61,
+      "years": null,
+      "stretch": false,
+      "why": "React, TypeScript, JavaScript, PostgreSQL",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-18T07:28:44Z",
+      "closed": false
+    },
+    {
+      "id": "workable:7ce80641-9567-4740-b2f5-97ee7457a927",
+      "company": "Treatwell",
+      "title": "SEO Full Stack Engineer",
+      "location": "Netherlands / Remote",
+      "url": "https://jobs.workable.com/view/gqAefDKSJLoor7LaKtUUYX/remote-seo-full-stack-engineer-in-netherlands-at-treatwell",
+      "source": "Workable",
+      "posted": "2026-11-18",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 60,
+      "years": null,
+      "stretch": false,
+      "why": "React, TypeScript, PostgreSQL, AWS, SQL",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-18T20:29:03Z",
+      "closed": false
+    }
+  ]
+}

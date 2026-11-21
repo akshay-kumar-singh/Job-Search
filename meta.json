@@ -1,0 +1,5352 @@
+{
+  "updated": "2026-11-21T07:01:16Z",
+  "schedule": "every 6 hours and on demand",
+  "scanned": 656,
+  "experience_years": 1,
+  "max_required_years": 2,
+  "stretch_years": 3,
+  "min_score": 35,
+  "max_posting_age_days": 7,
+  "keep_closed_days": 7,
+  "skills": [
+    [
+      "React",
+      20
+    ],
+    [
+      "Node.js",
+      15
+    ],
+    [
+      "TypeScript",
+      10
+    ],
+    [
+      "Next.js",
+      8
+    ],
+    [
+      "JavaScript",
+      6
+    ],
+    [
+      "Express",
+      4
+    ],
+    [
+      "Redux",
+      5
+    ],
+    [
+      "React Query",
+      3
+    ],
+    [
+      "MongoDB",
+      5
+    ],
+    [
+      "PostgreSQL",
+      5
+    ],
+    [
+      "Redis",
+      4
+    ],
+    [
+      "Microservices",
+      5
+    ],
+    [
+      "GraphQL",
+      4
+    ],
+    [
+      "WebSockets",
+      4
+    ],
+    [
+      "Tailwind",
+      3
+    ],
+    [
+      "REST APIs",
+      3
+    ],
+    [
+      "AWS",
+      3
+    ],
+    [
+      "Docker",
+      3
+    ],
+    [
+      "Kafka",
+      3
+    ],
+    [
+      "SQL",
+      2
+    ],
+    [
+      "Fintech",
+      6
+    ],
+    [
+      "Payments",
+      4
+    ],
+    [
+      "UPI",
+      3
+    ]
+  ],
+  "company_boards": 361,
+  "discovered_boards": 0,
+  "countries": [
+    {
+      "key": "in",
+      "name": "India",
+      "flag": "🇮🇳",
+      "group": "Home",
+      "visa": false,
+      "count": 8,
+      "stretch": 4,
+      "new": 4,
+      "fintech": 2,
+      "fintech_stretch": 0,
+      "fintech_new": 1,
+      "boards": [
+        [
+          "LinkedIn - React developer, India (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=India&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Naukri - React developer (past week)",
+          "https://www.naukri.com/react-developer-jobs?experience=1&jobAge=7"
+        ],
+        [
+          "Cutshort - React, Bangalore",
+          "https://cutshort.io/jobs/reactjs-jobs-in-bangalore-bengaluru"
+        ],
+        [
+          "Wellfound - Full stack, India",
+          "https://wellfound.com/role/l/full-stack-engineer/india"
+        ]
+      ]
+    },
+    {
+      "key": "remote",
+      "name": "Remote (open to India)",
+      "flag": "🌍",
+      "group": "Remote",
+      "visa": false,
+      "count": 41,
+      "stretch": 23,
+      "new": 3,
+      "fintech": 1,
+      "fintech_stretch": 4,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "Himalayas - React",
+          "https://himalayas.app/jobs?q=react"
+        ],
+        [
+          "Remotive - Software development",
+          "https://remotive.com/remote-jobs/software-dev"
+        ],
+        [
+          "Remote OK - React",
+          "https://remoteok.com/remote-react-jobs"
+        ]
+      ]
+    },
+    {
+      "key": "ae",
+      "name": "UAE",
+      "flag": "🇦🇪",
+      "group": "Middle East",
+      "visa": true,
+      "count": 0,
+      "stretch": 1,
+      "new": 0,
+      "fintech": 0,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, United Arab Emirates (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20Arab%20Emirates&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Bayt - React developer, UAE",
+          "https://www.bayt.com/en/uae/jobs/react-developer-jobs/"
+        ],
+        [
+          "NaukriGulf - React developer",
+          "https://www.naukrigulf.com/react-developer-jobs"
+        ]
+      ]
+    },
+    {
+      "key": "sa",
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "group": "Middle East",
+      "visa": true,
+      "count": 0,
+      "stretch": 0,
+      "new": 0,
+      "fintech": 0,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Saudi Arabia (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Saudi%20Arabia&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Bayt - React developer, Saudi Arabia",
+          "https://www.bayt.com/en/saudi-arabia/jobs/react-developer-jobs/"
+        ]
+      ]
+    },
+    {
+      "key": "qa",
+      "name": "Qatar",
+      "flag": "🇶🇦",
+      "group": "Middle East",
+      "visa": true,
+      "count": 0,
+      "stretch": 0,
+      "new": 0,
+      "fintech": 0,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Qatar (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Qatar&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Bayt - React developer, Qatar",
+          "https://www.bayt.com/en/qatar/jobs/react-developer-jobs/"
+        ]
+      ]
+    },
+    {
+      "key": "nl",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "group": "Europe",
+      "visa": true,
+      "count": 3,
+      "stretch": 0,
+      "new": 1,
+      "fintech": 0,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Netherlands (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Netherlands&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Indeed Netherlands - React developer (past week)",
+          "https://nl.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
+        ]
+      ]
+    },
+    {
+      "key": "de",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "group": "Europe",
+      "visa": true,
+      "count": 2,
+      "stretch": 3,
+      "new": 0,
+      "fintech": 0,
+      "fintech_stretch": 3,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Germany (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Germany&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "StepStone - React developer",
+          "https://www.stepstone.de/jobs/react-developer"
+        ],
+        [
+          "Arbeitnow - jobs with visa sponsorship",
+          "https://www.arbeitnow.com/"
+        ]
+      ]
+    },
+    {
+      "key": "ie",
+      "name": "Ireland",
+      "flag": "🇮🇪",
+      "group": "Europe",
+      "visa": true,
+      "count": 2,
+      "stretch": 0,
+      "new": 0,
+      "fintech": 0,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Ireland (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Ireland&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Indeed Ireland - React developer (past week)",
+          "https://ie.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
+        ]
+      ]
+    },
+    {
+      "key": "uk",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "group": "Europe",
+      "visa": true,
+      "count": 23,
+      "stretch": 4,
+      "new": 4,
+      "fintech": 4,
+      "fintech_stretch": 0,
+      "fintech_new": 1,
+      "boards": [
+        [
+          "LinkedIn - React developer, United Kingdom (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20Kingdom&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Indeed UK - React developer (past week)",
+          "https://uk.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
+        ]
+      ]
+    },
+    {
+      "key": "se",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "group": "Europe",
+      "visa": true,
+      "count": 0,
+      "stretch": 0,
+      "new": 0,
+      "fintech": 0,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Sweden (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Sweden&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Indeed Sweden - React developer (past week)",
+          "https://se.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
+        ]
+      ]
+    },
+    {
+      "key": "dk",
+      "name": "Denmark",
+      "flag": "🇩🇰",
+      "group": "Europe",
+      "visa": true,
+      "count": 0,
+      "stretch": 0,
+      "new": 0,
+      "fintech": 0,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Denmark (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Denmark&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Jobindex - React",
+          "https://www.jobindex.dk/jobsoegning?q=react"
+        ]
+      ]
+    },
+    {
+      "key": "ch",
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "group": "Europe",
+      "visa": true,
+      "count": 2,
+      "stretch": 2,
+      "new": 0,
+      "fintech": 0,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Switzerland (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Switzerland&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Indeed Switzerland - React developer (past week)",
+          "https://ch.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
+        ]
+      ]
+    },
+    {
+      "key": "lu",
+      "name": "Luxembourg",
+      "flag": "🇱🇺",
+      "group": "Europe",
+      "visa": true,
+      "count": 1,
+      "stretch": 0,
+      "new": 0,
+      "fintech": 0,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Luxembourg (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Luxembourg&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Indeed Luxembourg - React developer (past week)",
+          "https://lu.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
+        ]
+      ]
+    },
+    {
+      "key": "sg",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "group": "Asia-Pacific",
+      "visa": true,
+      "count": 28,
+      "stretch": 24,
+      "new": 5,
+      "fintech": 1,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Singapore (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Singapore&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "MyCareersFuture - React (newest first)",
+          "https://www.mycareersfuture.gov.sg/search?search=react&sortBy=new_posting_date"
+        ],
+        [
+          "NodeFlair - React",
+          "https://nodeflair.com/jobs?query=react"
+        ]
+      ]
+    },
+    {
+      "key": "jp",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "group": "Asia-Pacific",
+      "visa": true,
+      "count": 0,
+      "stretch": 0,
+      "new": 0,
+      "fintech": 0,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "Japan Dev - English-speaking jobs",
+          "https://japan-dev.com/jobs"
+        ],
+        [
+          "TokyoDev - jobs",
+          "https://www.tokyodev.com/jobs"
+        ],
+        [
+          "LinkedIn - React developer, Japan (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Japan&f_TPR=r604800&f_E=2%2C3"
+        ]
+      ]
+    },
+    {
+      "key": "au",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "group": "Asia-Pacific",
+      "visa": true,
+      "count": 1,
+      "stretch": 0,
+      "new": 0,
+      "fintech": 1,
+      "fintech_stretch": 0,
+      "fintech_new": 0,
+      "boards": [
+        [
+          "LinkedIn - React developer, Australia (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Australia&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "SEEK - React developer (past week)",
+          "https://www.seek.com.au/react-developer-jobs?daterange=7"
+        ],
+        [
+          "Indeed Australia - React developer (past week)",
+          "https://au.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
+        ]
+      ]
+    },
+    {
+      "key": "ca",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "group": "North America",
+      "visa": true,
+      "count": 6,
+      "stretch": 3,
+      "new": 2,
+      "fintech": 1,
+      "fintech_stretch": 0,
+      "fintech_new": 1,
+      "boards": [
+        [
+          "LinkedIn - React developer, Canada (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=Canada&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Indeed Canada - React developer (past week)",
+          "https://ca.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
+        ]
+      ]
+    },
+    {
+      "key": "us",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "group": "North America",
+      "visa": true,
+      "count": 18,
+      "stretch": 6,
+      "new": 5,
+      "fintech": 2,
+      "fintech_stretch": 0,
+      "fintech_new": 1,
+      "boards": [
+        [
+          "LinkedIn - React developer, United States (past week)",
+          "https://www.linkedin.com/jobs/search/?keywords=react%20developer&location=United%20States&f_TPR=r604800&f_E=2%2C3"
+        ],
+        [
+          "Indeed USA - React developer (past week)",
+          "https://www.indeed.com/jobs?q=react+developer&fromage=7&sort=date"
+        ]
+      ]
+    }
+  ],
+  "fintech_companies": [
+    {
+      "name": "Affirm",
+      "sector": "BNPL",
+      "url": "https://job-boards.greenhouse.io/affirm",
+      "open": 2,
+      "stretch": 0,
+      "countries": [
+        "ca",
+        "uk"
+      ],
+      "followed": true
+    },
+    {
+      "name": "Airwallex",
+      "sector": "Payments",
+      "url": "https://jobs.ashbyhq.com/airwallex",
+      "open": 2,
+      "stretch": 0,
+      "countries": [
+        "au",
+        "sg"
+      ],
+      "followed": true
+    },
+    {
+      "name": "Docyt",
+      "sector": "Fintech",
+      "url": "http://www.docyt.com",
+      "open": 1,
+      "stretch": 0,
+      "countries": [
+        "in"
+      ],
+      "followed": false
+    },
+    {
+      "name": "Elwoodtechnologies",
+      "sector": "Crypto",
+      "url": "",
+      "open": 1,
+      "stretch": 0,
+      "countries": [
+        "uk"
+      ],
+      "followed": false
+    },
+    {
+      "name": "OKX",
+      "sector": "Crypto",
+      "url": "https://job-boards.greenhouse.io/okx",
+      "open": 1,
+      "stretch": 0,
+      "countries": [
+        "us"
+      ],
+      "followed": true
+    },
+    {
+      "name": "Robinhood",
+      "sector": "Investing",
+      "url": "https://job-boards.greenhouse.io/robinhood",
+      "open": 1,
+      "stretch": 0,
+      "countries": [
+        "us"
+      ],
+      "followed": true
+    },
+    {
+      "name": "Smartstream",
+      "sector": "Fintech",
+      "url": "https://smart.stream/",
+      "open": 1,
+      "stretch": 0,
+      "countries": [
+        "in"
+      ],
+      "followed": false
+    },
+    {
+      "name": "Tether Operations",
+      "sector": "Crypto",
+      "url": "",
+      "open": 1,
+      "stretch": 0,
+      "countries": [
+        "remote"
+      ],
+      "followed": false
+    },
+    {
+      "name": "Wehrtyou",
+      "sector": "Crypto",
+      "url": "",
+      "open": 1,
+      "stretch": 0,
+      "countries": [
+        "uk"
+      ],
+      "followed": false
+    },
+    {
+      "name": "Wisdomtree UK",
+      "sector": "Crypto",
+      "url": "",
+      "open": 1,
+      "stretch": 0,
+      "countries": [
+        "uk"
+      ],
+      "followed": false
+    },
+    {
+      "name": "Intetics",
+      "sector": "Crypto",
+      "url": "http://intetics.com",
+      "open": 0,
+      "stretch": 2,
+      "countries": [
+        "de"
+      ],
+      "followed": false
+    },
+    {
+      "name": "Asset Bridge",
+      "sector": "Crypto",
+      "url": "",
+      "open": 0,
+      "stretch": 1,
+      "countries": [
+        "remote"
+      ],
+      "followed": false
+    },
+    {
+      "name": "Bjak",
+      "sector": "Insurtech",
+      "url": "",
+      "open": 0,
+      "stretch": 1,
+      "countries": [
+        "remote"
+      ],
+      "followed": false
+    },
+    {
+      "name": "NodeShift",
+      "sector": "Crypto",
+      "url": "",
+      "open": 0,
+      "stretch": 1,
+      "countries": [
+        "remote"
+      ],
+      "followed": false
+    },
+    {
+      "name": "RemotePeople",
+      "sector": "Fintech",
+      "url": "",
+      "open": 0,
+      "stretch": 1,
+      "countries": [
+        "remote"
+      ],
+      "followed": false
+    },
+    {
+      "name": "Taktile",
+      "sector": "Fintech",
+      "url": "",
+      "open": 0,
+      "stretch": 1,
+      "countries": [
+        "de"
+      ],
+      "followed": false
+    },
+    {
+      "name": "2C2P",
+      "sector": "Payments",
+      "url": "https://apply.workable.com/2c2p/",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Acorns",
+      "sector": "Investing",
+      "url": "https://jobs.ashbyhq.com/acorns",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Adyen",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/adyen",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Ajaib",
+      "sector": "Investing",
+      "url": "https://apply.workable.com/ajaib/",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Alan",
+      "sector": "Insurtech",
+      "url": "https://jobs.ashbyhq.com/alan",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Alchemy",
+      "sector": "Crypto",
+      "url": "https://jobs.ashbyhq.com/alchemy",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Alloy",
+      "sector": "Infrastructure",
+      "url": "https://job-boards.greenhouse.io/alloy",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Alternative Payments",
+      "sector": "Payments",
+      "url": "https://jobs.ashbyhq.com/alternativepayments",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Anchorage",
+      "sector": "Crypto",
+      "url": "https://jobs.lever.co/anchorage",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Aspora",
+      "sector": "Remittance",
+      "url": "https://jobs.ashbyhq.com/aspora",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Betterment",
+      "sector": "Investing",
+      "url": "https://job-boards.greenhouse.io/betterment",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Bill",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/billcom",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Binance",
+      "sector": "Crypto",
+      "url": "https://job-boards.greenhouse.io/binance",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Bitpanda",
+      "sector": "Crypto",
+      "url": "https://job-boards.greenhouse.io/bitpanda",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Block",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/block",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Brex",
+      "sector": "Cards",
+      "url": "https://job-boards.greenhouse.io/brex",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Brighte",
+      "sector": "Lending",
+      "url": "https://jobs.lever.co/brighte",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Bybit",
+      "sector": "Crypto",
+      "url": "https://job-boards.greenhouse.io/bybit",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Carta",
+      "sector": "Investing",
+      "url": "https://job-boards.greenhouse.io/carta",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Category Labs",
+      "sector": "Crypto",
+      "url": "https://jobs.ashbyhq.com/category-labs",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Chestnut",
+      "sector": "Insurtech",
+      "url": "https://jobs.ashbyhq.com/Chestnut",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Chime",
+      "sector": "Neobank",
+      "url": "https://job-boards.greenhouse.io/chime",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Circle",
+      "sector": "Crypto",
+      "url": "https://jobs.ashbyhq.com/circle",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "ClearBank",
+      "sector": "Bank",
+      "url": "https://jobs.ashbyhq.com/clearbank",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Cleo",
+      "sector": "Neobank",
+      "url": "https://job-boards.greenhouse.io/cleo",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Coast",
+      "sector": "Cards",
+      "url": "https://job-boards.greenhouse.io/coast",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Coinbase",
+      "sector": "Crypto",
+      "url": "https://job-boards.greenhouse.io/coinbase",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Column",
+      "sector": "Bank",
+      "url": "https://jobs.ashbyhq.com/column",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "ConsenSys",
+      "sector": "Crypto",
+      "url": "https://job-boards.greenhouse.io/consensys",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "CRED",
+      "sector": "Payments",
+      "url": "https://jobs.lever.co/cred",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Credit Genie",
+      "sector": "Lending",
+      "url": "https://jobs.ashbyhq.com/creditgenie",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Crypto.com",
+      "sector": "Crypto",
+      "url": "https://jobs.lever.co/crypto",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Current",
+      "sector": "Neobank",
+      "url": "https://job-boards.greenhouse.io/current",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Dave",
+      "sector": "Neobank",
+      "url": "https://jobs.ashbyhq.com/dave",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Ebury",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/ebury",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "FamPay",
+      "sector": "Payments",
+      "url": "https://jobs.lever.co/fampay",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "FINN",
+      "sector": "Lending",
+      "url": "https://job-boards.greenhouse.io/finnapp",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Fireblocks",
+      "sector": "Crypto",
+      "url": "https://job-boards.greenhouse.io/fireblocks",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Footprint",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/footprint",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Fourthline",
+      "sector": "Infrastructure",
+      "url": "https://job-boards.greenhouse.io/fourthline",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Freetrade",
+      "sector": "Investing",
+      "url": "https://jobs.ashbyhq.com/freetrade",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Funding Societies",
+      "sector": "Lending",
+      "url": "https://apply.workable.com/fundingsocieties/",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Gemini",
+      "sector": "Crypto",
+      "url": "https://job-boards.greenhouse.io/gemini",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "GoCardless",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/gocardless",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Griffin",
+      "sector": "Bank",
+      "url": "https://jobs.ashbyhq.com/griffin",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Groww",
+      "sector": "Investing",
+      "url": "https://job-boards.greenhouse.io/groww",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Gusto",
+      "sector": "Payroll",
+      "url": "https://job-boards.greenhouse.io/gusto",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "HighRadius",
+      "sector": "Infrastructure",
+      "url": "https://job-boards.greenhouse.io/highradius",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Justworks",
+      "sector": "Payroll",
+      "url": "https://job-boards.greenhouse.io/justworks",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Lean Technologies",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/leantech",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Ledger",
+      "sector": "Crypto",
+      "url": "https://jobs.ashbyhq.com/ledger",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Lendable",
+      "sector": "Lending",
+      "url": "https://jobs.ashbyhq.com/lendable",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Lithic",
+      "sector": "Cards",
+      "url": "https://job-boards.greenhouse.io/lithic",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Lunar",
+      "sector": "Neobank",
+      "url": "https://jobs.ashbyhq.com/lunar",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Luxor",
+      "sector": "Crypto",
+      "url": "https://jobs.ashbyhq.com/luxor",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Mercury",
+      "sector": "Neobank",
+      "url": "https://job-boards.greenhouse.io/mercury",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Middesk",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/middesk",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Modern Treasury",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/moderntreasury",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Mollie",
+      "sector": "Payments",
+      "url": "https://jobs.ashbyhq.com/mollie",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Moneybox",
+      "sector": "Investing",
+      "url": "https://jobs.ashbyhq.com/moneybox",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Monzo",
+      "sector": "Neobank",
+      "url": "https://job-boards.greenhouse.io/monzo",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "N26",
+      "sector": "Neobank",
+      "url": "https://job-boards.greenhouse.io/n26",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Navi",
+      "sector": "Lending",
+      "url": "https://jobs.ashbyhq.com/navi",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Nium",
+      "sector": "Payments",
+      "url": "https://jobs.lever.co/nium",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Nova Credit",
+      "sector": "Infrastructure",
+      "url": "https://job-boards.greenhouse.io/novacredit",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Novo",
+      "sector": "Neobank",
+      "url": "https://jobs.ashbyhq.com/novo",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Nubank",
+      "sector": "Neobank",
+      "url": "https://jobs.ashbyhq.com/nubank",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Nuvei",
+      "sector": "Payments",
+      "url": "https://apply.workable.com/nuvei/",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Oscilar",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/oscilar",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Paddle",
+      "sector": "Payments",
+      "url": "https://jobs.ashbyhq.com/paddle",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Paxos",
+      "sector": "Crypto",
+      "url": "https://jobs.ashbyhq.com/paxos",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Payoneer",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/payoneer",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Paytm",
+      "sector": "Payments",
+      "url": "https://jobs.lever.co/paytm",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Pexa",
+      "sector": "Infrastructure",
+      "url": "https://jobs.lever.co/pexa",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Plaid",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/plaid",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Pleo",
+      "sector": "Cards",
+      "url": "https://jobs.ashbyhq.com/pleo",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Pliant",
+      "sector": "Cards",
+      "url": "https://jobs.ashbyhq.com/pliant",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Primer",
+      "sector": "Payments",
+      "url": "https://jobs.ashbyhq.com/primer",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Qonto",
+      "sector": "Neobank",
+      "url": "https://jobs.ashbyhq.com/qonto",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Rain",
+      "sector": "Crypto",
+      "url": "https://jobs.ashbyhq.com/rain",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Raisin",
+      "sector": "Investing",
+      "url": "https://job-boards.greenhouse.io/raisin",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Ramp",
+      "sector": "Cards",
+      "url": "https://job-boards.greenhouse.io/ramp",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Razorpay",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Rho",
+      "sector": "Neobank",
+      "url": "https://jobs.ashbyhq.com/rho",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Ripple",
+      "sector": "Crypto",
+      "url": "https://job-boards.greenhouse.io/ripple",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "River",
+      "sector": "Crypto",
+      "url": "https://jobs.ashbyhq.com/river",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Sardine",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/sardine",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Satispay",
+      "sector": "Payments",
+      "url": "https://jobs.ashbyhq.com/satispay",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "SentiLink",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/sentilink",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Shepherd",
+      "sector": "Insurtech",
+      "url": "https://jobs.ashbyhq.com/shepherd",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Slice",
+      "sector": "Neobank",
+      "url": "https://job-boards.greenhouse.io/slice",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Socure",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/socure",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "SoFi",
+      "sector": "Neobank",
+      "url": "https://job-boards.greenhouse.io/sofi",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Solaris",
+      "sector": "Infrastructure",
+      "url": "https://job-boards.greenhouse.io/solarisbank",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Step",
+      "sector": "Neobank",
+      "url": "https://job-boards.greenhouse.io/step",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "StraitsX",
+      "sector": "Crypto",
+      "url": "https://job-boards.greenhouse.io/straitsx",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Stripe",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/stripe",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "SumUp",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/sumup",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Swan",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/swan",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Tamara",
+      "sector": "BNPL",
+      "url": "https://job-boards.greenhouse.io/tamara",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Thndr",
+      "sector": "Investing",
+      "url": "https://jobs.ashbyhq.com/thndr",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Thunes",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/thunes",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Tide",
+      "sector": "Neobank",
+      "url": "https://job-boards.greenhouse.io/tide",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Trade Republic",
+      "sector": "Investing",
+      "url": "https://job-boards.greenhouse.io/traderepublicbank",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "TrueLayer",
+      "sector": "Infrastructure",
+      "url": "https://job-boards.greenhouse.io/truelayer",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Trulioo",
+      "sector": "Infrastructure",
+      "url": "https://jobs.ashbyhq.com/trulioo",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Trustly",
+      "sector": "Payments",
+      "url": "https://jobs.ashbyhq.com/trustly",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "United Risk",
+      "sector": "Insurtech",
+      "url": "https://jobs.lever.co/auw",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Upvest",
+      "sector": "Investing",
+      "url": "https://jobs.ashbyhq.com/upvest",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Veriff",
+      "sector": "Infrastructure",
+      "url": "https://job-boards.greenhouse.io/veriff",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Vestwell",
+      "sector": "Investing",
+      "url": "https://job-boards.greenhouse.io/vestwell",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Wave",
+      "sector": "Payments",
+      "url": "https://jobs.lever.co/waveapps",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Wayflyer",
+      "sector": "Lending",
+      "url": "https://jobs.ashbyhq.com/wayflyer",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Wealthfront",
+      "sector": "Investing",
+      "url": "https://jobs.lever.co/wealthfront",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Wealthsimple",
+      "sector": "Investing",
+      "url": "https://jobs.ashbyhq.com/wealthsimple",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Wise",
+      "sector": "Payments",
+      "url": "https://jobs.smartrecruiters.com/Wise",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Xendit",
+      "sector": "Payments",
+      "url": "https://job-boards.greenhouse.io/xendit",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Zeta",
+      "sector": "Infrastructure",
+      "url": "https://jobs.lever.co/zeta",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Ziina",
+      "sector": "Payments",
+      "url": "https://jobs.ashbyhq.com/ziina",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    },
+    {
+      "name": "Zopa",
+      "sector": "Lending",
+      "url": "https://jobs.lever.co/zopa",
+      "open": 0,
+      "stretch": 0,
+      "countries": [],
+      "followed": true
+    }
+  ],
+  "sources": [
+    {
+      "name": "Stripe",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Razorpay",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Groww",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "InMobi",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "DevRev",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Observe.AI",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Truecaller",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "MongoDB",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Okta",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Datadog",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Elastic",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Celonis",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Coinbase",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Vercel",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 2,
+      "error": ""
+    },
+    {
+      "name": "Careem",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Tamara",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Bybit",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "OKX",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Thunes",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "StraitsX",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Xendit",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Adyen",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Catawiki",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Trade Republic",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "N26",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Raisin",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "HelloFresh",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Contentful",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "commercetools",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "SumUp",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Intercom",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Tines",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Flipdish",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Deliveroo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 2,
+      "error": ""
+    },
+    {
+      "name": "Monzo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "GoCardless",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "TrueLayer",
+      "type": "Company careers",
+      "ok": false,
+      "matches": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Eucalyptus",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mentimeter",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Trustpilot",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Proton",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Scandit",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Block",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Culture Amp",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Buildkite",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Faire",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Hootsuite",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "CRED",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Meesho",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Zeta",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Nium",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Ninja Van",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Spotify",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "CarTrawler",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Zopa",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mable",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Deputy",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Immutable",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Wave",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Atlan",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Airwallex",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 2,
+      "error": ""
+    },
+    {
+      "name": "Ziina",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Lean Technologies",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mollie",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Doctolib",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "GetYourGuide",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Forto",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Qonto",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Pleo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Paddle",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Lendable",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Wayflyer",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workhuman",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Legora",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Trustly",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Too Good To Go",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Frontify",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Airtasker",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Cohere",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Wealthsimple",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "1Password",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Jobber",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Trulioo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Benevity",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Thinkific",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Swiggy",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Freshworks",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Grab",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Delivery Hero",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 2,
+      "error": ""
+    },
+    {
+      "name": "Wise",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Canva",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mercari",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Lucidya",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Foodics",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Funding Societies",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Paytm",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Slice",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Navi",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "FamPay",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Aspora",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Rain",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Binance",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Thndr",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "2C2P",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Crypto.com",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Solaris",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Primer",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Cleo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Plaid",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Lunar",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Ebury",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Satispay",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Bitpanda",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Upvest",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Pliant",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Swan",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Alan",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Tide",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Griffin",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Veriff",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Fourthline",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "ClearBank",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Freetrade",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Moneybox",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Brighte",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Pexa",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Ramp",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Brex",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mercury",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Chime",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Affirm",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 4,
+      "error": ""
+    },
+    {
+      "name": "Robinhood",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 2,
+      "error": ""
+    },
+    {
+      "name": "Modern Treasury",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Carta",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Gusto",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Dave",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "SoFi",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Nubank",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Betterment",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Wealthfront",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Acorns",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Current",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Step",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Novo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Payoneer",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Bill",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Lithic",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Column",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Alloy",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Socure",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Sardine",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Fireblocks",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Circle",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Anchorage",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Paxos",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Gemini",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "ConsenSys",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Alchemy",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Ripple",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Nuvei",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Porter",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Druva",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "HackerRank",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "MindTickle",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "HighRadius",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Rubrik",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Netlify",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Supabase",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "GitLab",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Cloudflare",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Figma",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Notion",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Linear",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Airtable",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Zapier",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Miro",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Storyblok",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "PostHog",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Sentry",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Docker",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Twilio",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 3,
+      "error": ""
+    },
+    {
+      "name": "Buffer",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Discord",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Duolingo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Reddit",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Pinterest",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Snyk",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Algolia",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mixpanel",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amplitude",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Webflow",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Calendly",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "ClickUp",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Asana",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Smartsheet",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Outreach",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Braze",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Iterable",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Attentive",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Klaviyo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Canonical",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "JetBrains",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Gorgias",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mirakl",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Back Market",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Ledger",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Dataiku",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Contentsquare",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Wolt",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Typeform",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Synthesia",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "ElevenLabs",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 3,
+      "error": ""
+    },
+    {
+      "name": "Hugging Face",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Perplexity",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Anthropic",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "OpenAI",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 5,
+      "error": ""
+    },
+    {
+      "name": "Scale",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Replit",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Temporal",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "ClickHouse",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Lalamove",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Ajaib",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Salla",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "3Ive",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "9 Mothers",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Authorium",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Chestnut",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Deepl",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mapbox",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mastra",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Nango",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Pear VC",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Railway",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Scholarly",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Scribd",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Solace",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Tonic.ai",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "AIUC",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Alembic",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Alternative Payments",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Anterior",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Antithesis",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Aptura",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Artificial Analysis",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Aurelius Systems",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Bonfire Analytics",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Category Labs",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Chariot",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Checkly",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Close",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Comity",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Compa",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Complement",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Credit Genie",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "deepset",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Deeter Analytics",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Ditto",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "DuckDuckGo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Eagle",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Equall",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Footprint",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Forus",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Fig",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Hive",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Hiya",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "ICEYE",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Jupus",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Kepler",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Kiloforge",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Kong",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Kraken Technologies",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "LiveKit",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Luxor",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Maincode",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Menlo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Middesk",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Modal",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Neo.Tax",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Norm Ai",
+      "type": "Company careers",
+      "ok": false,
+      "matches": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Odyssey",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "OneCrew",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Oneleet",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "OpsMill",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Oscilar",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "PermitFlow",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Prior Labs",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Product Genius",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Prompt",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Proxima Fusion",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Radical Numerics",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Rebar",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Reducto",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Reframe Systems",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Rho",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "River",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Runway",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Salesjack",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "SentiLink",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Sheer Health",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Shepherd",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Smarkets",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Somana",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "SpruceID",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Stream",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Tetsuwan",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Thunder Compute",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Tolmo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Trace Labs",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Turquoise Health",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Voltai",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "WireScreen",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Brightcore Energy",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Canopy",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Coast",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Control Plane",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "FINN",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "GiveDirectly",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Grafana Labs",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "IonQ",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Justworks",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "K2 Space",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Kinelo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Manifest",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mattermost",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Mozilla",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Nova Credit",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Obsidian Security",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Odin",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Oklo",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Piramidal",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "PlanetScale",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Prolific",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Relativity",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 2,
+      "error": ""
+    },
+    {
+      "name": "SpaceX",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Allen Institute",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Vestwell",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Weave",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Wikimedia",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "UpMetrics",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Apollo Research",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Aquabyte",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Articulate",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Atom Computing",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "United Risk",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Curai",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Distru",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Findigs",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Duranta",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Loft Orbital",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "RAI Institute",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Zum",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Ro",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Akeno",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Atria Health",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "JustPark",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Longshot Systems",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Modash",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Portswigger",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Seeq",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "VALIS",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, IND)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, IND)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 11,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, SGP)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, SGP)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, ARE)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, ARE)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, SAU)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, SAU)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, IRL)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, IRL)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 6,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, GBR)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, GBR)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 4,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, DEU)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, DEU)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, NLD)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, NLD)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, CAN)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, CAN)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 4,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, JPN)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, JPN)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, AUS)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, AUS)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (front end engineer, LUX)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Amazon Jobs (software development engineer, LUX)",
+      "type": "Company careers",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, India)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 9,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, India)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, India)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 11,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, India)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 3,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, United Arab Emirates)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, United Arab Emirates)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, United Arab Emirates)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, United Arab Emirates)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Saudi Arabia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Saudi Arabia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Saudi Arabia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Saudi Arabia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Qatar)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Qatar)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Qatar)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Qatar)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Netherlands)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Netherlands)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Netherlands)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Netherlands)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Germany)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 2,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Germany)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 2,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Germany)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 3,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Germany)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Ireland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Ireland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Ireland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Ireland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, United Kingdom)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 9,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, United Kingdom)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, United Kingdom)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 9,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, United Kingdom)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 7,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Sweden)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Sweden)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Sweden)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Sweden)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Denmark)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Denmark)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Denmark)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Denmark)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Switzerland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Switzerland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Switzerland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Switzerland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Luxembourg)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Luxembourg)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Luxembourg)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Luxembourg)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Singapore)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 6,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Singapore)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 4,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Singapore)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 9,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Singapore)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 5,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Japan)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Japan)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Japan)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Japan)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Australia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Australia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Australia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Australia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, Canada)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 5,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, Canada)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, Canada)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 3,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, Canada)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (react, United States)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 8,
+      "error": ""
+    },
+    {
+      "name": "Workable search (node.js, United States)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 8,
+      "error": ""
+    },
+    {
+      "name": "Workable search (full stack, United States)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 21,
+      "error": ""
+    },
+    {
+      "name": "Workable search (frontend, United States)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 6,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, India)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 9,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, India)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 7,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, United Arab Emirates)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, United Arab Emirates)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Saudi Arabia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 2,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Saudi Arabia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Qatar)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Qatar)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Netherlands)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Netherlands)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Germany)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 5,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Germany)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Ireland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Ireland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, United Kingdom)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 9,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, United Kingdom)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 4,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Sweden)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Sweden)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Denmark)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Denmark)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Switzerland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Switzerland)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Luxembourg)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Luxembourg)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Singapore)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 13,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Singapore)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 4,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Japan)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Japan)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Australia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Australia)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, Canada)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 5,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, Canada)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 3,
+      "error": ""
+    },
+    {
+      "name": "Workable search (software engineer, United States)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 12,
+      "error": ""
+    },
+    {
+      "name": "Workable search (javascript, United States)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 6,
+      "error": ""
+    },
+    {
+      "name": "Workable search (fintech, India)",
+      "type": "Workable",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Cutshort (React, Bangalore)",
+      "type": "Cutshort",
+      "ok": true,
+      "matches": 4,
+      "error": ""
+    },
+    {
+      "name": "Cutshort (Node, Bangalore)",
+      "type": "Cutshort",
+      "ok": true,
+      "matches": 1,
+      "error": ""
+    },
+    {
+      "name": "Cutshort (Frontend, Bangalore)",
+      "type": "Cutshort",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Himalayas (react, open to India)",
+      "type": "Himalayas",
+      "ok": true,
+      "matches": 18,
+      "error": ""
+    },
+    {
+      "name": "Himalayas (frontend, open to India)",
+      "type": "Himalayas",
+      "ok": true,
+      "matches": 24,
+      "error": ""
+    },
+    {
+      "name": "Himalayas (full stack, open to India)",
+      "type": "Himalayas",
+      "ok": true,
+      "matches": 22,
+      "error": ""
+    },
+    {
+      "name": "Himalayas (javascript, open to India)",
+      "type": "Himalayas",
+      "ok": true,
+      "matches": 21,
+      "error": ""
+    },
+    {
+      "name": "Himalayas (node, open to India)",
+      "type": "Himalayas",
+      "ok": true,
+      "matches": 14,
+      "error": ""
+    },
+    {
+      "name": "Himalayas (typescript, open to India)",
+      "type": "Himalayas",
+      "ok": true,
+      "matches": 17,
+      "error": ""
+    },
+    {
+      "name": "MyCareersFuture (react)",
+      "type": "MyCareersFuture",
+      "ok": true,
+      "matches": 51,
+      "error": ""
+    },
+    {
+      "name": "MyCareersFuture (frontend)",
+      "type": "MyCareersFuture",
+      "ok": true,
+      "matches": 67,
+      "error": ""
+    },
+    {
+      "name": "MyCareersFuture (full stack)",
+      "type": "MyCareersFuture",
+      "ok": true,
+      "matches": 60,
+      "error": ""
+    },
+    {
+      "name": "MyCareersFuture (node.js)",
+      "type": "MyCareersFuture",
+      "ok": true,
+      "matches": 45,
+      "error": ""
+    },
+    {
+      "name": "MyCareersFuture (fintech)",
+      "type": "MyCareersFuture",
+      "ok": true,
+      "matches": 2,
+      "error": ""
+    },
+    {
+      "name": "Arbeitnow (visa sponsorship)",
+      "type": "Arbeitnow",
+      "ok": true,
+      "matches": 16,
+      "error": ""
+    },
+    {
+      "name": "Remotive (software development)",
+      "type": "Remotive",
+      "ok": true,
+      "matches": 0,
+      "error": ""
+    },
+    {
+      "name": "Remote OK",
+      "type": "Remote OK",
+      "ok": true,
+      "matches": 3,
+      "error": ""
+    }
+  ]
+}
