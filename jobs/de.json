@@ -1,0 +1,53 @@
+{
+  "key": "de",
+  "name": "Germany",
+  "updated": "2026-11-28T07:43:02Z",
+  "jobs": [
+    {
+      "id": "arbeitnow:frontend-engineer-munich-170243",
+      "company": "Manex AI GmbH",
+      "title": "Frontend Engineer (f/m/d)",
+      "location": "Munich",
+      "url": "https://www.arbeitnow.com/jobs/companies/manex-ai-gmbh/frontend-engineer-munich-170243",
+      "source": "Arbeitnow",
+      "posted": "2026-11-22",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 64,
+      "years": null,
+      "stretch": false,
+      "why": "React, TypeScript, Next.js, React Query, Tailwind",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-22T19:34:14Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:founding-full-stack-engineer-ai-berlin-355747",
+      "company": "Limetax",
+      "title": "Founding Full Stack Engineer – AI (m/f/d)",
+      "location": "Berlin (HQ)",
+      "url": "https://www.arbeitnow.com/jobs/companies/limetax/founding-full-stack-engineer-ai-berlin-355747",
+      "source": "Arbeitnow",
+      "posted": "2026-11-26",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 52,
+      "years": null,
+      "stretch": false,
+      "why": "React, TypeScript, SQL",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-27T08:28:08Z",
+      "closed": false
+    }
+  ]
+}

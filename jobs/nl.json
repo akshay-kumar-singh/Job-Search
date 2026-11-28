@@ -1,0 +1,173 @@
+{
+  "key": "nl",
+  "name": "Netherlands",
+  "updated": "2026-11-28T07:43:02Z",
+  "jobs": [
+    {
+      "id": "workable:12bd668c-6940-4ab6-92f9-1ff8489399ce",
+      "company": "Dawn Aerospace",
+      "title": "Full Stack Web Developer - Delft, The Netherlands",
+      "location": "Delft, Netherlands",
+      "url": "https://jobs.workable.com/view/3jdy1FCQeQrNnvSwCZV52L/full-stack-web-developer---delft%2C-the-netherlands-in-delft-at-dawn-aerospace",
+      "source": "Workable",
+      "posted": "2026-11-22",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 76,
+      "years": 3,
+      "stretch": true,
+      "why": "React, Node.js, TypeScript, Docker",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-23T07:35:38Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:software-engineer-creatives-team-utrecht-212093",
+      "company": "Channable",
+      "title": "Software Engineer - Creatives Team",
+      "location": "Utrecht, Utrecht, Netherlands",
+      "url": "https://www.arbeitnow.nl/jobs/companies/channable/software-engineer-creatives-team-utrecht-212093",
+      "source": "Arbeitnow",
+      "posted": "2026-11-28",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 57,
+      "years": null,
+      "stretch": false,
+      "why": "React, TypeScript, PostgreSQL, SQL",
+      "visa": [
+        "Mentions visa sponsorship or relocation",
+        "Asks for an existing right to work"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-28T07:43:02Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:software-engineer-ii-autonomous-supply-chains-amsterdam-120266",
+      "company": "Flexport",
+      "title": "Software Engineer II: Autonomous Supply Chains",
+      "location": "Amsterdam",
+      "url": "https://www.arbeitnow.nl/jobs/companies/flexport/software-engineer-ii-autonomous-supply-chains-amsterdam-120266",
+      "source": "Arbeitnow",
+      "posted": "2026-11-24",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 55,
+      "years": 3,
+      "stretch": true,
+      "why": "TypeScript, Next.js, PostgreSQL, Payments",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-24T22:24:18Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:stagiaire-backend-developer-utrecht-320484",
+      "company": "Berenschot Groep B.V.",
+      "title": "Stagiair(e) Backend developer",
+      "location": "Utrecht, Utrecht, Nederland",
+      "url": "https://www.arbeitnow.nl/jobs/companies/berenschot-groep-bv/stagiaire-backend-developer-utrecht-320484",
+      "source": "Arbeitnow",
+      "posted": "2026-11-23",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 53,
+      "years": null,
+      "stretch": false,
+      "why": "React, Next.js, REST APIs, SQL",
+      "visa": [
+        "Mentions visa sponsorship or relocation",
+        "Asks for Dutch",
+        "Posting is written in Dutch"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-23T07:35:38Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:software-engineer-agent-amsterdam-161415",
+      "company": "Sierra",
+      "title": "Software Engineer, Agent",
+      "location": "Amsterdam",
+      "url": "https://www.arbeitnow.nl/jobs/companies/sierra/software-engineer-agent-amsterdam-161415",
+      "source": "Arbeitnow",
+      "posted": "2026-11-25",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 50,
+      "years": null,
+      "stretch": false,
+      "why": "React, TypeScript",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-25T08:27:27Z",
+      "closed": false
+    },
+    {
+      "id": "greenhouse:catawiki:8404845",
+      "company": "Catawiki",
+      "title": "Backend Engineer",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://job-boards.greenhouse.io/catawiki/jobs/8404845",
+      "source": "Company careers",
+      "posted": "2026-11-24",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 45,
+      "years": 3,
+      "stretch": true,
+      "why": "Microservices, SQL, Fintech, Payments",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-24T22:24:18Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:stagiaire-backend-ai-developer-utrecht-379182",
+      "company": "Berenschot Groep B.V.",
+      "title": "Stagiair(e) Backend AI Developer",
+      "location": "Utrecht, Utrecht, Nederland",
+      "url": "https://www.arbeitnow.nl/jobs/companies/berenschot-groep-bv/stagiaire-backend-ai-developer-utrecht-379182",
+      "source": "Arbeitnow",
+      "posted": "2026-11-23",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 43,
+      "years": null,
+      "stretch": false,
+      "why": "React, REST APIs",
+      "visa": [
+        "Mentions visa sponsorship or relocation",
+        "Asks for Dutch",
+        "Posting is written in Dutch"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-23T07:35:38Z",
+      "closed": false
+    }
+  ]
+}

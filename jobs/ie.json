@@ -1,0 +1,30 @@
+{
+  "key": "ie",
+  "name": "Ireland",
+  "updated": "2026-11-28T07:43:02Z",
+  "jobs": [
+    {
+      "id": "greenhouse:twilio:8258573",
+      "company": "Twilio",
+      "title": "Software Engineer",
+      "location": "Remote - Ireland",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8258573",
+      "source": "Company careers",
+      "posted": "2026-11-26",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 65,
+      "years": null,
+      "stretch": false,
+      "why": "React, TypeScript, REST APIs, AWS, Kafka, SQL, Payments",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-26T21:29:02Z",
+      "closed": false
+    }
+  ]
+}

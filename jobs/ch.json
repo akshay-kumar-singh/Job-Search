@@ -1,0 +1,77 @@
+{
+  "key": "ch",
+  "name": "Switzerland",
+  "updated": "2026-11-28T07:43:02Z",
+  "jobs": [
+    {
+      "id": "arbeitnow:product-engineer-ai-junior-to-mid-level-zurich-200831",
+      "company": "PastaHR",
+      "title": "Product Engineer, AI (Junior to Mid-Level)",
+      "location": "Zürich",
+      "url": "https://www.arbeitnow.ch/jobs/companies/pastahr/product-engineer-ai-junior-to-mid-level-zurich-200831",
+      "source": "Arbeitnow",
+      "posted": "2026-11-25",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 84,
+      "years": null,
+      "stretch": false,
+      "why": "React, Node.js, TypeScript, Next.js, PostgreSQL, Tailwind, AWS",
+      "visa": [
+        "Mentions visa sponsorship or relocation",
+        "Asks for German"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-25T21:39:34Z",
+      "closed": false
+    },
+    {
+      "id": "greenhouse:proton:5044419101",
+      "company": "Proton",
+      "title": "Product Engineer (Full-Stack)",
+      "location": "Geneva, Switzerland",
+      "url": "https://job-boards.eu.greenhouse.io/proton/jobs/5044419101",
+      "source": "Company careers",
+      "posted": "2026-11-23",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 71,
+      "years": null,
+      "stretch": false,
+      "why": "React, Node.js, TypeScript, JavaScript",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-26T21:29:02Z",
+      "closed": false
+    },
+    {
+      "id": "arbeitnow:product-engineer-zurich-396650",
+      "company": "Namespace",
+      "title": "Product Engineer",
+      "location": "Switzerland",
+      "url": "https://www.arbeitnow.ch/jobs/companies/namespace/product-engineer-zurich-396650",
+      "source": "Arbeitnow",
+      "posted": "2026-11-22",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 56,
+      "years": null,
+      "stretch": false,
+      "why": "React, TypeScript, JavaScript",
+      "visa": [
+        "Mentions visa sponsorship or relocation"
+      ],
+      "visa_level": "good",
+      "found": "2026-11-22T19:34:14Z",
+      "closed": false
+    }
+  ]
+}

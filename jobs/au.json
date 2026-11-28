@@ -1,0 +1,54 @@
+{
+  "key": "au",
+  "name": "Australia",
+  "updated": "2026-11-28T07:43:02Z",
+  "jobs": [
+    {
+      "id": "workable:cae5fd7f-6324-4ac2-a0d5-01208768bdf8",
+      "company": "Corto Pty Ltd",
+      "title": "Frontend Engineer (React)",
+      "location": "Sydney, Australia",
+      "url": "https://jobs.workable.com/view/r4bdcXVDzDzwSC2p2DSFuC/hybrid-frontend-engineer-(react)-in-sydney-at-corto-pty-ltd",
+      "source": "Workable",
+      "posted": "2026-11-23",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 70,
+      "years": 3,
+      "stretch": true,
+      "why": "React, TypeScript, JavaScript, REST APIs, AWS",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-23T07:35:38Z",
+      "closed": false
+    },
+    {
+      "id": "workable:78ad4834-1a32-45a5-bca0-89a87c53e781",
+      "company": "RFI Global",
+      "title": "Full Stack Developer, Internal Engineering",
+      "location": "Melbourne, Australia",
+      "url": "https://jobs.workable.com/view/fUiiH19L7py3vtjgutKqHP/hybrid-full-stack-developer%2C-internal-engineering-in-melbourne-at-rfi-global",
+      "source": "Workable",
+      "posted": "2026-11-25",
+      "salary": "",
+      "target": false,
+      "fintech": true,
+      "sector": "Fintech",
+      "fit": 57,
+      "years": null,
+      "stretch": false,
+      "why": "React, Node.js, SQL",
+      "visa": [
+        "Says no visa sponsorship",
+        "Asks for an existing right to work"
+      ],
+      "visa_level": "warn",
+      "found": "2026-11-25T21:39:34Z",
+      "closed": false
+    }
+  ]
+}

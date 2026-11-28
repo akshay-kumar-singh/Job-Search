@@ -1,0 +1,99 @@
+{
+  "key": "ca",
+  "name": "Canada",
+  "updated": "2026-11-28T07:43:02Z",
+  "jobs": [
+    {
+      "id": "workable:480ae4f1-6505-4ef2-ade7-445da173dc14",
+      "company": "AlgaeCal",
+      "title": "Intermediate Full Stack Developer",
+      "location": "Vancouver, Canada",
+      "url": "https://jobs.workable.com/view/9TYy9ii8zXkTyUr22sCJDJ/hybrid-intermediate-full-stack-developer-in-vancouver-at-algaecal",
+      "source": "Workable",
+      "posted": "2026-11-23",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 82,
+      "years": 2,
+      "stretch": false,
+      "why": "React, Node.js, TypeScript, JavaScript, AWS",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-23T23:51:40Z",
+      "closed": false
+    },
+    {
+      "id": "workable:bb6aa743-a58c-4a55-866a-fdd55fd6f299",
+      "company": "Prolucid Technologies",
+      "title": "Junior Software Engineer/Developer",
+      "location": "Mississauga, Canada",
+      "url": "https://jobs.workable.com/view/p9i4wehgnJQFCWar5kniNi/hybrid-junior-software-engineer%2Fdeveloper-in-mississauga-at-prolucid-technologies-",
+      "source": "Workable",
+      "posted": "2026-11-23",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 68,
+      "years": 0,
+      "stretch": false,
+      "why": "React, PostgreSQL, AWS, Docker, SQL",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-23T23:51:40Z",
+      "closed": false
+    },
+    {
+      "id": "workable:a8c90b38-24d7-4942-a547-59ef5937f9ae",
+      "company": "Prolucid Technologies",
+      "title": "Intermediate Software Engineer/Developer",
+      "location": "Mississauga, Canada",
+      "url": "https://jobs.workable.com/view/mQRB3tUf7ykqKxpAcuCcny/hybrid-intermediate-software-engineer%2Fdeveloper-in-mississauga-at-prolucid-technologies-",
+      "source": "Workable",
+      "posted": "2026-11-23",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 61,
+      "years": 2,
+      "stretch": false,
+      "why": "React, PostgreSQL, AWS, Docker, SQL",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-23T23:51:40Z",
+      "closed": false
+    },
+    {
+      "id": "amazon:10614368",
+      "company": "Amazon",
+      "title": "Software Development Engineer, Amazon Tax Engine",
+      "location": "Vancouver, British Columbia, CAN",
+      "url": "https://www.amazon.jobs/en/jobs/10614368/software-development-engineer-amazon-tax-engine",
+      "source": "Company careers",
+      "posted": "2026-11-25",
+      "salary": "",
+      "target": false,
+      "fintech": false,
+      "sector": "",
+      "fit": 35,
+      "years": 2,
+      "stretch": false,
+      "why": "AWS, Payments",
+      "visa": [
+        "No mention of visa sponsorship - ask before applying"
+      ],
+      "visa_level": "",
+      "found": "2026-11-25T21:39:34Z",
+      "closed": false
+    }
+  ]
+}
